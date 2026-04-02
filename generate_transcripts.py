@@ -214,10 +214,20 @@ async def main(args):
 
     print(f"\nGenerated {len(all_results)}/{len(samples)} transcripts")
 
+    # Detect existing files to continue numbering
+    start_index = 1
+    if os.path.exists(args.output):
+        existing = [f for f in os.listdir(args.output) if f.endswith('.txt')]
+        if existing:
+            nums = [int(f.split('_')[0]) for f in existing if f.split('_')[0].isdigit()]
+            if nums:
+                start_index = max(nums) + 1
+                print(f"Found {len(existing)} existing files, starting at {start_index:03d}")
+
     # Save to files
     saved = []
-    for i, r in enumerate(all_results, 1):
-        path = save_transcript(r, i, args.output)
+    for i, r in enumerate(all_results):
+        path = save_transcript(r, start_index + i, args.output)
         saved.append(path)
 
     print(f"\nSaved {len(saved)} files to {args.output}/:")

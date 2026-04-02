@@ -1,0 +1,95 @@
+Case: Normal ROS Template
+Specialty: Consult - History and Phy.
+Description: Normal review of systems template.  The patient denies fever, fatigue, weakness, weight gain or weight loss.
+Word Count: 734
+============================================================
+
+Doctor: Hi there, this is Dr. Smith. Am I speaking with Mr. Johnson?
+
+Patient: Yes, that's me. Hi, Doctor!
+
+Doctor: Great! How’re you doing today?
+
+Patient: Uh, I’m doing okay, just a little anxious about my appointment. 
+
+Doctor: That’s understandable. Let’s go over everything together. So, I reviewed your recent visit, and you don’t seem to have any major concerns, right?
+
+Patient: Yeah, that's what I thought! I mean, I haven’t had any fever or fatigue, which is a relief.
+
+Doctor: Exactly! You denied experiencing any weight changes as well—no weight gain or loss, correct?
+
+Patient: Right, I’ve been pretty stable. No, um, no dizziness or anything like that either.
+
+Doctor: Good to hear. And just to recap, you also mentioned no issues with your eyes, ears, or throat, right? No pain, dry sinuses, or loss of hearing?
+
+Patient: Yup, nothing at all. I feel pretty normal, actually.
+
+Doctor: Perfect. And your cardiovascular section was clear too? No chest pain or irregular heartbeats?
+
+Patient: No, no chest pain. Sometimes I feel my heart racing a bit when I’m stressed, but, um, nothing major.
+
+Doctor: That’s good to know. So, just stress-related then. I’d recommend trying some relaxation techniques if you can. Now, I also saw that you haven't experienced any respiratory issues, like coughing or shortness of breath?
+
+Patient: Nope, nothing like that. I don't smoke or drink, so maybe that helps?
+
+Doctor: Absolutely, those are great lifestyle choices! Staying away from smoking reduces many risks. Um, you don’t have any issues with your digestion either, right? No nausea or changes in appetite?
+
+Patient: Nope! My appetite is normal. I do try to eat healthily, mostly fruits and vegetables.
+
+Doctor: That’s excellent! It sounds like you’re doing really well overall. I noticed you mentioned no joint or muscle pain—any swelling in the past few weeks?
+
+Patient: No, none at all. I’ve been exercising regularly too, just walks mostly. 
+
+Doctor: That’s fantastic! Keeping active is so important. Just make sure to stay hydrated, especially if you’re out walking. 
+
+Patient: I try to! But, um, what about those heart racing spells? Should I be worried?
+
+Doctor: It’s usually nothing to worry about unless they become more frequent or severe. If you notice they’re happening every day, let me know. It could just be from stress, but we can, um, keep an eye on it. 
+
+Patient: Okay, that makes sense. 
+
+Doctor: Now, I’d like you to monitor your blood pressure at home, if you can. Just, uh, check it every morning for a week and keep track of the readings. 
+
+Patient: Sure, I can do that. 
+
+Doctor: Great! And it might help if you try to manage sodium intake too. Aim for under 2000 mg per day. 
+
+Patient: Oh, wow, I’ll need to check my snacks then! I didn’t realize that.
+
+Doctor: Yeah, it sneaks in there, especially in processed foods. If you're unsure, I can recommend some resources.
+
+Patient: That’d be great! I really appreciate it. 
+
+Doctor: Of course! Now, about your next appointment, I’d like to see you again in two weeks to go over your blood pressure readings and check in on how things are going. Does that work for you?
+
+Patient: Sure, that sounds good. 
+
+Doctor: Perfect! I can schedule you for Tuesday at 10 AM. How does that sound?
+
+Patient: Yeah, that works for me. 
+
+Doctor: Wonderful! And just a heads up, I’m going to send over a prescription for a low-dose medication to manage any anxiety you might feel as well. It’s called, um, Buspirone. 
+
+Patient: Oh, I’ve heard of that! What’s the dosage?
+
+Doctor: You’ll take 10 mg twice a day, but we’ll adjust as needed. 
+
+Patient: Okay, good to know! And, um, will my insurance cover that?
+
+Doctor: It should, but I recommend checking with them just in case. Sometimes there can be discrepancies. 
+
+Patient: Right, I’ll do that. 
+
+Doctor: So, just to recap what we discussed: You’ll monitor your blood pressure daily, aim for under 2000 mg of sodium, I’ll see you in two weeks for a follow-up, and you’ve got that prescription for Buspirone coming your way. 
+
+Patient: Got it! That’s really helpful, thank you so much, Dr. Smith.
+
+Doctor: You’re welcome, Mr. Johnson! It’s my pleasure. If you have any questions before your appointment, don’t hesitate to reach out. 
+
+Patient: Will do! Thanks again. 
+
+Doctor: Take care and talk soon! 
+
+Patient: You too, bye! 
+
+Doctor: Bye!

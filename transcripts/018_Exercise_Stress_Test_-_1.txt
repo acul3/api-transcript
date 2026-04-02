@@ -1,0 +1,75 @@
+Case: Exercise Stress Test - 1
+Specialty: Cardiovascular / Pulmonary
+Description: A 44-year-old woman with a history of rheumatoid arthritis admitted to the hospital with chest pain.  MI has been ruled out.  She has been referred for an exercise echocardiogram.
+Word Count: 646
+============================================================
+
+Doctor: Good morning, is this Ms. Hamilton?
+
+Patient: Yes, this is she. 
+
+Doctor: Hi, Ms. Hamilton, this is Dr. Lewis calling from the cardiology department. How are you doing today?
+
+Patient: Oh, um, I’m a bit anxious, to be honest. I’ve been thinking about those test results.
+
+Doctor: That’s completely understandable. It's always nerve-wracking waiting for results. Just to recap, you had the exercise echocardiogram, correct? 
+
+Patient: Yes, that’s right. 
+
+Doctor: Great! So, I wanted to let you know that we’ve reviewed your exercise stress test results. Overall, everything looks quite positive.
+
+Patient: Oh, thank goodness! What do you mean by that exactly?
+
+Doctor: Well, first off, your echocardiogram showed an ejection fraction—this is a measure of how well your heart pumps—of 60% at rest, which is considered normal. During the stress test, it increased to 75%, which is a good response.
+
+Patient: That sounds reassuring, but what about the chest pain I had?
+
+Doctor: Yes, so we ruled out any significant issues like a heart attack, or myocardial infarction, which is good news. Your test did not show any signs of ischemia, and you didn’t experience any angina during the exercise session either. 
+
+Patient: Okay, that’s a relief. But I remember you mentioning something about my blood pressure being high, right?
+
+Doctor: Yes, that's correct. We noted that your resting blood pressure was about 152 mmHg, which is elevated. However, during the exercise, your blood pressure responded appropriately, which is a positive sign.
+
+Patient: So, what should I do about that? 
+
+Doctor: Well, I’d recommend a few lifestyle changes to help manage your blood pressure. You might want to try cutting your sodium intake to under 2000 mg a day and increasing your physical activity. 
+
+Patient: Okay, I can do that. But exercise—like, how much do I need to do? 
+
+Doctor: Ideally, aim for at least 150 minutes of moderate exercise each week. Walking, swimming, or cycling are great options. Just make sure to consult with your rheumatologist about what’s safe for your rheumatoid arthritis.
+
+Patient: Right, I’ll check in with them. Um, should I be worried about any complications or anything?
+
+Doctor: Just monitor for any new symptoms. If you notice any chest pain or shortness of breath, I want you to go to the ER immediately. Also, keep track of your blood pressure readings every morning at home.
+
+Patient: Got it. I’m actually a little worried about medication too. Are there any changes I should be aware of?
+
+Doctor: Yes, I’d like to switch your ibuprofen to acetaminophen for pain relief, just to avoid any potential interactions with the heart medications I might prescribe later. 
+
+Patient: Um, okay, that sounds reasonable. How much acetaminophen should I take?
+
+Doctor: You can take 500 mg of acetaminophen every six hours, but don’t exceed 3000 mg in a day. 
+
+Patient: Alright, I can handle that. 
+
+Doctor: I’ll also send a prescription for that to your pharmacy, so you can pick it up tomorrow. 
+
+Patient: Thank you! And what about follow-up appointments? 
+
+Doctor: Yes, let's schedule a follow-up in two weeks to assess your blood pressure and overall progress. How does next Tuesday at 10 AM work for you?
+
+Patient: That works for me! 
+
+Doctor: Perfect. I’ll make that appointment for you. Just to summarize what we discussed today: Your echocardiogram results are good, we’re switching you from ibuprofen to acetaminophen, I want you to monitor your blood pressure daily, make those lifestyle changes, and keep an eye out for any troubling symptoms. Does that sound good?
+
+Patient: Yes, that sounds really good. I feel a lot better after talking to you.
+
+Doctor: I’m glad to hear that! Remember, if you have any questions or concerns before our next appointment, don’t hesitate to reach out.
+
+Patient: Thank you, Doctor Lewis. I appreciate it!
+
+Doctor: You’re welcome, Ms. Hamilton. Take care and talk soon!
+
+Patient: Bye! 
+
+Doctor: Bye!

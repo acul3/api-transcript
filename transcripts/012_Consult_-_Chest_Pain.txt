@@ -1,0 +1,87 @@
+Case: Consult - Chest Pain
+Specialty: General Medicine
+Description: Patient with multiple problems, main one is chest pain at night.
+Word Count: 728
+============================================================
+
+Doctor: Hi, is this Mrs. Thompson?
+
+Patient: Yes, it is! Hi, Doctor!
+
+Doctor: Hi there! How are you feeling today? 
+
+Patient: Um, I’ve been better, I guess. The chest pain is still bothering me a bit.
+
+Doctor: I’m sorry to hear that. So, just to recap from our last visit, you mentioned you were experiencing chest pain at night, right? 
+
+Patient: Yes, exactly. It started again about a month ago, just like last year. Um, it's a pressure feeling right in the middle of my chest, and it gets worse when I lie down. If I get up, it usually goes away within about 15 minutes.
+
+Doctor: I see. And have you experienced any fast or irregular heartbeats this time?
+
+Patient: No, nothing like that. Just the pressure and it’s been mild to moderate. But it did go away last week for a while.
+
+Doctor: Good to know it’s not constant. Last time, Dr. Murphy did a treadmill test and an echocardiogram, and everything looked fine, right?
+
+Patient: Right, he said there were no concerns for cardiovascular disease.
+
+Doctor: Exactly. I think we’re looking at this as non-cardiac chest pain, possibly related to reflux. That’s why I want to increase your Aciphex to twice a day for now. 
+
+Patient: Oh, okay. So, that’s 20 mg in the morning and 20 mg at night?
+
+Doctor: That’s correct! Take it with meals. It should help with the pressure. How has your reflux been since you started the Aciphex?
+
+Patient: Well, it’s not too bad when I take it, but if I miss a dose, it’s like the heartburn hits me hard. 
+
+Doctor: Right, so keeping up with that medication is key. Now, you also mentioned stomach pains during the day. Have those improved at all?
+
+Patient: A little, but they’re still there—mild, in the mid part of my stomach. It's not related to food, though. 
+
+Doctor: Hmm. That might still be connected to the reflux too. And I noticed you’ve had that right flank pain off and on for four months. Has that been bothering you?
+
+Patient: It’s just a dull ache when I lie down. Nothing too severe. 
+
+Doctor: Good to hear. Now, I also wanted to talk about those spots on your shoulder and armpits. They’ve changed a bit, right?
+
+Patient: Yes, they’ve been getting bigger and elevated. They’re not painful though.
+
+Doctor: We need to take a closer look, so I’ll schedule you for a punch biopsy on that shoulder lesion. We’ll get the results to ensure it’s nothing serious. 
+
+Patient: Okay, that sounds good. 
+
+Doctor: And for the spots in your armpits, it looks like a tinea versicolor rash. I’m prescribing selenium sulfide lotion for you. You’ll apply it for ten minutes a day for a week.
+
+Patient: Got it! I’ll make sure to do that. 
+
+Doctor: Great! Now, about the urinary urgency you mentioned... it sounds like you might have a cystocele. We should get you in to see Dr. XYZ to talk about repair options.
+
+Patient: That sounds thoughtful. I do have to wear a pad now, and it's quite annoying.
+
+Doctor: I understand. It can be quite bothersome. And we’ll also set up a CBC to keep an eye on your chronic leukopenia since you requested that.
+
+Patient: Yes, please! I’m also due for a colonoscopy, right?
+
+Doctor: Correct! We’ll make sure you see Dr. XYZ for that screening as well. 
+
+Patient: Alright. I’m a bit overwhelmed with all this.
+
+Doctor: It’s totally understandable. Let’s make sure you keep track of your symptoms. If the chest pain worsens, or if you experience any chest pain or shortness of breath, please go to the ER immediately, okay?
+
+Patient: Okay, I will. 
+
+Doctor: And just to reiterate, we need you to monitor your blood pressure daily, keep an eye on those spots, and remember to take your Aciphex twice daily. 
+
+Patient: I will. Is there anything else?
+
+Doctor: Yes! I’ll send the prescription for the increased Aciphex to your pharmacy. You should be able to pick it up tomorrow.
+
+Patient: Perfect! Thank you so much, Doctor.
+
+Doctor: You’re welcome! So, let’s plan a follow-up in two weeks to see how you’re doing and discuss the results of the biopsy.
+
+Patient: Sounds good! I really appreciate your help.
+
+Doctor: Of course! It’s my pleasure. Take care, and I’ll talk to you soon!
+
+Patient: Bye!
+
+Doctor: Bye!

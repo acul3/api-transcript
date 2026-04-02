@@ -1,0 +1,75 @@
+Case: Difficulty Breathing - ER Visit
+Specialty: Pediatrics - Neonatal
+Description: The patient is 14 months old, comes in with a chief complaint of difficulty breathing.
+Word Count: 877
+============================================================
+
+Doctor: Good afternoon, this is Dr. Thompson from Children’s Hospital. Am I speaking with Mrs. Johnson?
+
+Patient: Yes, this is she. 
+
+Doctor: Hi, Mrs. Johnson! I wanted to follow up regarding your son, Ethan, and his recent visit to the ER. How are you both doing today?
+
+Patient: Oh, well, we’re okay, but I’m still really worried about him. He’s been having such a hard time breathing, and I just can’t shake that concern.
+
+Doctor: I understand completely. It’s tough to see your little one struggling. So, just to recap, Ethan is 14 months old and, as you know, he was diagnosed with status asthmaticus and hypoxia during his last visit. His breathing difficulties began last night, right?
+
+Patient: Right, it started last night and he seemed better at first after the Xopenex. But then, just hours later, it was like we were back at square one.
+
+Doctor: Yes, during his ER visit, he received a dose of Xopenex, and I see he was prescribed amoxicillin as well. However, it seems his breathing worsened after being home for only an hour. That must have been so stressful.
+
+Patient: It really was. I was worried he might need to go back to the hospital. 
+
+Doctor: You did the right thing by bringing him back in. He was showing increased work of breathing and had retractions, which indicate respiratory distress. His oxygen saturation was at 84% on room air, which is concerning. 
+
+Patient: Yeah, the nurses kept mentioning the wheezing. Is that something I should be following up on regularly?
+
+Doctor: Definitely. The wheezing can be a sign of airway constriction. His chest X-ray showed significant peribronchial thickening but thankfully no pneumothorax or focal pneumonia. As for his vital signs, we also noted he had a rapid pulse at 158 beats per minute and his respiratory rate was around 48 breaths per minute, which is high.
+
+Patient: That sounds scary. I didn’t realize those numbers were so alarming.
+
+Doctor: Yes, they can be. I know it can be overwhelming. So, since he has a history of reactive airway disease and has been seen here twice in the past month, we decided it was best to admit him for further treatment. We’re treating him with high-dose albuterol and IV steroids, which should help reduce the inflammation in his airways.
+
+Patient: Okay, that makes sense. What’s the plan moving forward? 
+
+Doctor: Well, I want you to be aware of a few things. First, we’ll continue the albuterol treatments and monitor his response closely. After about 90 minutes of continuous treatment, he showed improvement, but he was still wheezing, so we opted for admission.
+
+Patient: Right. So what do I need to do when he’s discharged? 
+
+Doctor: Once he’s ready to come home, we’ll need to give you a prescription for the high-dose albuterol. He should be using that with a nebulizer every four to six hours as needed. Also, we’ll provide the amoxicillin prescription, which is important if there’s any chance of a bacterial infection—though it sounds like we’re primarily looking at an asthma issue here.
+
+Patient: Are there any side effects I should be aware of?
+
+Doctor: With albuterol, you might see some jitteriness or increased heart rate, which can happen, especially with higher doses. Just keep an eye on any unusual symptoms. And for the amoxicillin, gastrointestinal upset is common, but it should settle down as he gets used to it.
+
+Patient: Alright. And what about follow-up appointments?
+
+Doctor: We’ll schedule a follow-up in about two weeks to check on his progress. I’d also recommend you start tracking his breathing, maybe keep a log of his wheezing episodes and any times he seems to struggle more than usual.
+
+Patient: Okay, that sounds doable. 
+
+Doctor: Excellent. Also, please keep track of his fever. He had a fever overnight, right?
+
+Patient: Yes, he did. 
+
+Doctor: Good to know. If the fever persists or worsens, or if his breathing becomes labored again, please don’t hesitate to take him straight to the ER. And just as a precaution, if you notice any chest pain or if he starts having shortness of breath, you should go to the ER immediately.
+
+Patient: I definitely will. 
+
+Doctor: Great. Lastly, it’s important to maintain a smoke-free environment. If there are any changes at home, like someone coming to visit who smokes, just be mindful of that.
+
+Patient: No, we don’t have any smokers here, but I’ll keep that in mind if anyone new comes around.
+
+Doctor: Wonderful. So just to recap what we discussed: Ethan will be admitted for further treatment with continuous albuterol and IV steroids. We’ll prescribe high-dose albuterol with instructions for home use, and amoxicillin is also on board. Follow-up in two weeks, monitor his symptoms, and any warning signs or concerns, we want to know right away. Does that all sound okay?
+
+Patient: Yes, it does. Thank you so much for explaining everything, Dr. Thompson. I feel a bit more at ease now.
+
+Doctor: You’re very welcome. I’m glad I could help. I’ll keep you updated on Ethan’s progress, and if you have any further questions, just call us anytime. 
+
+Patient: I will. Thank you again!
+
+Doctor: You’re welcome, Mrs. Johnson. Take care, and I’ll be in touch soon. 
+
+Patient: Bye! 
+
+Doctor: Bye!

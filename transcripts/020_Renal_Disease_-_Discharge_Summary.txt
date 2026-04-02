@@ -1,0 +1,79 @@
+Case: Renal Disease - Discharge Summary
+Specialty: Discharge Summary
+Description: Syncope, end-stage renal disease requiring hemodialysis, congestive heart failure, and hypertension.
+Word Count: 684
+============================================================
+
+Doctor: Good morning, Mr. Johnson! This is Dr. Adams calling from the clinic. How are you doing today?
+
+Patient: Oh, hi, Dr. Adams. I’m a bit worried, to be honest. 
+
+Doctor: I completely understand. I wanted to go over your recent discharge and how you're feeling since you left the hospital. Can you tell me a bit about your symptoms?
+
+Patient: Yeah, um, well, I’ve been feeling pretty lightheaded, especially when I stand up. I had those syncopal episodes, you know? 
+
+Doctor: Right, you mentioned you had three episodes in the past month. How long did those last?
+
+Patient: They usually lasted about two to three minutes, and I felt confused when I woke up. It’s really frightening!
+
+Doctor: I can imagine. It’s concerning, especially since you have end-stage renal disease and you’re on hemodialysis. Did you notice any specific triggers for the lightheadedness?
+
+Patient: It seems to happen almost every day now, and it gets worse when I stand up. I don’t feel dizzy while sitting, though. 
+
+Doctor: Got it. So, just to recap, you’re having these daily lightheaded feelings and episodes of passing out, and that’s been going on for a month, right?
+
+Patient: Yes, exactly. 
+
+Doctor: And you were treated with some fluids in the hospital, but we still have to consider potential orthostatic hypotension. I see that you were on lisinopril and Coreg, correct?
+
+Patient: Yes, I was taking Lisinopril 10 mg daily and Coreg 12.5 mg twice a day. 
+
+Doctor: Well, the cardiology team recommended reducing your lisinopril to 5 mg and your Coreg to 6.25 mg. Have you been able to make those adjustments?
+
+Patient: Uh, I didn’t really understand all that when I left the hospital, to be honest. I wasn't feeling great when I discharged myself. 
+
+Doctor: That makes sense. It's important to stick to the new dosages. Just to clarify, your current medications should include aspirin 81 mg daily, the multivitamin called Nephrocaps, and the Fosrenol 500 mg chewable three times a day. 
+
+Patient: Right, I have those. What about the Procrit? 
+
+Doctor: Yes, you should continue taking Procrit at 10,000 units every Tuesday, Thursday, and Saturday. That’s important for your anemia, especially given your renal disease. 
+
+Patient: Okay, I’m trying to keep track of it all, but I’m a bit overwhelmed.
+
+Doctor: I understand. It’s a lot to manage. Have you been able to do any lifestyle changes since your discharge?
+
+Patient: Well, I’m trying to cut back on salt, but it’s really hard. And I haven’t been exercising much because of the lightheadedness. 
+
+Doctor: That’s important to address. I recommend trying to keep your sodium intake below 2,000 mg a day. And while exercising might be tough, even gentle walks could help if you're feeling steady. 
+
+Patient: I see, but what if I still feel lightheaded? 
+
+Doctor: Good question! If that happens, it’s crucial to monitor your blood pressure regularly. Check it every morning, and if you experience any severe symptoms like chest pain or shortness of breath, you should go to the emergency room right away. 
+
+Patient: Got it. What about the tests that were mentioned? 
+
+Doctor: We need to schedule a follow-up appointment in about two weeks, and I’d like to get some blood work done before that visit to check your kidney function and electrolytes. 
+
+Patient: Okay, can we set that up now?
+
+Doctor: Absolutely! Let’s aim for next Tuesday, if that works for you. 
+
+Patient: Yeah, that works. 
+
+Doctor: Okay, I’ll put you in for Tuesday at 10 a.m., and I'll ensure lab work is ordered before that. 
+
+Patient: Sounds good. 
+
+Doctor: Just to summarize everything: Please take your medications as discussed, continue with the Procrit injections, monitor your blood pressure, and schedule that follow-up appointment for next Tuesday at 10 a.m. 
+
+Patient: Okay, I think I got all that. 
+
+Doctor: Great! If you have any questions or if your symptoms change, don’t hesitate to call the office. 
+
+Patient: I appreciate it, Dr. Adams. Thank you for explaining everything.
+
+Doctor: Of course! Take care, Mr. Johnson, and I look forward to talking again soon. 
+
+Patient: Bye! 
+
+Doctor: Bye now!

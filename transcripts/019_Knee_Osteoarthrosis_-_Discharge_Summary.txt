@@ -1,0 +1,75 @@
+Case: Knee Osteoarthrosis - Discharge Summary
+Specialty: Discharge Summary
+Description: A 66-year-old female with knee osteoarthrosis who failed conservative management.
+Word Count: 704
+============================================================
+
+Doctor: Hello, is this Mrs. Thompson?
+
+Patient: Yes, this is she. 
+
+Doctor: Hi, Mrs. Thompson, this is Dr. Lee calling from the orthopedic clinic. How are you feeling today? 
+
+Patient: Oh, um, I’ve been doing okay, just, you know, a bit nervous about everything.
+
+Doctor: That’s totally understandable. You just had your total knee arthroplasty, and it’s a big procedure. So, just to recap, we diagnosed you with knee osteoarthrosis, right?
+
+Patient: Yes, that’s right. I remember. It was pretty painful before the surgery.
+
+Doctor: Right. And now that you’ve had your surgery on March 15th, how have you been managing your pain since getting home?
+
+Patient: Uh, it’s been better than before, I guess. But I still have some discomfort. I’ve been taking the Percocet you prescribed, but I’m not sure if I should take it every four hours like it says?
+
+Doctor: Well, I would recommend taking it as needed, especially if the pain is at a manageable level. Just make sure not to exceed the dosage on the label. How often are you needing it?
+
+Patient: I think I take it about every six hours, but sometimes I feel like I could use it more often.
+
+Doctor: I see. If you find that it’s not enough, we might need to adjust your pain management plan. But let’s keep monitoring that for now. And how’s your mobility? Are you able to do your physical therapy?
+
+Patient: Yeah, physical therapy started as soon as I got home. It’s... uh, tough, but I’m trying to stick with it.
+
+Doctor: That’s great to hear! It’s really important. You should also be using the continuous passive motion machine if you have one. 
+
+Patient: Yes, I have that! It feels a bit weird, but I’m using it.
+
+Doctor: Good! Just remember to focus on your range of motion. And have you had any issues with your, um, blood thinner, the Coumadin?
+
+Patient: Not really, but I’m supposed to check my INR at home, right? I don't really understand that part.
+
+Doctor: Absolutely! You’ll need to monitor your INR levels to ensure your blood isn't too thin. It should generally be between 2.0 and 3.0 for your situation. When's the last time you checked it?
+
+Patient: Um, I think it was a couple of days ago, and it was at 2.5.
+
+Doctor: Perfect, that’s right within the range. Just keep an eye on it, and if it goes over 3.5 or under 2.0, call us immediately. 
+
+Patient: Okay, I can do that. I just worry sometimes about the bleeding. 
+
+Doctor: I completely understand that concern. With Coumadin, it’s important to be cautious. Watch for any unusual bruising or bleeding. And, of course, if you have any chest pain or shortness of breath, get to the ER right away, okay?
+
+Patient: Got it, I’ll be careful. Oh, and what about my diet? Should I watch anything special?
+
+Doctor: Yes, you should try to avoid foods high in vitamin K, like, you know, leafy greens, because they can affect your INR levels. But don’t stop them altogether; just keep it consistent. 
+
+Patient: Okay, I can do that. I’ve been trying to eat healthier since the surgery. 
+
+Doctor: That’s a great idea! And regular exercise, as tolerated, will help your recovery too. Just start slow. 
+
+Patient: Right. So, when’s my follow-up again?
+
+Doctor: Your follow-up appointment is set for next Tuesday, March 28th, at 10 AM with Dr. X. 
+
+Patient: Oh, I’ll make sure to write that down! 
+
+Doctor: Great! And I’ll also send over another prescription for your Percocet, in case you run low. 
+
+Patient: Thanks, I appreciate it.
+
+Doctor: No problem at all! So, just to summarize: Keep taking the Percocet as needed but watch the doses. Monitor your INR regularly—aim for that 2 to 3 range. Avoid high vitamin K foods, and keep up with your physical therapy. And look out for any signs of bleeding, and call us if you have concerns.
+
+Patient: Got it, Dr. Lee. Thank you so much for your help!
+
+Doctor: You’re very welcome! I’m here for you. Remember, if anything feels off, don’t hesitate to reach out. Take care, and I’ll see you next week!
+
+Patient: Will do! Bye!
+
+Doctor: Bye now!

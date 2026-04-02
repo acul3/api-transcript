@@ -1,0 +1,83 @@
+Case: LEEP
+Specialty: Surgery
+Description: LEEP procedure of endocervical polyp and Electrical excision of pigmented mole of inner right thigh.
+Word Count: 753
+============================================================
+
+Doctor: Hi, is this Sarah?
+
+Patient: Yes, this is she. 
+
+Doctor: Hi Sarah, it’s Dr. Henderson. I’m just following up after your LEEP procedure. How are you feeling today? 
+
+Patient: Uh, hi, Dr. Henderson! I’m a bit nervous, to be honest. I had some pain earlier, but it’s calmed down now.
+
+Doctor: I understand. It’s normal to feel some discomfort after the LEEP procedure. Can you describe the pain a bit more? Like, how would you rate it on a scale from one to ten? 
+
+Patient: Hmm, I’d say it was about a six earlier but it’s more like a two now. It’s mostly just a dull ache. 
+
+Doctor: Okay, that’s good to hear it’s going down. Just to recap, during the procedure, we removed a 1-centimeter broad-based endocervical polyp, and we also excised that 1.5 by 1.5-centimeter pigmented nevus from your inner thigh. 
+
+Patient: Right, I remember. I guess I’m just worried about what comes next. 
+
+Doctor: That’s totally understandable. So, after a LEEP procedure, we generally watch for any unusual symptoms. Have you had any bleeding?
+
+Patient: Just a little spotting, I think? 
+
+Doctor: Spotting can be normal for a few days, but if it gets heavier or you see bright red blood, I need you to call me right away, okay?
+
+Patient: Okay, I can do that. 
+
+Doctor: Great. And just to remind you, avoid any tampons or douching for at least a week. And, um, how have you been managing your pain?
+
+Patient: Well, I was taking ibuprofen, but then I read somewhere that I shouldn’t be. Should I switch to something else? 
+
+Doctor: Yes, actually. It’s better to switch to acetaminophen for the first few days, just to be on the safe side. So, take 500mg every six hours as needed, but don’t exceed three grams a day. 
+
+Patient: Got it. Acetaminophen, every six hours. And about the polyp, is there anything else I should worry about?
+
+Doctor: The polyp is out now, so you shouldn’t have any further issues from that. But, keep in mind that LEEP does carry some risks, like changes in your cervical tissue which could impact future pregnancies. 
+
+Patient: Oh, wow, I didn’t know that. That worries me a bit. 
+
+Doctor: I know, it’s a lot to digest. We’ll monitor your healing, and if you plan to get pregnant in the future, we’ll do additional evaluations then. Just keep an eye on your healing, and let me know if anything seems off.
+
+Patient: Okay, that makes sense. Am I supposed to follow up with you soon?
+
+Doctor: Yes, I’d like to see you for a follow-up in about two weeks. How does that sound? 
+
+Patient: That works for me. 
+
+Doctor: Perfect! I’ll schedule that. And while we’re on the topic, please make sure to take it easy for now. No heavy lifting or strenuous exercise for at least a week. 
+
+Patient: Ugh, that’s tough, I love my yoga. 
+
+Doctor: I get it! Just think of it as a short break. You can return to light activities after a week, but ease into it, okay?
+
+Patient: Yeah, I’ll try. Oh, and the results of the biopsy—when will I know those?
+
+Doctor: We should have those results in about a week. I’ll call you as soon as we have them. If everything looks normal, you won’t need any further treatment.
+
+Patient: That would be a relief! 
+
+Doctor: Definitely. And in the meantime, make sure you’re drinking plenty of water and eating a balanced diet to help you heal. 
+
+Patient: Right, I need to work on my nutrition. I need to cut down on the takeout. 
+
+Doctor: That would be a good start. Try to keep your sodium intake below 2,000 mg a day, too, especially if you have high blood pressure. 
+
+Patient: Okay, I’ll look into that. 
+
+Doctor: Good! And one last thing—if you notice any unusual symptoms such as chest pain or shortness of breath, don’t hesitate to go to the ER, alright?
+
+Patient: Uh, yeah, definitely. 
+
+Doctor: So just to recap what we discussed. You’ll switch from ibuprofen to acetaminophen for pain management, we’ll follow up in two weeks, and you’ll keep an eye on your healing. Remember to cut down on sodium and let me know if anything feels off.
+
+Patient: Yes, I’ll do that. Thank you, Dr. Henderson. That really helps ease my mind. 
+
+Doctor: I’m glad to hear that! Anytime, Sarah. And I’ll be in touch with your biopsy results soon. Take care!
+
+Patient: You too, doctor. Bye!
+
+Doctor: Bye!

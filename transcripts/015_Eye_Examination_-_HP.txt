@@ -1,0 +1,79 @@
+Case: Eye Examination - H&P
+Specialty: Consult - History and Phy.
+Description: Complete eye examination - Normal eye and vision exam.
+Word Count: 675
+============================================================
+
+Doctor: Hi, is this Jason?
+
+Patient: Yes, this is Jason.
+
+Doctor: Hi Jason, this is Dr. Martinez from the eye clinic. How are you doing today?
+
+Patient: Oh, I'm doing alright, I guess. Just a bit anxious about the exam results.
+
+Doctor: I understand that! No need to worry; I have good news for you. Your complete eye examination came back normal.
+
+Patient: Oh, really? That's a relief! I mean, I was just wondering if there was anything wrong, you know? 
+
+Doctor: Well, you’ve been experiencing some anxiety, but everything looks good. Your visual acuity is actually quite impressive—20/10 in your right eye and 20/10 in your left eye, which is better than the standard.
+
+Patient: Wow, I didn’t know that! I thought, um, I had some problems with my eyes. 
+
+Doctor: No, it looks like your eyes are healthy. During the exam, your pupils were round and reactive to light, and your ocular motility was normal as well.
+
+Patient: That’s great to hear. I, uh, don’t have any dry eyes or blurred vision, so I guess that makes sense. 
+
+Doctor: Exactly. And your intraocular pressure was measured at 10 mmHg, which is within the normal range. So, no concerns there.
+
+Patient: Okay, that’s good. I was a bit worried about glaucoma, given my family history and all.
+
+Doctor: You have no need to worry about that right now. There were no signs of any issues. Just to recap, your examination showed normal findings in the cornea, lens, and retina. Everything looked healthy.
+
+Patient: Phew! That’s such a relief. I mean, I haven't had any major eye problems before. 
+
+Doctor: Right, your past medical history is unremarkable aside from your appendectomy back in '89, and no allergies except for aspirin, which causes you some GI upset. So, it’s all looking positive.
+
+Patient: Yeah, I definitely avoid aspirin for that reason. 
+
+Doctor: Good call. Now, you mentioned you're taking amoxicillin-clavulanate and some other medications like Vioxx, right? 
+
+Patient: Yeah, that’s correct. I take those for some other health issues. 
+
+Doctor: Just so you know, that's all fine and there are no interactions with any eye medications. By the way, you’ve been taking Vioxx, which is usually taken at 12.5 mg twice a day?
+
+Patient: Yes, that’s it. I was worried about the side effects, but it seems to be okay.
+
+Doctor: That’s good to hear. Just keep an eye on any potential side effects, like gastrointestinal irritation, since you have a history of some GI upset. 
+
+Patient: Right, I’ll definitely monitor that. 
+
+Doctor: And since everything is normal, I’d recommend coming back in 12 months for another check-up unless you notice any changes. 
+
+Patient: That sounds reasonable. Should I book that now?
+
+Doctor: Yes, let’s set up a follow-up appointment for, say, next March?
+
+Patient: Sure, that works for me. 
+
+Doctor: Great, I’ll get that scheduled. Just to be proactive, keep monitoring your eye health. If you notice any sudden changes, like blurry vision, or if you experience any eye pain or discomfort, reach out right away.
+
+Patient: Got it! What about my lifestyle? Is there anything I should be focusing on?
+
+Doctor: Well, since you don’t smoke or drink, that’s a great start. Just make sure you’re following a balanced diet and staying hydrated, which can help maintain eye health. 
+
+Patient: Okay, I can do that. I’ve been trying to eat healthier.
+
+Doctor: That’s excellent! Also, try to limit your screen time and take breaks if you're using screens for long periods. 
+
+Patient: Yeah, I tend to forget to take breaks. I’ll make a note of that! 
+
+Doctor: Perfect! And just to recap before we end here, we’re scheduling a follow-up in 12 months, you’ll continue your current medications, and, importantly, keep a lookout for any changes in your vision. If anything concerning arises, please get in touch. 
+
+Patient: Sounds like a plan! Thanks so much, Dr. Martinez. I really appreciate your help today! 
+
+Doctor: You’re very welcome, Jason! Take care, and I’ll see you next March.
+
+Patient: Looking forward to it! Bye! 
+
+Doctor: Bye!

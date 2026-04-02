@@ -1,0 +1,81 @@
+Case: Gen Med Consult - 26
+Specialty: Consult - History and Phy.
+Description: Patient presents complaining of abdominal pain and discomfort for 3 weeks.
+Word Count: 729
+============================================================
+
+Doctor: Good morning, is this Sarah?
+
+Patient: Yes, this is Sarah.
+
+Doctor: Hi Sarah, this is Dr. Mitchell from Methodist Hospital. How are you today?
+
+Patient: Oh, I’m a bit anxious honestly. I’ve been having a lot of pain in my abdomen for the past three weeks now.
+
+Doctor: I understand. Let’s talk about that. Can you describe the pain for me? Where exactly is it located?
+
+Patient: It’s mainly in my upper abdomen and also on the right side. It’s kind of diffuse, and sometimes it feels sharp, but it’s pretty consistent.
+
+Doctor: Okay. And you've mentioned it’s been going on for three weeks? Is there anything that seems to make it worse or better?
+
+Patient: No, not really. Food doesn’t seem to help or make it worse. I’ve also had some indigestion and occasional pain in my right shoulder blade.
+
+Doctor: I see. You also mentioned you had an ultrasound that raised some concerns about a liver mass, right?
+
+Patient: Yes, they said there’s a 12.5 by 10.9 by 11.1 cm mass in my right adrenal gland and a smaller 7.1 by 5.4 by 6.5 cm mass in my liver. It’s been quite scary hearing all this.
+
+Doctor: That’s understandable, Sarah. Your CT scan did show multiple small lung nodules too, but the bone scan was clear, which is a good sign. I know this sounds overwhelming.
+
+Patient: Yeah, it really is. I’m trying to stay calm but it’s hard.
+
+Doctor: I get that. You mentioned you have a family history of colon cancer, correct?
+
+Patient: Yes, it’s all on my dad’s side. My father died of colon cancer, and I have uncles who had it too. I really don’t want to go down that path.
+
+Doctor: I understand your concern. Given your family history, I recommend a referral to a genetic counselor to evaluate any potential genetic syndromes that could be influencing your risk. Does that sound okay?
+
+Patient: Yes, definitely. I need to know more about that.
+
+Doctor: Good. And for the current symptoms, it’s important we manage your pain and discomfort. Have you been taking any medications for the pain?
+
+Patient: No, I haven’t. I didn’t want to take anything without checking first.
+
+Doctor: That’s wise. Based on your discomfort, I think switching from ibuprofen to acetaminophen would be a good idea. You can take 500 mg every six hours as needed. 
+
+Patient: Okay, I can do that. 
+
+Doctor: Also, let’s schedule some blood work to check your liver functions and other parameters before your upcoming appointment in two weeks. 
+
+Patient: Sure, I can come in for that. 
+
+Doctor: Great. And I'd like you to monitor your symptoms closely. If you notice any significant changes, like chest pain or shortness of breath, please go to the ER immediately, okay?
+
+Patient: Yes, I’ll keep an eye on that. 
+
+Doctor: Also, it’s crucial to keep track of your blood pressure readings, especially with the stress of everything. Would you be able to do that?
+
+Patient: Yeah, I have a monitor at home. I can do that.
+
+Doctor: Perfect. And one more thing, it might help to adjust your diet—try to cut your sodium intake to under 2,000 mg a day. 
+
+Patient: That makes sense. I guess I need to be more mindful of that.
+
+Doctor: Absolutely, and it’s also a good idea to maintain some light exercise if you can, to help manage your overall health. 
+
+Patient: Okay, I can try. I’ve really just been so focused on the pain that I haven’t thought about other things.
+
+Doctor: That’s understandable. We’ll handle this step-by-step. So just to recap what we discussed: you'll switch to acetaminophen for pain relief, we’ll schedule blood work before our follow-up in two weeks, monitor your blood pressure, and look into dietary changes. And I’ll refer you to a genetic counselor.
+
+Patient: Yes, that makes it more clear. Thank you for explaining everything, Dr. Mitchell.
+
+Doctor: You’re welcome, Sarah. You’re not alone in this, and we’re here to support you. I’ll get that referral set up and your prescription sent to your pharmacy. You should be able to pick it up by tomorrow.
+
+Patient: Sounds good. Thank you so much for your help.
+
+Doctor: Of course! If you have any questions in the meantime, don’t hesitate to reach out. 
+
+Patient: I will. Thanks again!
+
+Doctor: Take care, Sarah. Talk soon!
+
+Patient: Bye!

@@ -1,0 +1,87 @@
+Case: Intensity-Modulated Radiation Therapy Simulation
+Specialty: Hematology - Oncology
+Description: Intensity-modulated radiation therapy simulation note.  The patient will receive intensity-modulated radiation therapy in order to deliver high-dose treatment to sensitive structures.
+Word Count: 685
+============================================================
+
+Doctor: Hi there, is this Mrs. Johnson? 
+
+Patient: Yes, this is she. 
+
+Doctor: Hi, Mrs. Johnson, this is Dr. Miller. I hope you're doing well today. 
+
+Patient: Oh, hi, Doctor! Yeah, I’ve been a bit anxious about everything, to be honest.
+
+Doctor: I completely understand. It’s normal to feel that way. So today, I just wanted to discuss your upcoming treatment plan. We’re moving forward with the intensity-modulated radiation therapy, as we talked about in the last visit.
+
+Patient: Right, the radiation therapy. Can you remind me what that exactly involves?
+
+Doctor: Sure! So this type of therapy is designed to deliver high doses of radiation to the tumor while minimizing exposure to your surrounding organs that are sensitive to radiation. It's really precise. 
+
+Patient: Okay, that makes sense. I know you mentioned something about sensitive structures? 
+
+Doctor: Yes, that’s correct. The target volume we’re treating is adjacent to some significant radiosensitive structures. We want to avoid any damage to them as much as possible.
+
+Patient: Got it. So what happens exactly during the simulation? 
+
+Doctor: Good question! During the simulation, we will use a fluoroscopically-based simulation unit to get everything set up. You’ll be immobilized with a customized device, which is important for accuracy. 
+
+Patient: Right, I remember that part. How long does the simulation take? 
+
+Doctor: It typically takes about an hour. After that, we’ll take some preliminary images to create a treatment plan. 
+
+Patient: And then what? 
+
+Doctor: We’ll send those images to our treatment planning software for analysis, where we’ll outline the target volume and the organs at risk. It’s crucial for us to select appropriate doses for both. 
+
+Patient: It sounds quite detailed. Are there any side effects I should expect? 
+
+Doctor: Well, with radiation therapy, you may experience fatigue, skin irritation, or some localized swelling, but we will monitor you closely and manage any symptoms. Just be sure to let us know how you're feeling.
+
+Patient: Okay. What if I have more severe issues?
+
+Doctor: If you experience any severe side effects, like intense pain or changes in your health, I want you to contact us immediately. 
+
+Patient: Yes, absolutely. 
+
+Doctor: And I want to make sure you’re comfortable during this process. Have you had any issues with your blood counts recently?
+
+Patient: Uh, no, my last blood work was fine, but I’ve been feeling a little more tired than usual.
+
+Doctor: I see. Fatigue can be common, especially if you're dealing with treatment. But it can also be linked to your overall health and lifestyle. How's your diet been?
+
+Patient: I’ve been trying to eat better, but I still indulge on weekends. 
+
+Doctor: That's understandable, but I want you to try to focus on a balanced diet. Maybe, um, cut back your sodium intake to under 2000mg a day, if possible?
+
+Patient: Okay, I can do that. 
+
+Doctor: Great! Oh, and we’ll need to schedule some lab work soon. I want to keep an eye on your blood counts before the therapy begins.
+
+Patient: Sure, when do you want me to come in? 
+
+Doctor: Let’s say… how about next week? We could do it on Tuesday morning.
+
+Patient: That works for me. 
+
+Doctor: Perfect! And let’s also plan a follow-up appointment for the week after that. 
+
+Patient: Okay, when would that be? 
+
+Doctor: We can do it on Friday, two weeks from now, at 10 AM if that works for you.
+
+Patient: Yes, that’s good. 
+
+Doctor: Wonderful! So just to recap what we discussed, we will go ahead with the intensity-modulated radiation therapy, aim to cut your sodium intake, schedule blood work for next Tuesday, and see you for a follow-up on Friday in two weeks. 
+
+Patient: Sounds like a plan. Thank you for walking me through all of this. 
+
+Doctor: Of course! It’s my pleasure. And remember, if you notice any unusual symptoms—like chest pain or shortness of breath—please go to the ER immediately. 
+
+Patient: I will. Thanks for the advice! 
+
+Doctor: You’re welcome! If you have any other questions, don’t hesitate to reach out. 
+
+Patient: I appreciate that, Doctor. Bye! 
+
+Doctor: Bye, Mrs. Johnson, take care!
