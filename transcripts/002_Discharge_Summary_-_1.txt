@@ -1,0 +1,82 @@
+Case: Discharge Summary - 1
+Specialty: General Medicine
+Description: Acute cerebrovascular accident/left basal ganglia and deep white matter of the left parietal lobe, hypertension, urinary tract infection, and hypercholesterolemia.
+Word Count: 707
+============================================================
+
+Doctor: Good morning, Mr. Thompson! This is Dr. Patterson calling from the clinic. How are you feeling today?
+
+Patient: Um, good morning, Doctor. I suppose I’m feeling okay, just a little anxious, to be honest.
+
+Doctor: I understand. It's completely normal to feel that way, especially after the recent hospitalization. I just wanted to check in with you about your discharge and the medications we’ve prescribed.
+
+Patient: Right, right. So, um, what do I need to know? 
+
+Doctor: Let’s start with your condition. You had an acute cerebrovascular accident, which is basically a stroke affecting the left basal ganglia and deep white matter of the left parietal lobe. You experienced symptoms like right-sided weakness and slurred speech, right? 
+
+Patient: Yeah, that’s right. It was really scary, I just woke up one morning and couldn’t move my arm properly. It was like my body was giving up on me.
+
+Doctor: That sounds really difficult. To recap, you also have a history of untreated hypertension for about 15 years, and we noted a urinary tract infection during your stay, correct?
+
+Patient: Yes, that’s right. I remember hearing that. I had to take Cipro for it, right? 
+
+Doctor: Yes, exactly! You’re currently on Cipro 250 mg, which you need to take twice daily for a total of seven days. You’ve got two more days to complete that course, so don’t forget. 
+
+Patient: Okay, I can manage that. 
+
+Doctor: Good! Now, regarding your cholesterol, we’ve put you on Zocor, 20 mg at bedtime. Your latest blood tests showed an LDL of 107, which we want to lower below 70 eventually.
+
+Patient: Uh-huh, and the HDL was, um, pretty low too, right?
+
+Doctor: Yes, your HDL was 22, which is lower than we’d like. This is part of why we’re focusing on your diet and medications.
+
+Patient: Diet, right. So what should I be eating?
+
+Doctor: We recommend a low-fat, low-salt cardiac diet. Try to keep your sodium intake under 2000 mg a day. It might be helpful to keep a food diary to track what you’re consuming.
+
+Patient: Sure, I can do that. But what about exercise? 
+
+Doctor: Yes, that's also important. I encourage you to try some light physical therapy exercises as tolerated, and the rehab team will help with that once you get to Siskin Rehabilitation Hospital.
+
+Patient: Yeah, they mentioned that. I have my first appointment tomorrow. 
+
+Doctor: Perfect! And when you’re at rehab, make sure to actively participate in PT and speech therapy. They will help you regain strength and improve your speech.
+
+Patient: I will, thank you. So, um, about my blood pressure—how’s that looking?
+
+Doctor: Your blood pressure has been stabilized, especially during your hospitalization. For now, we’re monitoring it, and you won't need blood pressure medications unless your systolic is over 220 or diastolic over 120.
+
+Patient: Got it. I’ve always struggled with my blood pressure. 
+
+Doctor: It’s common, especially with your history. Just keep an eye on it—maybe take your blood pressure readings every morning.
+
+Patient: Okay, I can do that. 
+
+Doctor: Just a quick note: if you experience any chest pain or shortness of breath, you need to go to the ER immediately. Those could be warning signs of complications.
+
+Patient: Right, I’ll keep that in mind. 
+
+Doctor: Great! So just to recap what we discussed: 
+
+1. Continue taking Cipro for two more days.
+2. Start Zocor 20 mg at bedtime.
+3. Begin your low-fat, low-salt diet and monitor sodium intake.
+4. Monitor your blood pressure daily and keep a record.
+5. Participate actively in rehab and therapy.
+6. If anything feels off, like chest pain, go straight to the ER.
+
+Patient: That sounds doable. Thank you for breaking it down like that.
+
+Doctor: Of course! And remember, you have a follow-up appointment with the rehabilitation team after you're discharged. They will set up your ongoing care.
+
+Patient: Okay, I’ll look forward to that. 
+
+Doctor: If you have any questions or concerns, don’t hesitate to reach out. And I’ll be here to help too. 
+
+Patient: Thank you, Dr. Patterson. I appreciate all the support.
+
+Doctor: You’re welcome, Mr. Thompson. It’s important to take this one step at a time. Take care, and I’ll speak to you soon!
+
+Patient: Bye, Doctor!
+
+Doctor: Bye-bye!

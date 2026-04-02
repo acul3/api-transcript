@@ -1,0 +1,79 @@
+Case: Erectile Dysfunction - Followup
+Specialty: SOAP / Chart / Progress Notes
+Description: Some improvement of erectile dysfunction, on low dose of Cialis, with no side effects.
+Word Count: 735
+============================================================
+
+Doctor: Hello, this is Dr. Thompson. Am I speaking with Mr. Carter?
+
+Patient: Yes, that’s me! Hi, Doctor. How are you?
+
+Doctor: I'm doing well, thanks for asking! How about you?
+
+Patient: You know, I’ve been better. I mean, I’m glad to be following up with you today about my erectile dysfunction. 
+
+Doctor: Sure thing. Last time we talked, you were on Cialis, 10 mg, right? How have things been since then?
+
+Patient: Actually, I noticed some mild improvement! Like, I can get a firm erection now, and it lasts about ten minutes during intercourse, which is an improvement.
+
+Doctor: That’s great to hear! So, no side effects at all?
+
+Patient: Nope, not at all. It’s been pretty smooth sailing on that front. 
+
+Doctor: Perfect. And just to recap, you mentioned there’s no chest pain or any issues with urination, correct? 
+
+Patient: Right, no chest pain, no fever, and my daytime urination is normal—every three hours or so. No nocturia either. 
+
+Doctor: Excellent, that’s good to know. Now, you do have a history of elevated PSA, right? How has that been since your last biopsy?
+
+Patient: Yeah, my PSA was 11.6, and the biopsy revealed high-grade PIN. They said two samples were too small to evaluate. It's a bit concerning, but I’ve talked to my primary care doctor. We're discussing a follow-up ultrasound and possibly another biopsy.
+
+Doctor: That’s understandable. It can be a lot to process. Have you decided when you’d like to schedule that additional biopsy?
+
+Patient: I’m not sure yet. I think I’d like to speak with you first before making that call.
+
+Doctor: Absolutely, that makes sense. So, about the erectile dysfunction, we might want to consider increasing your Cialis dose to 20 mg. Would you be open to that?
+
+Patient: Yeah, I think that sounds reasonable. Would that help even more?
+
+Doctor: It should, yes. I can provide samples today, and also include some Levitra at 10 mg, which you might consider as well. Just a reminder though, don’t take them both at the same time. 
+
+Patient: Oh, got it! Wait, what does Levitra do exactly?
+
+Doctor: Levitra is another medication for erectile dysfunction, similar to Cialis, but it can work a little differently for some patients. Both are effective, and you can see which one works better for you. 
+
+Patient: I see, that makes sense. Are there any specific side effects I should watch for?
+
+Doctor: Well, just like with Cialis, some common side effects can include headaches, flushing, or upset stomach. But since you’ve had no issues with the 10 mg, you might tolerate the higher dose as well. 
+
+Patient: Okay, I feel a bit better about that. 
+
+Doctor: Good! And just to clarify, it’s important to keep track of your PSA levels given your history. You should really monitor any changes in that, especially as we talk about any procedures coming up.
+
+Patient: Definitely. I’ll make sure to keep an eye on that. 
+
+Doctor: Great. Also, let’s schedule a follow-up appointment in, say, two weeks? That way, we can see how the increased dosage works for you.
+
+Patient: That sounds good! I’d like to check in after I try the new dosage. 
+
+Doctor: Perfect! I’ll have my office reach out to set that up. 
+
+Patient: Oh, and I’ve been trying to make some lifestyle changes too—less sodium in my diet and working out more. Is there anything else I should focus on?
+
+Doctor: That’s a great start! I’d recommend keeping your sodium intake under 2000 mg a day. Also, if you could track your blood pressure readings each morning, that would be helpful too.
+
+Patient: For sure, I’ll do that. Anything else I should be monitoring?
+
+Doctor: Just be aware of any new symptoms like chest pain or shortness of breath. If that happens, it’s essential to go to the ER immediately.
+
+Patient: Yeah, I’ll keep that in mind. 
+
+Doctor: Alright then, Mr. Carter, to summarize our plan: we’re increasing your Cialis to 20 mg and adding Levitra 10 mg as an option. I’ll send those prescriptions to your pharmacy for pickup tomorrow. Keep monitoring your PSA and blood pressure, and we’ll follow up in two weeks.
+
+Patient: Sounds good! Thanks, Doctor, I appreciate your help!
+
+Doctor: You’re welcome! I’m here to help. Just call if you have any other concerns before our next appointment.
+
+Patient: Will do! Talk soon!
+
+Doctor: Talk to you later, take care!

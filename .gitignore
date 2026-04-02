@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+.venv/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+
+# FastAPI / SQLite Application Databases
+*.db
+*.sqlite3
+sql_app.db
+
+# macOS System Files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/

@@ -1,0 +1,87 @@
+Case: MRI Brain & Cerebral Angiogram
+Specialty: Radiology
+Description: MRI brain & Cerebral Angiogram: CNS Vasculitis with evidence of ischemic infarction in the right and left frontal lobes.
+Word Count: 748
+============================================================
+
+Doctor: Hi, is this Sarah?
+
+Patient: Yes, it is. 
+
+Doctor: Hi, Sarah. This is Dr. Thompson. How are you doing today?
+
+Patient: Um, just a bit anxious, honestly. I got the results from my MRI and I… well, I’d like to understand them better.
+
+Doctor: Of course, I can help with that. So, the MRI and cerebral angiogram did show evidence of central nervous system vasculitis. 
+
+Patient: CNS vasculitis? What exactly does that mean?
+
+Doctor: It’s inflammation of the blood vessels in your brain, which can lead to various symptoms. In your case, it’s also showing ischemic infarction—basically areas where the blood flow has been reduced, especially in the right and left frontal lobes. 
+
+Patient: Oh, I see. Is that related to the trouble I’m having with word finding and my speech?
+
+Doctor: Yes, absolutely. Those symptoms can be caused by the areas of ischemia in those regions. I know it’s been tough—you mentioned during our last visit that you’ve been experiencing this since February 19th, right?
+
+Patient: Yes, and the slurred speech started around then too. It’s frustrating. It feels like there’s a rubber band around my tongue, and I can’t say things properly. 
+
+Doctor: I understand how distressing that must be. Your symptoms have been persistent since then. The headaches and mild neck stiffness you’ve mentioned, did they resolve after your shower?
+
+Patient: Yes, surprisingly. It’s just the word finding and slurred speech that continue to worry me. 
+
+Doctor: Right, and just to recap, your CRP was significantly elevated—too high to calibrate, actually. We need to monitor these levels moving forward.
+
+Patient: Okay. So what’s the plan? What do I do next?
+
+Doctor: We’ve started you on prednisone at a dose of 60 milligrams daily to reduce the inflammation. You'll also be taking Tagamet, 400 milligrams at bedtime. 
+
+Patient: How long will I be on this prednisone? 
+
+Doctor: Typically, we’ll evaluate your response to treatment in a few weeks. It’s important to manage any side effects—like increased appetite or mood swings. 
+
+Patient: Got it. What about the Cytoxan you mentioned?
+
+Doctor: Yes, after the biopsy that showed evidence of focal necrosis but no vasculitis, we’re going to start you on Cytoxan as well. The initial dose is 1575 milligrams, administered by IV every two months. 
+
+Patient: I see. That seems like a lot to take on. 
+
+Doctor: I understand it feels overwhelming. We’ll monitor your health closely. We also need to schedule blood work before your next appointment to check for any side effects of the medications and to evaluate your kidney function.
+
+Patient: Okay, when should I do that? 
+
+Doctor: Let’s plan for it next week. How does Wednesday sound?
+
+Patient: Wednesday works for me. 
+
+Doctor: Great! I’ll have the lab send you a reminder. Also, how has your lifestyle been lately? Any changes in your diet or habits?
+
+Patient: Um, I’ve been trying to eat healthier, but I still smoke. I’ve been at about a pack every three days for years. And I drink about six beers on the weekends. 
+
+Doctor: I appreciate your honesty. Smoking can worsen your symptoms, and alcohol can interact with your medications. I’d recommend trying to reduce your alcohol intake and, ideally, quit smoking altogether. 
+
+Patient: I know, I know. I just find it hard. 
+
+Doctor: It’s a process, I get that. But even cutting back could help. Aim to reduce your sodium intake to under 2000 milligrams a day too; that's important for your overall health.
+
+Patient: Okay, I can work on that. What should I be watching for, you know, warning signs?
+
+Doctor: Definitely keep an eye on your blood pressure. Any sudden chest pain, or if you have shortness of breath—those are signs to go to the ER immediately. 
+
+Patient: Right, I’ll be careful. 
+
+Doctor: And remember, I’m going to refer you to a neurologist who specializes in this type of condition. It’ll be beneficial to have their insight.
+
+Patient: That sounds like a good idea. 
+
+Doctor: So just to summarize what we discussed, we’re starting prednisone and Tagamet, planning for Cytoxan, scheduling blood work for next Wednesday, and making lifestyle adjustments including dietary changes. 
+
+Patient: Yep, I think I’ve got it. 
+
+Doctor: Wonderful. I’ll send the prescriptions to your pharmacy. You should be able to pick them up by tomorrow. 
+
+Patient: Thank you, Dr. Thompson. I really appreciate this. 
+
+Doctor: You’re welcome, Sarah. You’re doing great just by reaching out. We’ll get through this together. 
+
+Patient: Okay. Talk to you soon! 
+
+Doctor: Take care, bye!

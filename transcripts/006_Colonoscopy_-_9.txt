@@ -1,0 +1,89 @@
+Case: Colonoscopy - 9
+Specialty: Surgery
+Description: Patient with history of polyps.
+Word Count: 735
+============================================================
+
+Doctor: Hi there, is this Mrs. Thompson?
+
+Patient: Yes, it is. Hi, Doctor! 
+
+Doctor: Hi, how are you feeling today?
+
+Patient: Oh, you know, a bit anxious. I just had that colonoscopy last week, and I’m eager to hear about the results.
+
+Doctor: I understand, and it’s completely normal to feel that way. So, let’s talk about what we found during your procedure. 
+
+Patient: Yes, please! 
+
+Doctor: Great. So, your preoperative diagnosis—given your history of polyps—was confirmed. We found some small polyps in your sigmoid colon, which we were able to resect using electrocautery. There was no bleeding, which is good. 
+
+Patient: That sounds good. But wait, how many polyps did you find exactly? 
+
+Doctor: There were two in the sigmoid colon. We took care of those during the procedure. 
+
+Patient: Phew! That’s a relief. And what about the cecum? I remember I had a polyp there before.
+
+Doctor: Right, you had a polyp there two years ago. I’m happy to report that during the colonoscopy, there was no evidence of any residual or recurrent polyp in the cecum. Everything looked clear.
+
+Patient: Oh, that’s a huge relief! I was worried about that. 
+
+Doctor: I can imagine. There was, however, something we noticed. We found two small submucosal lesions that appeared to be lipomas. They’re harmless fatty tumors, and they were small and freely mobile, so we didn’t remove them. 
+
+Patient: Lipomas? Are those serious?
+
+Doctor: No, they’re generally benign, and very common, honestly. They won’t cause you any issues. But we did note diverticulosis in your sigmoid colon as well.
+
+Patient: Diverticulosis? What does that mean exactly?
+
+Doctor: It means that there are small pouches that have formed in the wall of your colon. Many people have this, and it usually doesn’t cause any symptoms, but it’s something we’ll keep an eye on.
+
+Patient: Okay, got it. So what should I be doing now?
+
+Doctor: Well, first off, I want you to monitor your symptoms. Make sure you keep track of any abdominal pain or changes in bowel habits. 
+
+Patient: Sure, I can do that. What about diet? Anything specific I should avoid?
+
+Doctor: Yes, it’s a good idea to increase your fiber intake to help prevent diverticulitis. Try to aim for at least 25 grams of fiber daily. Also, if you can, try to limit your intake of processed foods and red meat.
+
+Patient: I do like my burgers. 
+
+Doctor: [laughs] Understandable! Just balance it with lots of fruits, veggies, and whole grains. Also, let’s talk about your medications. You shouldn’t have any new prescriptions from this procedure, but I’d like to check your current ones, just to make sure.
+
+Patient: Oh, I’m currently taking Metformin for my blood sugar, 500mg twice a day with meals.
+
+Doctor: That’s right. And how’s your blood sugar been lately?
+
+Patient: It’s been okay, mostly between 120 and 140. 
+
+Doctor: Good to hear. But if you notice it creeping up, let’s adjust your medications. Also, have you been keeping up with your blood pressure checks?
+
+Patient: I’m trying, but I forget sometimes.
+
+Doctor: Totally understandable! I’d say try to check it every morning. And if it goes over 140/90, give us a call right away.
+
+Patient: Okay, I will try to remember. 
+
+Doctor: Excellent. Now, let’s get you scheduled for a follow-up appointment in two weeks. How does next Thursday sound?
+
+Patient: That works for me! 
+
+Doctor: Great, I’ll set that up. And I would also recommend getting some lab work done—just a routine check for your blood sugar and cholesterol levels before your next visit. 
+
+Patient: Sounds good. Will I need to fast for that?
+
+Doctor: Yes, ideally, you should fast for at least eight hours before the blood draw. 
+
+Patient: Okay, I can manage that. 
+
+Doctor: Perfect! So just to recap what we discussed: you had two small polyps removed, no recurrence in the cecum, some diverticulosis, and benign lipomas. You’ll monitor your symptoms, aim for a high-fiber diet, keep checking your blood pressure, and get that lab work done before our follow-up in two weeks.
+
+Patient: Got it! That’s a lot of information, but I feel a lot better now. Thank you!
+
+Doctor: You’re welcome! I’m glad I could help ease your mind. If you have any other questions before our next call, don’t hesitate to reach out.
+
+Patient: I will. Thanks again, Doctor!
+
+Doctor: You take care, Mrs. Thompson. Talk soon!
+
+Patient: Bye!

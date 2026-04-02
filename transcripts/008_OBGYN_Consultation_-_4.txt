@@ -1,0 +1,81 @@
+Case: OB/GYN Consultation - 4
+Specialty: Consult - History and Phy.
+Description: Pelvic Pain and vaginal discharge
+Word Count: 686
+============================================================
+
+Doctor: Hi, this is Dr. Harris. Am I speaking with Sarah?
+
+Patient: Yes, this is Sarah. Hi, doctor!
+
+Doctor: Hi, Sarah! How are you doing today?
+
+Patient: Um, not too great, honestly. I’ve been dealing with this pelvic pain and discharge, and it’s just really frustrating.
+
+Doctor: I understand. We need to address that. So, I see from your notes that the pelvic pain has been going on for about a year now?
+
+Patient: Yes, that’s right. It’s in my left lower quadrant, and it’s—uh—moderately severe. Sometimes it feels crampy and sharp, and it lasts for about two hours when it hits.
+
+Doctor: Okay, and how often do you experience that pain?
+
+Patient: It’s intermittent, like it doesn’t happen every day, but it’s still pretty frequent. I usually have to take NSAIDs to manage it when it gets bad.
+
+Doctor: Got it. And regarding the discharge, you mentioned it’s been persistent for about two weeks now, right?
+
+Patient: Yeah, it’s thin and white, and it has a bit of an odor. I haven’t had any itching or irritation, though.
+
+Doctor: Good to know. So, based on your symptoms and the examination, we have a couple of diagnoses: endometritis and cervicitis. 
+
+Patient: Wait, um, what does endometritis mean exactly?
+
+Doctor: It essentially means your uterine lining is inflamed, and cervicitis indicates inflammation of the cervix. These conditions can indeed cause the symptoms you’re experiencing.
+
+Patient: That sounds concerning. Is it serious?
+
+Doctor: It's treatable, so no need to panic. We’ll start you on some medications. I’ve prescribed Metronidazole—500 mg, which you'll take twice a day for seven days—and Doxycycline, 100 mg, also twice a day for the same duration.
+
+Patient: Okay, sounds good. Is that going to help with the pain too?
+
+Doctor: It should help with the infection and, in turn, alleviate some of your symptoms, including the pain. It’s important to finish the course even if you start feeling better.
+
+Patient: Right. I really want to get this sorted out.
+
+Doctor: Absolutely. And since I see that you smoke about a pack of cigarettes a day, it’s essential to consider cutting back on that too. Smoking can affect recovery.
+
+Patient: Yeah, I know. I’ve been meaning to quit. 
+
+Doctor: That’s a good idea. Also, just a heads-up, I recommend monitoring your symptoms closely. If you experience any new symptoms like chest pain or shortness of breath, you should go to the ER immediately.
+
+Patient: Oh gosh, yeah. I’ll definitely keep an eye on that. 
+
+Doctor: Perfect. We also need to get some lab work done when you come back in three weeks for a follow-up. It will help us evaluate how the treatment is going.
+
+Patient: Lab work? Like blood tests? 
+
+Doctor: Exactly. Just to check your overall health and make sure there are no other underlying issues. 
+
+Patient: Okay, I can do that. Should I be doing anything else in the meantime?
+
+Doctor: Yes, I’d suggest trying to maintain a healthy diet. Aim to keep your sodium intake under 2000 mg a day. Staying hydrated is essential, too. 
+
+Patient: Got it—less sodium and more water. I can handle that.
+
+Doctor: Great! Also, it’s good to know you don’t have a history of STDs and you’ve had one partner, which, you know, minimizes some risks, but we do want to monitor everything closely.
+
+Patient: Right, I appreciate that. 
+
+Doctor: So, just to recap what we discussed: you’ll be starting on Metronidazole and Doxycycline, both taken twice daily for seven days. We’ll schedule lab work before your follow-up appointment in three weeks, and make sure to keep an eye on your symptoms, including any warning signs like chest pain or shortness of breath.
+
+Patient: Yes, that makes sense. 
+
+Doctor: And I’ll send the prescriptions to your pharmacy. You should be able to pick them up tomorrow. 
+
+Patient: Thank you so much, Dr. Harris. This has been really helpful.
+
+Doctor: You’re welcome, Sarah! I’m glad to help. If you have any more questions, don’t hesitate to call, okay?
+
+Patient: I will. Thanks again, and talk to you soon!
+
+Doctor: Talk to you soon! Bye now.
+
+Patient: Bye!

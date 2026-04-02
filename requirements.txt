@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.35
+python-multipart==0.0.20
+python-dotenv==1.0.1
+openai==1.59.3
+pydantic==2.10.4
+sqlite3-api; sys_platform == "win32"
+aiosqlite

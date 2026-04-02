@@ -1,0 +1,77 @@
+Case: Care Conference With Family
+Specialty: General Medicine
+Description: Care conference with family at the bedside and decision to change posture of care from aggressive full code status to terminal wean with comfort care measures in a patient with code last night with CPR and advanced cardiac life support.
+Word Count: 589
+============================================================
+
+Doctor: Hi, is this Mrs. Thompson? 
+
+Patient: Yes, this is she. 
+
+Doctor: Hi, Mrs. Thompson, it's Dr. Harris calling. How are you doing today?
+
+Patient: Oh, um, I’m okay, I guess. Just a bit worried about my mom. 
+
+Doctor: I understand. I wanted to touch base with you and your family regarding your mother's condition. 
+
+Patient: Yes, we had a meeting with you, right? I just want to make sure I understand everything.
+
+Doctor: Absolutely. So, just to recap, your mother had a serious episode last night around 2:40 AM. She went into cardiac arrest and we performed CPR and advanced cardiac life support. 
+
+Patient: Right, I remember you telling us that. Is she… um… 
+
+Doctor: Well, currently she is intubated and sedated. Unfortunately, her condition has not improved despite our aggressive treatment. 
+
+Patient: I see. That’s really hard to hear. 
+
+Doctor: I know, it’s a tough situation. Her examination shows some concerning signs—she has tachycardia, and her limbs are cool to the touch. We also noted that her pupils aren’t responding to light.
+
+Patient: Oh no, that doesn’t sound good at all. 
+
+Doctor: Yes, and based on our discussions with you and your family, we’ve decided to shift her care from aggressive treatment to comfort measures.
+
+Patient: So, um, what does that mean exactly?
+
+Doctor: It means that we will focus on making your mother as comfortable as possible rather than trying to revive her. We’ve started her on intravenous morphine to help with any discomfort and will be removing the breathing tube. 
+
+Patient: That sounds… that sounds right, I guess. But it’s so hard. 
+
+Doctor: I completely understand, Mrs. Thompson. This decision was made in alignment with what your mother would want given her overall prognosis. She has been dealing with, um, profound hyponatremia and recurrent aspiration pneumonia along with other serious health issues, including what appears to be ovarian cancer. 
+
+Patient: Ovarian cancer… Is that, like… terminal? 
+
+Doctor: Yes, given the elevated CA-125 levels and the complex mass we have seen, it indicates a likely terminal condition. 
+
+Patient: Oh, wow. I didn’t realize. What are the next steps now?
+
+Doctor: Well, we’ve already discontinued all pressure support and are focusing on comfort care. I’d recommend you and the family spend time with her if you feel comfortable. She seems peaceful right now.
+
+Patient: I’ll let everyone know. Are there any signs we should watch for? 
+
+Doctor: Yes, please monitor her breathing and general response. If there’s any sudden change, like increased distress or pain, let the nurses know immediately.
+
+Patient: Okay, I’ll keep an eye on that. 
+
+Doctor: And also, if there’s any sudden chest pain or if she seems to struggle to breathe, you should notify the staff right away. 
+
+Patient: Right, that makes sense. 
+
+Doctor: We are here for you, Mrs. Thompson. If you have any questions or need someone to talk to, please don’t hesitate to reach out. 
+
+Patient: Thank you, Doctor. This is a lot to take in, but I appreciate it. 
+
+Doctor: Of course. Just remember that your mom is receiving compassionate care, and we’ll be here to support you and your family through this difficult time. 
+
+Patient: Thank you. I really needed to hear that. 
+
+Doctor: You’re welcome. I’ll be available if you need anything further. I hope to check in again after you’ve had some time with her.
+
+Patient: Yes, please do. I’d like that. 
+
+Doctor: Great. Take care, Mrs. Thompson, and know that you’re not alone in this.
+
+Patient: Thanks again, Doctor. 
+
+Doctor: Goodbye, Mrs. Thompson. 
+
+Patient: Goodbye.

@@ -1,0 +1,75 @@
+Case: Total Thyroidectomy
+Specialty: Endocrinology
+Description: Total thyroidectomy with removal of substernal extension on the left.  Thyroid goiter with substernal extension on the left.
+Word Count: 699
+============================================================
+
+Doctor: Hi, is this Mr. Thompson?
+
+Patient: Yes, it is. 
+
+Doctor: Hi, Mr. Thompson, this is Dr. Miller from the endocrinology department. How are you feeling today?
+
+Patient: Oh, I’m okay, I guess. Just a bit anxious about everything, you know? 
+
+Doctor: I understand, and that’s completely normal after your surgery. I just wanted to touch base with you following your total thyroidectomy last week. You’re doing okay, right?
+
+Patient: Yeah, well, I've been feeling a little... different, I guess. I mean, I’ve got some soreness, especially in my neck.
+
+Doctor: That’s expected. You had a pretty significant procedure, removing the entire thyroid gland and the substernal extension on the left side. How’s the pain been on a scale of 1 to 10?
+
+Patient: Uh, it’s been about a 6, maybe? It really hurts when I swallow. 
+
+Doctor: Mhmm, that’s not unusual. The dysphagia is something we anticipated, especially since the goiter was pressing on your throat. How long has that been bothering you?
+
+Patient: It’s been worse since the surgery, which was, what, five days ago? But, honestly, I had trouble swallowing for a couple of weeks leading up to it.
+
+Doctor: Okay, that makes sense. Your preoperative diagnosis indicated that you had an enlarged thyroid, and we did see that it was quite large, especially on the left side. Any difficulty with breathing while lying down?
+
+Patient: Uh, a little. I noticed it mostly when I was trying to sleep. 
+
+Doctor: Got it. I also want to talk to you about some of your lab work. Your blood levels after surgery looked good, but your calcium levels were a bit lower than we want, at about 8.5 mg/dL. We’ll need to monitor that closely.
+
+Patient: Oh, wow. Does that mean I need to do something specific?
+
+Doctor: Yes, we might need to supplement calcium. I’ll prescribe calcium carbonate, and you should take 600 mg twice daily with meals. 
+
+Patient: Okay, got it. Anything else I should worry about?
+
+Doctor: Well, since the entire thyroid was removed, we want to keep an eye on your hormone levels. We’ll need to start you on levothyroxine, which is a thyroid hormone replacement. It’s important because without your thyroid, your body won’t produce enough hormones on its own.
+
+Patient: Right. What’s the dosage for that? 
+
+Doctor: Initially, I’m going to prescribe 100 micrograms daily. Let’s see how your body adjusts to it, and we can adjust as needed later.
+
+Patient: Sounds good, but will my insurance cover that?
+
+Doctor: Yes, it should. Just check with your pharmacy to confirm. I’ll send those prescriptions over right after our call, and you can pick them up tomorrow.
+
+Patient: Great, thanks. Is there anything else I need to do?
+
+Doctor: Yes, I’d like you to monitor your neck for any increased swelling or redness. Keep track of any symptoms like chest pain, shortness of breath—if those happen, go to the ER immediately, okay?
+
+Patient: Wow, okay. That sounds serious. Am I at risk for anything?
+
+Doctor: Well, without your thyroid, you’re at risk for hypothyroidism, which can cause fatigue, weight gain, and other symptoms if you’re not on hormone replacement. Also, since we removed some of your parathyroids, we’ll be vigilant about calcium levels, so ongoing blood work is critical.
+
+Patient: Yeah, I don't want to feel more sluggish than I already do. 
+
+Doctor: Exactly. We’ll schedule a follow-up appointment in two weeks to check your hormone levels and calcium status. Does that work for you?
+
+Patient: Sure, let’s do that! 
+
+Doctor: Great! And one last thing—try to increase your calcium intake with foods like dairy or leafy greens, and keep your sodium under 2000 mg a day.
+
+Patient: Okay, I’ll do my best. 
+
+Doctor: Just to recap, you’re going to start taking calcium carbonate 600 mg twice daily and levothyroxine 100 micrograms daily. I’ll send those prescriptions to your pharmacy. Keep track of your symptoms, especially any unusual swelling or pain, and we’ll see each other in two weeks.
+
+Patient: Sounds good. Thank you, Dr. Miller. I really appreciate it.
+
+Doctor: You’re welcome, Mr. Thompson. Hang in there, and we’ll make sure you’re feeling better soon.
+
+Patient: Will do! Talk soon.
+
+Doctor: Bye-bye!

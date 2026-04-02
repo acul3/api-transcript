@@ -1,0 +1,89 @@
+Case: Congestion & Fever - 2-month-old
+Specialty: Pediatrics - Neonatal
+Description: A 2-month-old female with 1-week history of congestion and fever x2 days.
+Word Count: 788
+============================================================
+
+Doctor: Hi, is this Mrs. Thompson?
+
+Patient: Yes, this is her! 
+
+Doctor: Hi, this is Dr. Davis calling from the Pediatric Clinic. How are you doing today?
+
+Patient: Oh, I’m a bit worried actually. My baby girl has been sick for about a week now.
+
+Doctor: I'm sorry to hear that. Can you tell me a little more about her symptoms?
+
+Patient: Sure. She’s two months old and she’s had this congestion and a fever for the last two days. Her temperature has been as high as 104 at times.
+
+Doctor: That does sound concerning. Has she been coughing as well?
+
+Patient: Yes, she has. The cough is pretty bad, like... um, sometimes it really makes her turn red and she even vomits afterward, which is really alarming.
+
+Doctor: I understand that must be very stressful for you. How long has she been having this cough?
+
+Patient: It's been about a week, but it’s gotten worse over the last couple of days. Before, it was just a little congested, but now it’s more intense.
+
+Doctor: Okay. And how is she doing with her feeding and diaper output? 
+
+Patient: Not great, to be honest. She doesn’t want to eat as much—only about four ounces of Similac every two to three hours, and I've noticed fewer wet diapers. 
+
+Doctor: That’s important to note, especially since decreased intake can lead to dehydration. I see you mentioned she had some irregular breathing too. Can you describe that a bit more?
+
+Patient: Yes. Sometimes it seems like she’s breathing faster than usual? And I’ve seen her ribs pulling in a little when she breathes, like there’s some effort involved.
+
+Doctor: Thanks for sharing that. It sounds like she may be experiencing some mild respiratory distress. We really need to keep an eye on that. 
+
+Patient: Oh gosh, what does that mean for her?
+
+Doctor: Well, given her symptoms—fever up to 104, the cough, and the breathing difficulties—we should definitely evaluate her further. We’ll be looking out for signs of sepsis, pneumonia, or even a urinary tract infection with some lab work.
+
+Patient: Lab work? What kind of tests are you talking about?
+
+Doctor: I’m planning on doing a few things. We’ll send out a pertussis PCR test since her cough has been paroxysmal, and I want to follow up on the urine culture because her UA showed some bacteria. 
+
+Patient: Oh, I see. 
+
+Doctor: Yes. And for the immediate plan, we’re admitting her to the pediatric floor for closer monitoring. 
+
+Patient: Admission? Is that really necessary?
+
+Doctor: Given her symptoms and the fact that she’s had decreased oral intake and wet diapers, it’s just a precaution to ensure she gets the right care. I know it sounds alarming, but we’ll monitor her very closely. 
+
+Patient: Okay, I trust you. What about treatment? Is she going to need any medications?
+
+Doctor: Yes, we’ll start by managing her fever. I recommend switching from ibuprofen to acetaminophen for now. She’ll be receiving supportive care, and if her breathing worsens, we might need to consider bronchodilators.
+
+Patient: So how often will she need the acetaminophen?
+
+Doctor: For her age, it’s usually 10 to 15 mg per kilogram, so we’ll start with a dose every six hours as needed. Just make sure to measure it out carefully.
+
+Patient: Got it. I’ll keep track of that. And what about follow-up once she’s released?
+
+Doctor: After she’s stabilized, I’d say let's schedule a follow-up appointment in about a week. We can reassess her symptoms and make sure everything is improving.
+
+Patient: That works for me. 
+
+Doctor: Great! Also, please keep an eye on her breathing. If you notice any worsening, or if she has any chest pain or shortness of breath, call emergency services immediately.
+
+Patient: Oh, that sounds serious. I’ll be sure to watch for that.
+
+Doctor: Mhmm, it’s always better to be safe. And try to keep her in a comfortable position, maybe even elevate her slightly while she sleeps.
+
+Patient: Sure, I’ll do that. Is there anything else I should be aware of?
+
+Doctor: Just keep a record of her fever and any cough episodes. And try to maintain her feeding schedule as best as you can.
+
+Patient: Okay, I’ll make a log. 
+
+Doctor: Alright, to recap: we’re admitting her for monitoring, switching to acetaminophen every six hours, keeping an eye on breathing, scheduling a follow-up in a week, and monitoring her symptoms closely.
+
+Patient: Yes, thank you, Dr. Davis. I really appreciate it.
+
+Doctor: Of course, Mrs. Thompson. We’re here to help. You can pick up any prescriptions we might need to send to the pharmacy once she’s settled. 
+
+Patient: Thank you so much!
+
+Doctor: You're welcome! Take care, and I’ll see you soon.
+
+Patient: Bye!

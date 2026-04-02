@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedTranscript AI - Transcript Summarizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f1117;
+  --bg-card: #1a1d27;
+  --bg-card-hover: #1f2330;
+  --bg-input: #141620;
+  --border: #2a2d3a;
+  --border-focus: #6366f1;
+  --text: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --primary: #6366f1;
+  --primary-hover: #818cf8;
+  --primary-glow: rgba(99,102,241,0.15);
+  --success: #10b981;
+  --success-bg: rgba(16,185,129,0.1);
+  --warning: #f59e0b;
+  --warning-bg: rgba(245,158,11,0.1);
+  --danger: #ef4444;
+  --danger-bg: rgba(239,68,68,0.1);
+  --info: #3b82f6;
+  --info-bg: rgba(59,130,246,0.1);
+  --accent-gradient: linear-gradient(135deg, #6366f1, #8b5cf6, #a78bfa);
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.4);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+  --transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; overflow-x:hidden; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width:6px; }
+::-webkit-scrollbar-track { background:var(--bg); }
+::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+::-webkit-scrollbar-thumb:hover { background:var(--text-muted); }
+
+/* ── Layout ── */
+.app { display:flex; min-height:100vh; }
+
+/* ── Sidebar ── */
+.sidebar {
+  width:260px; background:var(--bg-card); border-right:1px solid var(--border);
+  display:flex; flex-direction:column; position:fixed; top:0; left:0; bottom:0; z-index:100;
+}
+.sidebar-brand {
+  padding:24px 20px; border-bottom:1px solid var(--border);
+}
+.sidebar-brand h1 {
+  font-size:18px; font-weight:800; background:var(--accent-gradient);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  letter-spacing:-0.5px;
+}
+.sidebar-brand p { font-size:11px; color:var(--text-muted); margin-top:2px; letter-spacing:0.5px; text-transform:uppercase; }
+.sidebar-nav { flex:1; padding:12px 8px; display:flex; flex-direction:column; gap:2px; }
+.nav-item {
+  display:flex; align-items:center; gap:12px; padding:10px 14px; border-radius:var(--radius-sm);
+  color:var(--text-secondary); cursor:pointer; transition:var(--transition); font-size:14px; font-weight:500;
+  border:1px solid transparent;
+}
+.nav-item:hover { background:var(--bg-card-hover); color:var(--text); }
+.nav-item.active { background:var(--primary-glow); color:var(--primary-hover); border-color:rgba(99,102,241,0.2); }
+.nav-item svg { width:18px; height:18px; flex-shrink:0; }
+.nav-section { font-size:10px; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); padding:16px 14px 6px; font-weight:600; }
+.sidebar-footer { padding:16px; border-top:1px solid var(--border); }
+.api-status { display:flex; align-items:center; gap:8px; font-size:12px; color:var(--text-muted); }
+.status-dot { width:8px; height:8px; border-radius:50%; background:var(--success); animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+
+/* ── Main ── */
+.main { flex:1; margin-left:260px; }
+.page-header {
+  padding:24px 32px; border-bottom:1px solid var(--border);
+  background:linear-gradient(180deg, var(--bg-card) 0%, var(--bg) 100%);
+}
+.page-header h2 { font-size:22px; font-weight:700; letter-spacing:-0.5px; }
+.page-header p { font-size:13px; color:var(--text-muted); margin-top:4px; }
+.page-content { padding:24px 32px; }
+
+/* ── Cards ── */
+.card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+  overflow:hidden; transition:var(--transition);
+}
+.card:hover { border-color:rgba(99,102,241,0.3); }
+.card-header { padding:16px 20px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
+.card-header h3 { font-size:15px; font-weight:600; }
+.card-body { padding:20px; }
+
+/* ── Buttons ── */
+.btn {
+  display:inline-flex; align-items:center; gap:8px; padding:9px 18px; border-radius:var(--radius-sm);
+  font-size:13px; font-weight:600; font-family:inherit; cursor:pointer; transition:var(--transition);
+  border:1px solid transparent; text-decoration:none;
+}
+.btn-primary { background:var(--primary); color:white; }
+.btn-primary:hover { background:var(--primary-hover); box-shadow:0 0 20px var(--primary-glow); }
+.btn-primary:disabled { opacity:0.5; cursor:not-allowed; }
+.btn-ghost { background:transparent; color:var(--text-secondary); border-color:var(--border); }
+.btn-ghost:hover { background:var(--bg-card-hover); color:var(--text); }
+.btn-success { background:var(--success); color:white; }
+.btn-danger { background:var(--danger); color:white; }
+.btn-sm { padding:6px 12px; font-size:12px; }
+.btn-icon { padding:8px; border-radius:var(--radius-xs); }
+
+/* ── Inputs ── */
+textarea, input[type="text"], input[type="number"], select {
+  width:100%; padding:10px 14px; background:var(--bg-input); border:1px solid var(--border);
+  border-radius:var(--radius-sm); color:var(--text); font-family:inherit; font-size:13px;
+  transition:var(--transition); outline:none;
+}
+textarea:focus, input:focus, select:focus { border-color:var(--border-focus); box-shadow:0 0 0 3px var(--primary-glow); }
+textarea { resize:vertical; min-height:180px; line-height:1.7; }
+label { display:block; font-size:12px; font-weight:600; color:var(--text-secondary); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.5px; }
+
+/* ── Badges ── */
+.badge {
+  display:inline-flex; align-items:center; padding:3px 10px; border-radius:20px;
+  font-size:11px; font-weight:600; letter-spacing:0.3px;
+}
+.badge-primary { background:var(--primary-glow); color:var(--primary-hover); }
+.badge-success { background:var(--success-bg); color:var(--success); }
+.badge-warning { background:var(--warning-bg); color:var(--warning); }
+.badge-info { background:var(--info-bg); color:var(--info); }
+
+/* ── Grid ── */
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+
+/* ── Stats ── */
+.stat-card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+  padding:20px; transition:var(--transition);
+}
+.stat-card:hover { border-color:rgba(99,102,241,0.3); transform:translateY(-2px); }
+.stat-value { font-size:28px; font-weight:800; letter-spacing:-1px; margin-top:8px; }
+.stat-label { font-size:12px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; font-weight:600; }
+.stat-value.gradient { background:var(--accent-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+
+/* ── Summary Card ── */
+.summary-card {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+  overflow:hidden; transition:var(--transition); margin-bottom:16px;
+}
+.summary-card:hover { border-color:rgba(99,102,241,0.3); box-shadow:var(--shadow); }
+.summary-card-top {
+  padding:16px 20px; display:flex; align-items:flex-start; justify-content:space-between; gap:12px;
+  border-bottom:1px solid var(--border);
+}
+.summary-card-id { font-size:12px; color:var(--text-muted); font-weight:600; }
+.summary-card-date { font-size:11px; color:var(--text-muted); }
+.summary-card-body { padding:20px; }
+.summary-text { font-size:14px; line-height:1.8; color:var(--text); margin-bottom:16px; }
+.summary-section { margin-bottom:16px; }
+.summary-section-title {
+  font-size:11px; text-transform:uppercase; letter-spacing:1px; font-weight:700;
+  color:var(--text-muted); margin-bottom:8px; display:flex; align-items:center; gap:8px;
+}
+.summary-section-title .count { color:var(--primary-hover); }
+.point-list { list-style:none; display:flex; flex-direction:column; gap:6px; }
+.point-item {
+  display:flex; align-items:flex-start; gap:10px; font-size:13px; color:var(--text-secondary);
+  padding:8px 12px; background:var(--bg-input); border-radius:var(--radius-xs); line-height:1.5;
+}
+.point-bullet {
+  width:6px; height:6px; border-radius:50%; flex-shrink:0; margin-top:7px;
+}
+.point-bullet.key { background:var(--info); }
+.point-bullet.action { background:var(--success); }
+.summary-card-actions { padding:12px 20px; border-top:1px solid var(--border); display:flex; gap:8px; justify-content:flex-end; }
+
+/* ── Sample Picker ── */
+.sample-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; margin-top:12px; }
+.sample-item {
+  padding:14px; background:var(--bg-input); border:1px solid var(--border); border-radius:var(--radius-sm);
+  cursor:pointer; transition:var(--transition);
+}
+.sample-item:hover { border-color:var(--primary); background:var(--primary-glow); }
+.sample-item.selected { border-color:var(--primary); background:var(--primary-glow); }
+.sample-item h4 { font-size:13px; font-weight:600; margin-bottom:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.sample-item p { font-size:11px; color:var(--text-muted); }
+
+/* ── Tabs ── */
+.tabs { display:flex; gap:0; border-bottom:1px solid var(--border); margin-bottom:20px; }
+.tab {
+  padding:10px 20px; font-size:13px; font-weight:600; color:var(--text-muted);
+  cursor:pointer; border-bottom:2px solid transparent; transition:var(--transition);
+}
+.tab:hover { color:var(--text); }
+.tab.active { color:var(--primary-hover); border-bottom-color:var(--primary); }
+
+/* ── Loading ── */
+.loading-spinner {
+  display:inline-block; width:18px; height:18px; border:2px solid var(--border);
+  border-top-color:var(--primary); border-radius:50%; animation:spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform:rotate(360deg); } }
+.skeleton { background:linear-gradient(90deg,var(--bg-input) 25%,var(--border) 50%,var(--bg-input) 75%); background-size:200% 100%; animation:shimmer 1.5s infinite; border-radius:var(--radius-xs); height:16px; margin-bottom:8px; }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+/* ── Toast ── */
+.toast-container { position:fixed; top:20px; right:20px; z-index:9999; display:flex; flex-direction:column; gap:8px; }
+.toast {
+  padding:12px 20px; border-radius:var(--radius-sm); font-size:13px; font-weight:500;
+  box-shadow:var(--shadow-lg); animation:slideIn 0.3s ease; min-width:280px;
+  display:flex; align-items:center; gap:10px;
+}
+.toast.success { background:#065f46; color:#6ee7b7; border:1px solid #10b981; }
+.toast.error { background:#7f1d1d; color:#fca5a5; border:1px solid #ef4444; }
+.toast.info { background:#1e3a5f; color:#93c5fd; border:1px solid #3b82f6; }
+@keyframes slideIn { from{transform:translateX(100%);opacity:0} to{transform:translateX(0);opacity:1} }
+
+/* ── Modal ── */
+.modal-overlay {
+  position:fixed; inset:0; background:rgba(0,0,0,0.7); backdrop-filter:blur(4px);
+  z-index:1000; display:flex; align-items:center; justify-content:center;
+  opacity:0; pointer-events:none; transition:opacity 0.2s;
+}
+.modal-overlay.active { opacity:1; pointer-events:auto; }
+.modal {
+  background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+  width:90%; max-width:640px; max-height:85vh; overflow-y:auto; box-shadow:var(--shadow-lg);
+  transform:scale(0.95); transition:transform 0.2s;
+}
+.modal-overlay.active .modal { transform:scale(1); }
+.modal-header { padding:20px 24px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
+.modal-header h3 { font-size:16px; font-weight:700; }
+.modal-body { padding:24px; }
+.modal-footer { padding:16px 24px; border-top:1px solid var(--border); display:flex; justify-content:flex-end; gap:8px; }
+
+/* ── Transcript Preview ── */
+.transcript-preview {
+  max-height:300px; overflow-y:auto; padding:16px; background:var(--bg-input);
+  border:1px solid var(--border); border-radius:var(--radius-sm);
+  font-size:13px; line-height:1.8; color:var(--text-secondary); white-space:pre-wrap;
+}
+.transcript-preview .doctor { color:#818cf8; font-weight:600; }
+.transcript-preview .patient { color:#34d399; font-weight:600; }
+
+/* ── File Upload ── */
+.file-drop {
+  border:2px dashed var(--border); border-radius:var(--radius); padding:40px;
+  text-align:center; cursor:pointer; transition:var(--transition);
+}
+.file-drop:hover, .file-drop.dragover { border-color:var(--primary); background:var(--primary-glow); }
+.file-drop svg { width:40px; height:40px; color:var(--text-muted); margin-bottom:12px; }
+.file-drop p { font-size:13px; color:var(--text-muted); }
+.file-drop input { display:none; }
+
+/* ── Batch ── */
+.batch-progress { margin-top:16px; }
+.batch-item {
+  display:flex; align-items:center; gap:12px; padding:10px 14px;
+  border-bottom:1px solid var(--border); font-size:13px;
+}
+.batch-item:last-child { border-bottom:none; }
+.batch-item .name { flex:1; font-weight:500; }
+.batch-item .status { font-size:12px; font-weight:600; }
+.batch-item .status.pending { color:var(--text-muted); }
+.batch-item .status.processing { color:var(--warning); }
+.batch-item .status.done { color:var(--success); }
+.batch-item .status.error { color:var(--danger); }
+.progress-bar { height:4px; background:var(--border); border-radius:2px; overflow:hidden; margin-top:12px; }
+.progress-bar-fill { height:100%; background:var(--accent-gradient); transition:width 0.3s; border-radius:2px; }
+
+/* ── Empty State ── */
+.empty-state { text-align:center; padding:60px 20px; }
+.empty-state svg { width:48px; height:48px; color:var(--text-muted); margin-bottom:16px; }
+.empty-state h3 { font-size:16px; font-weight:600; margin-bottom:6px; }
+.empty-state p { font-size:13px; color:var(--text-muted); max-width:400px; margin:0 auto; }
+
+/* ── Animations ── */
+.fade-in { animation:fadeIn 0.3s ease; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+/* ── Responsive ── */
+@media(max-width:768px) {
+  .sidebar { display:none; }
+  .main { margin-left:0; }
+  .page-content { padding:16px; }
+  .grid-2, .grid-3 { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <h1>MedTranscript AI</h1>
+      <p>Transcript Summarizer</p>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">Main</div>
+      <div class="nav-item active" data-page="dashboard" onclick="navigate('dashboard')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        Dashboard
+      </div>
+      <div class="nav-item" data-page="generate" onclick="navigate('generate')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        Generate Summary
+      </div>
+      <div class="nav-item" data-page="history" onclick="navigate('history')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        History
+      </div>
+      <div class="nav-section">Tools</div>
+      <div class="nav-item" data-page="batch" onclick="navigate('batch')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+        Batch Process
+      </div>
+      <div class="nav-item" data-page="samples" onclick="navigate('samples')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Sample Library
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="api-status"><span class="status-dot" id="apiDot"></span><span id="apiStatusText">API Connected</span></div>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- ─── Dashboard ─── -->
+    <div id="page-dashboard" class="page">
+      <div class="page-header">
+        <h2>Dashboard</h2>
+        <p>Overview of your transcript summaries</p>
+      </div>
+      <div class="page-content">
+        <div class="grid-3" id="statsGrid">
+          <div class="stat-card">
+            <div class="stat-label">Total Summaries</div>
+            <div class="stat-value gradient" id="statTotal">-</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Avg Key Points</div>
+            <div class="stat-value" id="statKeyPoints" style="color:var(--info)">-</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Avg Action Items</div>
+            <div class="stat-value" id="statActions" style="color:var(--success)">-</div>
+          </div>
+        </div>
+        <div style="margin-top:24px;">
+          <h3 style="font-size:15px;font-weight:600;margin-bottom:16px;">Recent Summaries</h3>
+          <div id="recentSummaries"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── Generate ─── -->
+    <div id="page-generate" class="page" style="display:none;">
+      <div class="page-header">
+        <h2>Generate Summary</h2>
+        <p>Create a new AI-powered transcript summary</p>
+      </div>
+      <div class="page-content">
+        <div class="tabs">
+          <div class="tab active" onclick="switchGenTab('text',this)">Text Input</div>
+          <div class="tab" onclick="switchGenTab('file',this)">File Upload</div>
+          <div class="tab" onclick="switchGenTab('sample',this)">From Sample</div>
+        </div>
+
+        <!-- Text Input -->
+        <div id="genTab-text">
+          <div style="margin-bottom:16px;">
+            <label>Transcript Text</label>
+            <textarea id="inputText" placeholder="Paste your doctor-patient transcript here..."></textarea>
+            <div style="display:flex;justify-content:space-between;margin-top:6px;">
+              <span style="font-size:11px;color:var(--text-muted);" id="charCount">0 / 50,000 characters</span>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btnGenerate" onclick="generateFromText()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+            Generate Summary
+          </button>
+        </div>
+
+        <!-- File Upload -->
+        <div id="genTab-file" style="display:none;">
+          <div class="file-drop" id="fileDrop" onclick="document.getElementById('fileInput').click()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <p><strong>Click to upload</strong> or drag and drop</p>
+            <p style="font-size:11px;margin-top:4px;">.txt files only, max 500KB</p>
+            <input type="file" id="fileInput" accept=".txt" onchange="handleFileSelect(event)">
+          </div>
+          <div id="fileInfo" style="display:none;margin-top:12px;"></div>
+          <button class="btn btn-primary" id="btnUpload" style="margin-top:16px;display:none;" onclick="generateFromFile()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+            Generate Summary
+          </button>
+        </div>
+
+        <!-- From Sample -->
+        <div id="genTab-sample" style="display:none;">
+          <p style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">Select a sample transcript to summarize:</p>
+          <div id="samplePicker" class="sample-grid"></div>
+          <div id="samplePreview" style="display:none;margin-top:16px;">
+            <label>Preview</label>
+            <div class="transcript-preview" id="samplePreviewText"></div>
+            <button class="btn btn-primary" style="margin-top:16px;" onclick="generateFromSample()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+              Generate Summary
+            </button>
+          </div>
+        </div>
+
+        <!-- Result -->
+        <div id="generateResult" style="display:none;margin-top:24px;"></div>
+      </div>
+    </div>
+
+    <!-- ─── History ─── -->
+    <div id="page-history" class="page" style="display:none;">
+      <div class="page-header">
+        <h2>History</h2>
+        <p>Browse and manage all generated summaries</p>
+      </div>
+      <div class="page-content">
+        <div style="display:flex;gap:12px;margin-bottom:20px;align-items:center;">
+          <input type="text" id="searchHistory" placeholder="Search summaries..." style="max-width:300px;" oninput="filterHistory()">
+          <button class="btn btn-ghost btn-sm" onclick="loadHistory()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
+            Refresh
+          </button>
+          <span style="font-size:12px;color:var(--text-muted);margin-left:auto;" id="historyCount"></span>
+        </div>
+        <div id="historyList"></div>
+        <div id="historyPagination" style="display:flex;gap:8px;justify-content:center;margin-top:20px;"></div>
+      </div>
+    </div>
+
+    <!-- ─── Batch ─── -->
+    <div id="page-batch" class="page" style="display:none;">
+      <div class="page-header">
+        <h2>Batch Process</h2>
+        <p>Process multiple sample transcripts concurrently</p>
+      </div>
+      <div class="page-content">
+        <div class="card">
+          <div class="card-header">
+            <h3>Select Samples</h3>
+            <div style="display:flex;gap:8px;">
+              <button class="btn btn-ghost btn-sm" onclick="selectAllBatch()">Select All</button>
+              <button class="btn btn-ghost btn-sm" onclick="clearBatch()">Clear</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div id="batchSampleGrid" class="sample-grid"></div>
+          </div>
+        </div>
+        <div style="margin-top:16px;display:flex;align-items:center;gap:12px;">
+          <button class="btn btn-primary" id="btnBatch" onclick="runBatch()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Run Batch (<span id="batchCount">0</span> selected)
+          </button>
+          <span id="batchStatus" style="font-size:13px;color:var(--text-muted);"></span>
+        </div>
+        <div id="batchProgress" style="display:none;margin-top:20px;">
+          <div class="card">
+            <div class="card-header"><h3>Progress</h3><span id="batchProgressText" style="font-size:12px;color:var(--text-muted);"></span></div>
+            <div style="padding:0 20px 4px;">
+              <div class="progress-bar"><div class="progress-bar-fill" id="batchProgressBar" style="width:0%"></div></div>
+            </div>
+            <div id="batchItems"></div>
+          </div>
+        </div>
+        <div id="batchResults" style="margin-top:20px;"></div>
+      </div>
+    </div>
+
+    <!-- ─── Samples ─── -->
+    <div id="page-samples" class="page" style="display:none;">
+      <div class="page-header">
+        <h2>Sample Library</h2>
+        <p>Browse generated medical transcripts</p>
+      </div>
+      <div class="page-content">
+        <div id="samplesLibrary"></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal-overlay" id="editModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3>Edit Summary #<span id="editId"></span></h3>
+      <button class="btn btn-icon btn-ghost" onclick="closeModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div style="margin-bottom:16px;">
+        <label>Summary</label>
+        <textarea id="editSummary" style="min-height:100px;"></textarea>
+      </div>
+      <div style="margin-bottom:16px;">
+        <label>Key Points (one per line)</label>
+        <textarea id="editKeyPoints" style="min-height:100px;"></textarea>
+      </div>
+      <div>
+        <label>Action Items (one per line)</label>
+        <textarea id="editActionItems" style="min-height:100px;"></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="saveEdit()">Save Changes</button>
+    </div>
+  </div>
+</div>
+
+<!-- View Modal -->
+<div class="modal-overlay" id="viewModal">
+  <div class="modal" style="max-width:720px;">
+    <div class="modal-header">
+      <h3 id="viewTitle">Summary Details</h3>
+      <button class="btn btn-icon btn-ghost" onclick="closeViewModal()">&times;</button>
+    </div>
+    <div class="modal-body" id="viewBody"></div>
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toasts"></div>
+
+<script>
+const API = '';
+let samples = [];
+let allSummaries = [];
+let historyPage = 0;
+const PAGE_SIZE = 20;
+let selectedSample = null;
+let batchSelected = new Set();
+let selectedFile = null;
+
+// ── Navigation ──
+function navigate(page) {
+  document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById(`page-${page}`).style.display = 'block';
+  document.querySelector(`.nav-item[data-page="${page}"]`).classList.add('active');
+  if (page === 'dashboard') loadDashboard();
+  if (page === 'history') loadHistory();
+  if (page === 'samples') renderSamplesLibrary();
+  if (page === 'batch') renderBatchGrid();
+  if (page === 'generate') renderSamplePicker();
+}
+
+// ── Toast ──
+function toast(msg, type='info') {
+  const t = document.createElement('div');
+  t.className = `toast ${type}`;
+  const icons = { success:'&#10003;', error:'&#10007;', info:'&#9432;' };
+  t.innerHTML = `<span>${icons[type]||''}</span><span>${msg}</span>`;
+  document.getElementById('toasts').appendChild(t);
+  setTimeout(() => { t.style.opacity='0'; setTimeout(() => t.remove(), 300); }, 3500);
+}
+
+// ── API Helpers ──
+async function api(path, opts={}) {
+  try {
+    const res = await fetch(`${API}${path}`, {
+      headers: { 'Content-Type': 'application/json', ...opts.headers },
+      ...opts,
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || `HTTP ${res.status}`);
+    }
+    return res.json();
+  } catch(e) {
+    if (e.message.includes('Failed to fetch')) throw new Error('API is not reachable');
+    throw e;
+  }
+}
+
+async function checkApi() {
+  try {
+    await fetch(`${API}/summaries/?limit=1`);
+    document.getElementById('apiDot').style.background = 'var(--success)';
+    document.getElementById('apiStatusText').textContent = 'API Connected';
+  } catch {
+    document.getElementById('apiDot').style.background = 'var(--danger)';
+    document.getElementById('apiStatusText').textContent = 'API Offline';
+  }
+}
+
+// ── Load Samples ──
+async function loadSamples() {
+  try { samples = await api('/samples'); } catch { samples = []; }
+}
+
+// ── Dashboard ──
+async function loadDashboard() {
+  try {
+    allSummaries = await api('/summaries/?skip=0&limit=100');
+    const total = allSummaries.length;
+    document.getElementById('statTotal').textContent = total;
+    if (total > 0) {
+      const avgKP = (allSummaries.reduce((s,x) => s + x.key_points.length, 0) / total).toFixed(1);
+      const avgAI = (allSummaries.reduce((s,x) => s + x.action_items.length, 0) / total).toFixed(1);
+      document.getElementById('statKeyPoints').textContent = avgKP;
+      document.getElementById('statActions').textContent = avgAI;
+    }
+    renderRecentSummaries(allSummaries.slice(0, 5));
+  } catch(e) {
+    document.getElementById('recentSummaries').innerHTML = emptyState('Could not load data', e.message);
+  }
+}
+
+function renderRecentSummaries(items) {
+  const el = document.getElementById('recentSummaries');
+  if (!items.length) { el.innerHTML = emptyState('No summaries yet', 'Generate your first summary to get started.'); return; }
+  el.innerHTML = items.map(s => summaryCard(s)).join('');
+}
+
+// ── Summary Card HTML ──
+function summaryCard(s) {
+  const date = new Date(s.created_at).toLocaleString();
+  return `
+  <div class="summary-card fade-in">
+    <div class="summary-card-top">
+      <div>
+        <span class="summary-card-id">#${s.id}</span>
+        <span class="summary-card-date" style="margin-left:12px;">${date}</span>
+      </div>
+      <div style="display:flex;gap:4px;">
+        <span class="badge badge-info">${s.key_points.length} key points</span>
+        <span class="badge badge-success">${s.action_items.length} actions</span>
+      </div>
+    </div>
+    <div class="summary-card-body">
+      <div class="summary-text">${escHtml(s.summary)}</div>
+      <div class="grid-2">
+        <div class="summary-section">
+          <div class="summary-section-title"><span class="count">${s.key_points.length}</span> Key Points</div>
+          <ul class="point-list">${s.key_points.map(p => `<li class="point-item"><span class="point-bullet key"></span>${escHtml(p)}</li>`).join('')}</ul>
+        </div>
+        <div class="summary-section">
+          <div class="summary-section-title"><span class="count">${s.action_items.length}</span> Action Items</div>
+          <ul class="point-list">${s.action_items.map(p => `<li class="point-item"><span class="point-bullet action"></span>${escHtml(p)}</li>`).join('')}</ul>
+        </div>
+      </div>
+    </div>
+    <div class="summary-card-actions">
+      <button class="btn btn-ghost btn-sm" onclick="viewTranscript(${s.id})">View Transcript</button>
+      <button class="btn btn-ghost btn-sm" onclick="openEdit(${s.id})">Edit</button>
+    </div>
+  </div>`;
+}
+
+// ── Generate ──
+function switchGenTab(tab, el) {
+  ['text','file','sample'].forEach(t => { document.getElementById(`genTab-${t}`).style.display = t===tab?'block':'none'; });
+  el.parentElement.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+}
+
+document.getElementById('inputText').addEventListener('input', function() {
+  document.getElementById('charCount').textContent = `${this.value.length.toLocaleString()} / 50,000 characters`;
+});
+
+async function generateFromText() {
+  const text = document.getElementById('inputText').value.trim();
+  if (!text) { toast('Please enter some text', 'error'); return; }
+  await doGenerate(text);
+}
+
+async function doGenerate(text) {
+  const btn = document.getElementById('btnGenerate');
+  const resultDiv = document.getElementById('generateResult');
+  resultDiv.style.display = 'block';
+  resultDiv.innerHTML = `<div class="card"><div class="card-body" style="text-align:center;padding:40px;"><div class="loading-spinner"></div><p style="margin-top:12px;font-size:13px;color:var(--text-muted);">Generating summary with AI...</p></div></div>`;
+  try {
+    const data = await api('/summaries/text', { method:'POST', body: JSON.stringify({text}) });
+    resultDiv.innerHTML = summaryCard(data);
+    toast('Summary generated successfully!', 'success');
+  } catch(e) {
+    resultDiv.innerHTML = `<div class="card"><div class="card-body" style="color:var(--danger);">Error: ${escHtml(e.message)}</div></div>`;
+    toast(e.message, 'error');
+  }
+}
+
+// File upload
+const fileDrop = document.getElementById('fileDrop');
+fileDrop.addEventListener('dragover', e => { e.preventDefault(); fileDrop.classList.add('dragover'); });
+fileDrop.addEventListener('dragleave', () => fileDrop.classList.remove('dragover'));
+fileDrop.addEventListener('drop', e => { e.preventDefault(); fileDrop.classList.remove('dragover'); if(e.dataTransfer.files[0]) processFile(e.dataTransfer.files[0]); });
+
+function handleFileSelect(e) { if(e.target.files[0]) processFile(e.target.files[0]); }
+function processFile(file) {
+  if (!file.name.endsWith('.txt')) { toast('Only .txt files', 'error'); return; }
+  if (file.size > 500000) { toast('File too large (max 500KB)', 'error'); return; }
+  selectedFile = file;
+  document.getElementById('fileInfo').style.display = 'block';
+  document.getElementById('fileInfo').innerHTML = `<div class="badge badge-info">${escHtml(file.name)} (${(file.size/1024).toFixed(1)} KB)</div>`;
+  document.getElementById('btnUpload').style.display = 'inline-flex';
+}
+
+async function generateFromFile() {
+  if (!selectedFile) return;
+  const resultDiv = document.getElementById('generateResult');
+  resultDiv.style.display = 'block';
+  resultDiv.innerHTML = `<div class="card"><div class="card-body" style="text-align:center;padding:40px;"><div class="loading-spinner"></div><p style="margin-top:12px;font-size:13px;color:var(--text-muted);">Uploading and generating...</p></div></div>`;
+  try {
+    const form = new FormData();
+    form.append('file', selectedFile);
+    const res = await fetch(`${API}/summaries/file`, { method:'POST', body: form });
+    if (!res.ok) { const e = await res.json(); throw new Error(e.detail || 'Upload failed'); }
+    const data = await res.json();
+    resultDiv.innerHTML = summaryCard(data);
+    toast('Summary generated from file!', 'success');
+  } catch(e) {
+    resultDiv.innerHTML = `<div class="card"><div class="card-body" style="color:var(--danger);">Error: ${escHtml(e.message)}</div></div>`;
+    toast(e.message, 'error');
+  }
+}
+
+// Sample picker
+function renderSamplePicker() {
+  const grid = document.getElementById('samplePicker');
+  if (!samples.length) { grid.innerHTML = '<p style="color:var(--text-muted);font-size:13px;">No samples available. Generate transcripts first.</p>'; return; }
+  grid.innerHTML = samples.map((s,i) => `
+    <div class="sample-item ${selectedSample===i?'selected':''}" onclick="pickSample(${i})">
+      <h4>${escHtml(s.case)}</h4>
+      <p>${escHtml(s.specialty)} &middot; ${s.word_count} words</p>
+    </div>
+  `).join('');
+}
+
+function pickSample(i) {
+  selectedSample = i;
+  renderSamplePicker();
+  const s = samples[i];
+  document.getElementById('samplePreview').style.display = 'block';
+  document.getElementById('samplePreviewText').innerHTML = highlightTranscript(s.transcript.substring(0, 1500) + (s.transcript.length > 1500 ? '\n...' : ''));
+}
+
+async function generateFromSample() {
+  if (selectedSample === null) return;
+  await doGenerate(samples[selectedSample].transcript);
+}
+
+function highlightTranscript(text) {
+  return escHtml(text)
+    .replace(/(Doctor:)/g, '<span class="doctor">$1</span>')
+    .replace(/(Patient:)/g, '<span class="patient">$1</span>');
+}
+
+// ── History ──
+async function loadHistory() {
+  const el = document.getElementById('historyList');
+  el.innerHTML = '<div style="padding:20px;text-align:center;"><div class="loading-spinner"></div></div>';
+  try {
+    allSummaries = await api(`/summaries/?skip=${historyPage * PAGE_SIZE}&limit=${PAGE_SIZE}`);
+    document.getElementById('historyCount').textContent = `Showing ${allSummaries.length} summaries`;
+    if (!allSummaries.length) { el.innerHTML = emptyState('No summaries found', 'Generate some summaries first.'); return; }
+    el.innerHTML = allSummaries.map(s => summaryCard(s)).join('');
+    renderPagination();
+  } catch(e) {
+    el.innerHTML = emptyState('Error loading history', e.message);
+  }
+}
+
+function renderPagination() {
+  const el = document.getElementById('historyPagination');
+  el.innerHTML = `
+    <button class="btn btn-ghost btn-sm" ${historyPage===0?'disabled':''} onclick="historyPage--;loadHistory();">&laquo; Previous</button>
+    <span style="padding:8px 12px;font-size:13px;color:var(--text-muted);">Page ${historyPage+1}</span>
+    <button class="btn btn-ghost btn-sm" ${allSummaries.length<PAGE_SIZE?'disabled':''} onclick="historyPage++;loadHistory();">Next &raquo;</button>
+  `;
+}
+
+function filterHistory() {
+  const q = document.getElementById('searchHistory').value.toLowerCase();
+  document.querySelectorAll('#historyList .summary-card').forEach(card => {
+    card.style.display = card.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+}
+
+// ── Edit ──
+let editingId = null;
+async function openEdit(id) {
+  try {
+    const s = await api(`/summaries/${id}`);
+    editingId = id;
+    document.getElementById('editId').textContent = id;
+    document.getElementById('editSummary').value = s.summary;
+    document.getElementById('editKeyPoints').value = s.key_points.join('\n');
+    document.getElementById('editActionItems').value = s.action_items.join('\n');
+    document.getElementById('editModal').classList.add('active');
+  } catch(e) { toast(e.message, 'error'); }
+}
+
+function closeModal() { document.getElementById('editModal').classList.remove('active'); editingId = null; }
+
+async function saveEdit() {
+  if (!editingId) return;
+  const body = {
+    summary: document.getElementById('editSummary').value,
+    key_points: document.getElementById('editKeyPoints').value.split('\n').filter(l => l.trim()),
+    action_items: document.getElementById('editActionItems').value.split('\n').filter(l => l.trim()),
+  };
+  try {
+    await api(`/summaries/${editingId}`, { method:'PATCH', body: JSON.stringify(body) });
+    toast('Summary updated!', 'success');
+    closeModal();
+    const currentPage = document.querySelector('.nav-item.active')?.dataset.page;
+    if (currentPage === 'history') loadHistory();
+    if (currentPage === 'dashboard') loadDashboard();
+  } catch(e) { toast(e.message, 'error'); }
+}
+
+// ── View Transcript ──
+async function viewTranscript(id) {
+  try {
+    const s = await api(`/summaries/${id}`);
+    document.getElementById('viewTitle').textContent = `Summary #${id} — Original Transcript`;
+    document.getElementById('viewBody').innerHTML = `<div class="transcript-preview" style="max-height:60vh;">${highlightTranscript(s.original_text)}</div>`;
+    document.getElementById('viewModal').classList.add('active');
+  } catch(e) { toast(e.message, 'error'); }
+}
+function closeViewModal() { document.getElementById('viewModal').classList.remove('active'); }
+
+// ── Batch ──
+function renderBatchGrid() {
+  const grid = document.getElementById('batchSampleGrid');
+  if (!samples.length) { grid.innerHTML = '<p style="color:var(--text-muted);font-size:13px;">No samples available.</p>'; return; }
+  grid.innerHTML = samples.map((s,i) => `
+    <div class="sample-item ${batchSelected.has(i)?'selected':''}" onclick="toggleBatch(${i})">
+      <h4>${escHtml(s.case)}</h4>
+      <p>${escHtml(s.specialty)} &middot; ${s.word_count} words</p>
+    </div>
+  `).join('');
+  document.getElementById('batchCount').textContent = batchSelected.size;
+}
+
+function toggleBatch(i) { batchSelected.has(i) ? batchSelected.delete(i) : batchSelected.add(i); renderBatchGrid(); }
+function selectAllBatch() { samples.forEach((_,i) => batchSelected.add(i)); renderBatchGrid(); }
+function clearBatch() { batchSelected.clear(); renderBatchGrid(); }
+
+async function runBatch() {
+  if (!batchSelected.size) { toast('Select at least one sample', 'error'); return; }
+  const items = [...batchSelected].map(i => samples[i]);
+  const progressDiv = document.getElementById('batchProgress');
+  const itemsDiv = document.getElementById('batchItems');
+  const resultsDiv = document.getElementById('batchResults');
+  progressDiv.style.display = 'block';
+  resultsDiv.innerHTML = '';
+  document.getElementById('btnBatch').disabled = true;
+
+  itemsDiv.innerHTML = items.map((s,i) => `
+    <div class="batch-item" id="batch-item-${i}">
+      <span class="name">${escHtml(s.case)}</span>
+      <span class="status pending" id="batch-status-${i}">Pending</span>
+    </div>
+  `).join('');
+
+  let done = 0;
+  const total = items.length;
+  const results = [];
+  const startTime = Date.now();
+
+  const update = () => {
+    const pct = Math.round((done/total)*100);
+    document.getElementById('batchProgressBar').style.width = `${pct}%`;
+    const elapsed = ((Date.now()-startTime)/1000).toFixed(1);
+    document.getElementById('batchProgressText').textContent = `${done}/${total} done (${elapsed}s)`;
+    document.getElementById('batchStatus').textContent = done < total ? 'Processing...' : 'Complete!';
+  };
+
+  // Fire all concurrently
+  const promises = items.map(async (s, i) => {
+    document.getElementById(`batch-status-${i}`).textContent = 'Processing...';
+    document.getElementById(`batch-status-${i}`).className = 'status processing';
+    try {
+      const data = await api('/summaries/text', { method:'POST', body: JSON.stringify({ text: s.transcript }) });
+      document.getElementById(`batch-status-${i}`).textContent = 'Done';
+      document.getElementById(`batch-status-${i}`).className = 'status done';
+      results.push(data);
+    } catch(e) {
+      document.getElementById(`batch-status-${i}`).textContent = 'Error';
+      document.getElementById(`batch-status-${i}`).className = 'status error';
+    }
+    done++;
+    update();
+  });
+
+  update();
+  await Promise.all(promises);
+
+  // Show results
+  if (results.length) {
+    resultsDiv.innerHTML = '<h3 style="font-size:15px;font-weight:600;margin-bottom:16px;">Batch Results</h3>' +
+      results.map(s => summaryCard(s)).join('');
+  }
+  document.getElementById('btnBatch').disabled = false;
+  toast(`Batch complete: ${results.length}/${total} succeeded`, results.length === total ? 'success' : 'warning');
+}
+
+// ── Samples Library ──
+function renderSamplesLibrary() {
+  const el = document.getElementById('samplesLibrary');
+  if (!samples.length) { el.innerHTML = emptyState('No samples available', 'Run generate_transcripts.py to create samples.'); return; }
+  el.innerHTML = samples.map((s,i) => `
+    <div class="card fade-in" style="margin-bottom:16px;">
+      <div class="card-header">
+        <div>
+          <h3>${escHtml(s.case)}</h3>
+          <span style="font-size:12px;color:var(--text-muted);">${escHtml(s.specialty)} &middot; ${s.word_count} words</span>
+        </div>
+        <div style="display:flex;gap:8px;">
+          <button class="btn btn-ghost btn-sm" onclick="toggleLibPreview(${i})">Preview</button>
+          <button class="btn btn-primary btn-sm" onclick="quickSummarize(${i})">Summarize</button>
+        </div>
+      </div>
+      <div id="lib-preview-${i}" style="display:none;" class="card-body">
+        <div class="transcript-preview">${highlightTranscript(s.transcript)}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleLibPreview(i) {
+  const el = document.getElementById(`lib-preview-${i}`);
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+async function quickSummarize(i) {
+  navigate('generate');
+  switchGenTab('text', document.querySelector('.tab'));
+  document.getElementById('inputText').value = samples[i].transcript;
+  document.getElementById('charCount').textContent = `${samples[i].transcript.length.toLocaleString()} / 50,000 characters`;
+  toast(`Loaded "${samples[i].case}" — click Generate to summarize`, 'info');
+}
+
+// ── Utilities ──
+function escHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+function emptyState(title, desc) {
+  return `<div class="empty-state">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+    <h3>${title}</h3><p>${desc}</p>
+  </div>`;
+}
+
+// Close modals on overlay click
+document.getElementById('editModal').addEventListener('click', e => { if(e.target === e.currentTarget) closeModal(); });
+document.getElementById('viewModal').addEventListener('click', e => { if(e.target === e.currentTarget) closeViewModal(); });
+
+// ── Init ──
+(async function init() {
+  await checkApi();
+  await loadSamples();
+  loadDashboard();
+})();
+</script>
+</body>
+</html>

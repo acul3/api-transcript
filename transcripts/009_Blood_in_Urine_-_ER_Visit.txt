@@ -1,0 +1,71 @@
+Case: Blood in Urine - ER Visit
+Specialty: Emergency Room Reports
+Description: Patient has prostate cancer with metastatic disease to his bladder.  The patient has had problems with hematuria in the past.  The patient was encouraged to drink extra water and was given discharge instructions on hematuria.
+Word Count: 691
+============================================================
+
+Doctor: Hi Mr. Thompson, this is Dr. Lee calling from the outpatient clinic. How are you doing today?
+
+Patient: Uh, hi, Doctor. I’m, um, okay, I guess. Just been a bit worried about the blood in my urine.
+
+Doctor: I understand that, and it’s completely normal to feel worried about that. So, just to recap for you, we did some tests during your ER visit. The nurse mentioned you had significant hematuria, which means blood in your urine, right?
+
+Patient: Yeah, it started yesterday, and it’s mostly just blood. I really—I mean, it's been pretty alarming.
+
+Doctor: I can imagine. You also mentioned that you’re passing very little urine along with that, correct?
+
+Patient: Exactly, it feels like I’m just... seeing blood. No pain or anything, but it’s just concerning.
+
+Doctor: Right, I see. Your lab results showed that you have a hemoglobin level of 7.7 and hematocrit of 22.6, which is quite low. This suggests you may need to monitor your blood levels closely. Have you noticed any other symptoms like weakness or fatigue?
+
+Patient: Yeah, actually I’ve felt quite tired the last few days. Just, um, lack of energy, you know?
+
+Doctor: Yes, and you also have a history of prostate cancer with metastatic disease, particularly to the bladder. It’s crucial we keep an eye on how that might be affecting things. 
+
+Patient: Right, I've had this cancer for a while now, and I’m in radiation therapy. The doctors said it’s just for comfort. 
+
+Doctor: That’s correct. Your treatment is focused on symptom management. Now, given your current situation, we want to make sure that you stay hydrated. I recommend drinking more fluids, especially water, to help flush things out.
+
+Patient: I’ve been drinking some water, but not enough, I guess.
+
+Doctor: That’s understandable. You’re also taking medications like morphine and Flomax, right? Just a reminder that morphine can sometimes contribute to urinary retention, so make sure to stay on top of that.
+
+Patient: Yeah, I’m on morphine for my back pain, which, by the way, hasn’t changed. Just really tired of feeling this way.
+
+Doctor: I hear you. We also need to keep your pain management under control. You might want to switch from ibuprofen to acetaminophen, as ibuprofen can sometimes affect kidney function, especially with your current blood situation.
+
+Patient: Oh, okay, didn’t realize that. So, switch to acetaminophen instead?
+
+Doctor: Yes, exactly—just take it as needed, preferably not exceeding 1000 mg every six hours. And I’ll also send a prescription for Levaquin to prevent any potential infections since your urinalysis showed a high protein level and white cells.
+
+Patient: How do I take that?
+
+Doctor: It’s 500 mg once daily for seven days. You can pick it up tomorrow from your pharmacy. You’re doing well in managing your medications, but be sure to keep track of your symptoms.
+
+Patient: Got it. Anything else I should be watching for?
+
+Doctor: Yes, please monitor your blood pressure every morning. Also, if you experience any chest pain, shortness of breath, or a drastic change in your urine output, go to the ER immediately.
+
+Patient: Yeah, I’ll definitely pay attention to that. How about lab work? I remember you mentioned I might need more tests.
+
+Doctor: Yes, we should get some blood work done again in about a week, just to keep an eye on your hemoglobin and overall kidney function. How does next Tuesday sound?
+
+Patient: Sounds good. I’ll put that on my calendar.
+
+Doctor: Great! Now, let’s schedule a follow-up appointment for two weeks from now to discuss everything and how you’re feeling. 
+
+Patient: Okay, I’d like that. Thank you.
+
+Doctor: Of course! So just to recap, switch to acetaminophen, stay hydrated, monitor your symptoms, and we’ll get blood work done next week and see you in two weeks. 
+
+Patient: Yeah, I will. I appreciate it, Doctor. It helps talking about it.
+
+Doctor: I'm glad to hear that. You’re doing everything right. Don’t hesitate to call if you have any more questions before our next appointment.
+
+Patient: I will. Thank you so much again.
+
+Doctor: You’re welcome, Mr. Thompson. Take care and speak soon!
+
+Patient: Bye! 
+
+Doctor: Bye!

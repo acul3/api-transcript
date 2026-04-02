@@ -1,0 +1,79 @@
+Case: Vertebroplasty
+Specialty: Surgery
+Description: Unilateral transpedicular T11 vertebroplasty.
+Word Count: 727
+============================================================
+
+Doctor: Good afternoon, is this Mr. Johnson?
+
+Patient: Yes, that’s me. Hi, Doctor. 
+
+Doctor: Hi there! How are you feeling today after your surgery?
+
+Patient: Um, I’m a bit anxious to be honest. I’m still trying to wrap my head around everything that happened.
+
+Doctor: That’s completely understandable! You had the unilateral transpedicular T11 vertebroplasty for your compression fracture, right?
+
+Patient: Right, right. I remember you saying something about the T11. But, um, what exactly does that mean for my pain? 
+
+Doctor: So, the procedure was aimed at addressing that T11 compression fracture you had. The intractable pain you were experiencing should hopefully decrease. You mentioned it had been pretty severe for the last few months, correct?
+
+Patient: Yeah, it was really bad, especially when I tried to move or even just sit up. 
+
+Doctor: That sounds really tough. The operation went well; we didn’t encounter any complications. We injected about 1.2 cc of polymethylmethacrylate cement into the vertebra to stabilize it, which should help a lot with pain relief.
+
+Patient: Oh, so that cement is what keeps everything in place?
+
+Doctor: Exactly. It hardens in the vertebral body, supporting it and preventing further collapse. I did want to check in about how you’re feeling post-op. Any pain or discomfort you’d like to discuss?
+
+Patient: It’s hard to tell right now. I still feel some soreness where you operated, but I’m not sure if that’s normal.
+
+Doctor: A little soreness is definitely normal after surgery. Just keep an eye on it. If the pain becomes sharp or unbearable, or if you notice any new symptoms—like numbness or weakness—please contact me immediately.
+
+Patient: Okay, I can do that. Um, when can I start taking my regular pain meds again? 
+
+Doctor: I recommend switching from ibuprofen, which you might have been using, to acetaminophen for now since it’s gentler on the stomach post-surgery. You can take 500 mg every six hours as needed.
+
+Patient: Got it, acetaminophen, 500 mg every six hours. 
+
+Doctor: Yes, and make sure to take it with food to help your stomach. How’s your appetite been?
+
+Patient: Uh, it’s been a bit off, but I’m trying to eat small meals. 
+
+Doctor: That’s good to hear. Keeping your meals lighter can help. Also, try to keep your sodium intake under 2000 mg a day. It can really help with your overall recovery and keep any swelling down.
+
+Patient: Oh, you mean like not using too much salt? 
+
+Doctor: Exactly! And make sure you’re drinking plenty of fluids as well. Hydration is key. And speaking of lifestyle, how’s your activity level been? 
+
+Patient: Honestly, not great. I’ve kind of been sitting around a lot since the pain started. 
+
+Doctor: Understandable. But once you’re feeling better, I recommend light walking. It’ll help with circulation and healing, but let’s wait until your follow-up before you start any exercise routine.
+
+Patient: Okay. When is that follow-up again? 
+
+Doctor: Let’s plan for two weeks from now. I’ll have my assistant get in touch with you to schedule it. 
+
+Patient: Sounds good. And, um, will I need any more tests or lab work done before that?
+
+Doctor: Yes, I’d like you to get some blood work done before your appointment. It’s just to check your general health and ensure your kidney function is good, especially since we’re discussing pain medications. 
+
+Patient: Alright, I’ll make sure to do that. 
+
+Doctor: Great! And remember to monitor your pain levels daily. If there’s any significant change, or if you experience chest pain or shortness of breath, please head to the ER immediately.
+
+Patient: I will. It’s just a lot to take in right now, you know?
+
+Doctor: It can definitely feel overwhelming. Just take it one step at a time. I’ll send over your prescriptions to your pharmacy today, so you can pick them up tomorrow.
+
+Patient: Thank you. I appreciate that.
+
+Doctor: Of course! So just to recap: you’ll take acetaminophen 500 mg every six hours, keep your sodium intake low, hydrate well, and schedule your blood work before your follow-up in two weeks, plus monitor your symptoms closely.
+
+Patient: That sounds good. Thank you for calling and explaining everything, Doctor. 
+
+Doctor: You’re very welcome, Mr. Johnson. I’m here to help. If you have any other questions, don’t hesitate to reach out. 
+
+Patient: I will. Have a good day!
+
+Doctor: You too! Take care!
