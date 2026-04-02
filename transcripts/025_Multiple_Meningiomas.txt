@@ -1,0 +1,125 @@
+Case: Multiple Meningiomas
+Specialty: Neurology
+Description: Patient with stable expressive aphasia and decreased vision.
+Word Count: 1687
+============================================================
+
+Doctor: Hello, may I speak with Mrs. Thompson?
+
+Patient: Speaking. Hi, doctor—can you hear me okay?
+
+Doctor: Yes, I can hear you fine. This is Dr. Patel from neurology. I’m calling to check in on your stable expressive aphasia and the decreased vision you’ve been dealing with, and to go over how things have been going.
+
+Patient: Oh, hi. Yes, I’m here. Sorry, I was just sitting by the window and the phone was a little fuzzy for a second.
+
+Doctor: No problem at all. How have you been feeling lately? Any change in the speech, headaches, vision, or seizures?
+
+Patient: Um, the speech is about the same. I still know what I want to say, but the words get stuck sometimes. It’s frustrating. The vision is still poor on the left side mostly. No new seizures, thank goodness. I have had a few headaches, but not like before.
+
+Doctor: Okay. When you say headaches, are these the same left occipital and neck headaches you’ve had in the past, or something new?
+
+Patient: Pretty similar, I think. Back of the head, kind of into the neck. Not as severe as when all this started. Maybe a 3 or 4 out of 10. They come and go, maybe twice a week.
+
+Doctor: Mhmm. And the expressive aphasia—are you having more trouble than usual, or is it steady?
+
+Patient: Steady. I mean, I’ll have a bad day now and then, especially if I’m tired. But overall it’s the same as last year.
+
+Doctor: That’s reassuring. I’m looking back at your history, and it’s remarkable how long you’ve been dealing with this. You were first diagnosed with the left sphenoid wing meningioma back on 6/3/1980, after about six months of increasing irritability and those left occipital-nuchal headaches, plus that episode of severe dysphasia three days before you were seen.
+
+Patient: Oh goodness, yes. I remember being so confused then. They told me there was a tumor, and I was terrified.
+
+Doctor: Right, and the initial head CT showed a homogeneously enhancing lesion in the left sphenoid wing, and the angiogram showed it was highly vascular. You had the left temporal craniotomy with what was described as complete resection, and the pathology confirmed meningioma.
+
+Patient: I’ve had so many surgeries I almost lose track. There was the one in ’84 too, right?
+
+Doctor: Yes. The left sphenoid wing tumor recurred and was excised again on 9/25/1984. Then a CT in 1985 showed regrowth. By 6/1988, imaging showed the left sphenoid meningioma again plus a new left tentorial meningioma. Then in 1989 there were left temporal/sphenoid, left tentorial, and a new left frontal lesion.
+
+Patient: That sounds right. It’s hard to believe. I still get nervous every time I hear “new lesion.”
+
+Doctor: Of course. And then in 1991, when you had increasing lethargy and difficulty concentrating, the CT on 2/14/1991 showed the left frontal meningioma had enlarged with surrounding edema. You had the frontal and temporal meningiomas removed on 2/25/1991.
+
+Patient: After that, my speech was worse for a while, wasn’t it?
+
+Doctor: Yes. You had right-sided weakness and expressive aphasia after the 11/21/1991 surgery for the left frontal lesion. The weakness improved partially, and the speech improved but didn’t return fully to normal. Then in May 1992 you had three tonic-clonic seizures that started with a Jacksonian march in the right leg and then the right arm before generalizing.
+
+Patient: I remember those. Scary. My husband said my leg started twitching first, then my arm, and then I was out of it.
+
+Doctor: Exactly. That’s why your phenobarbital prophylaxis was increased at the time. Are you still taking phenobarbital?
+
+Patient: Yes, 97.2 milligrams at bedtime. I haven’t missed doses. It makes me a little sleepy, but I’d rather be sleepy than have another seizure.
+
+Doctor: That’s a very understandable tradeoff. Any side effects from it besides drowsiness—unsteadiness, rash, mood changes?
+
+Patient: Maybe a little unsteady if I get up too fast. No rash. Mood is okay. My daughter says I’m a little “foggy” after it, but not terrible.
+
+Doctor: All right. Given the history of multiple recurrent meningiomas, seizures, and the stable speech and vision issues, I’m glad things sound unchanged overall. Any recent falls?
+
+Patient: No falls. I use my cane when I’m outside. Inside I’m usually okay if I take my time.
+
+Doctor: Good. And how’s your general health? Any new medical problems, hospitalizations, or surgeries since we last spoke?
+
+Patient: No new surgeries. Blood pressure’s been a little high at home sometimes. Last week it was 148 over 82, and this morning it was 142 over 78. My primary doctor said to watch it.
+
+Doctor: That’s helpful information. Elevated blood pressure can increase your risk for stroke, especially with your neurologic history, so we do want to keep an eye on it. Are you taking your blood pressure medicine regularly?
+
+Patient: Yes, amlodipine 5 milligrams once a day. I take it in the morning with breakfast.
+
+Doctor: Perfect. Any headaches that are sudden, severe, or different from your usual pattern? Or any new weakness, numbness, confusion, or worsening speech?
+
+Patient: No sudden ones. No new weakness either. Just the same trouble finding words. Vision still isn’t great, but I don’t think it’s getting worse.
+
+Doctor: That’s good to hear. When you say decreased vision, is it in both eyes or more on one side?
+
+Patient: More on the left. I can still read large print if the light is good, but small print is hard. I avoid driving, of course.
+
+Doctor: Please do keep avoiding driving if your vision and seizure history make it unsafe. Have you noticed any changes in walking, balance, or memory?
+
+Patient: Balance is okay with the cane. Memory... well, I forget little things more than I used to, but I’m 72, so I figure some of that is age.
+
+Doctor: Some age-related changes are normal, but with your history, we always take note. I’d like to review the current plan. Your condition remains multiple recurrent meningiomas, status post several resections, with stable expressive aphasia and stable visual deficits. Because you’re not reporting new symptoms, we don’t need to make any urgent changes today.
+
+Patient: That’s a relief. I was worried you might say something changed on a scan.
+
+Doctor: I understand. Based on your current stability, the main action items are: continue phenobarbital 97.2 milligrams nightly, continue amlodipine 5 milligrams daily, and keep monitoring for any seizure activity or worsening speech or vision. I also want you to keep a home log of your blood pressure—ideally once a day for the next two weeks, same time each morning.
+
+Patient: Okay, I can do that. I have one of those cuffs at home.
+
+Doctor: Great. Also, because of the blood pressure readings you mentioned—148/82 and 142/78—I’d like you to follow up with your primary care doctor within the next month to review whether your blood pressure treatment needs adjustment. From the neurology side, we should see you back in six months unless something changes sooner.
+
+Patient: Six months, okay. Do I need another scan before then?
+
+Doctor: At this point, not urgently, unless you develop new symptoms. If your headaches become more frequent, if the speech worsens, if you have a new seizure, or if your vision declines, then we would order imaging sooner. Otherwise, we can discuss whether surveillance imaging is appropriate at the next visit.
+
+Patient: All right. And if I do have a seizure again, what should I do?
+
+Doctor: If you have a seizure lasting more than five minutes, or if seizures happen back-to-back, call 911 and go to the ER immediately. If you have a brief seizure but recover fully, call our office the same day. Also, if you notice sudden one-sided weakness, severe headache unlike your usual, confusion, or a major change in speech, that’s emergency care.
+
+Patient: Got it. No driving, watch for those warning signs, and keep track of the blood pressure.
+
+Doctor: Exactly. One more thing: phenobarbital can sometimes interact with other medicines, so before starting anything new—pain medicine, antibiotics, sleep aids, even over-the-counter supplements—please check with us or your pharmacist first.
+
+Patient: I will. I usually ask before taking anything new because I don’t want to mess this up.
+
+Doctor: That’s wise. Do you have any questions for me right now?
+
+Patient: Just one. The expressive aphasia—does that mean I’m getting worse overall?
+
+Doctor: Not necessarily. Expressive aphasia means the language area of the brain is affected, so you know what you want to say but have trouble getting the words out. In your case, it’s been stable for a long time after the surgeries and the tumor history. Stable is the key word here. It’s a chronic deficit, but it doesn’t sound like it’s progressing right now.
+
+Patient: Okay. That helps. I was worried it meant another tumor was growing.
+
+Doctor: I understand the worry. Based on what you’ve told me today, I don’t hear anything that screams new growth, but of course we stay vigilant because meningiomas can recur. Your past history of multiple recurrences is the main reason we keep close follow-up.
+
+Patient: Thank you for explaining it plainly. I appreciate that.
+
+Doctor: Of course. So just to recap what we discussed: you have a long history of multiple recurrent left-sided meningiomas, with stable expressive aphasia, decreased left-sided vision, and no new seizures. Continue phenobarbital 97.2 milligrams at bedtime and amlodipine 5 milligrams daily. Check and write down your blood pressure once daily for two weeks. Follow up with your primary doctor within a month about the blood pressure, and with neurology in six months. Call sooner if you have worsening speech, new weakness, a seizure, a sudden severe headache, or any change in vision.
+
+Patient: Okay, I’ve got it. Continue meds, keep the blood pressure log, watch for warning signs, and call if anything changes.
+
+Doctor: That’s right. Do you have a pen handy, or would you like me to repeat the office number?
+
+Patient: I have it written down already. Thank you, doctor.
+
+Doctor: You’re very welcome. Take care, and we’ll talk again soon.
+
+Patient: Thank you. Goodbye.

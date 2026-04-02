@@ -41,7 +41,7 @@ sequenceDiagram
     actor Client
     participant Web as Web UI / cURL
     participant API as FastAPI (async)
-    participant AI as OpenAI GPT-4o-mini
+    participant AI as OpenAI GPT-model(5.4 mini or 4o)
     participant DB as SQLite (aiosqlite)
 
     Client->>Web: Submit transcript

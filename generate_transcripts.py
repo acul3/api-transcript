@@ -121,7 +121,7 @@ and include all the key medical details woven into the dialogue."""
                 {"role": "user", "content": user_prompt},
             ],
             temperature=0.85,
-            max_tokens=2500,
+            max_completion_tokens=2500,
         )
         transcript = response.choices[0].message.content.strip()
         word_count = len(transcript.split())

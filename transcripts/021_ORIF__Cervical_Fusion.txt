@@ -1,0 +1,139 @@
+Case: ORIF & Cervical Fusion
+Specialty: Orthopedic
+Description: Open reduction and internal fixation (ORIF) of comminuted C2 fracture.  Posterior spinal instrumentation C1-C3, using Synthes system.  Posterior cervical fusion C1-C3.  Insertion of morselized allograft at C1to C3.
+Word Count: 1840
+============================================================
+
+Doctor: Hi, this is Dr. Patel from the orthopedic spine team. Can you hear me okay?
+
+Patient: Uh, yes, I can hear you. Sorry, I was just lying down. Is everything okay?
+
+Doctor: Yes, everything is okay. I’m calling to go over your surgery and make sure you understand what we did, how it went, and what the next steps are. How are you feeling right now?
+
+Patient: Sore. Very sore, honestly. My neck feels tight and kind of heavy. And I’m a little foggy still. I guess from the anesthesia?
+
+Doctor: That’s very normal after a cervical fusion and general anesthesia. You had a pretty significant injury to your upper neck, specifically a comminuted fracture-dislocation of the C2 vertebra. In plain language, that means the second bone in your neck was broken into multiple pieces and shifted out of position after the motor vehicle accident.
+
+Patient: Right, that’s the one they said was, like, translated one centimeter?
+
+Doctor: Exactly. It was displaced about 1 cm, which is why we recommended surgery. We performed an open reduction and internal fixation, or ORIF, of the C2 fracture, plus posterior spinal instrumentation from C1 to C3 and a posterior fusion from C1 to C3. We also placed bone graft material to help those bones fuse together over time.
+
+Patient: Okay. So the bones are… held together now?
+
+Doctor: Yes. We placed screws and rods using the Synthes system. At C2, we used translaminar screws on both sides. At C3, we placed facet screws, and at C1 we placed lateral mass screws. Then we connected everything with titanium rods. On the fluoroscopy images, the alignment looked excellent after reduction and fixation.
+
+Patient: That sounds… a lot. Did anything go wrong?
+
+Doctor: No, the surgery went very smoothly. Estimated blood loss was about 100 mL, which is quite low for this type of operation. Your spinal cord monitoring stayed stable throughout the whole case, and there were no complications. You were extubated uneventfully and taken back to the ICU in stable condition.
+
+Patient: Oh, good. I was worried when I woke up and felt the drain thing.
+
+Doctor: The Hemovac drain, yes. That’s expected. We placed one drain to help remove any fluid or blood from the surgical site. It helps reduce pressure and swelling. It may stay in for a short time depending on how much it’s draining.
+
+Patient: Okay. I’m glad you said that. I had this weird thought that maybe something had gone wrong because I woke up with all that stuff.
+
+Doctor: No, that’s all part of the normal postoperative setup. How’s your pain right now on a scale from 0 to 10?
+
+Patient: Maybe a 6 when I move, more like a 4 if I stay still. It’s mostly the back of my neck and shoulders.
+
+Doctor: That fits with this type of surgery. You’ll probably also feel muscle spasm and stiffness for a while. Are you having any numbness, tingling, weakness in your arms or legs?
+
+Patient: No weakness that I can tell. Maybe a little numbness around my shoulders, but I think that’s from the position or the collar.
+
+Doctor: Okay, we’ll keep monitoring that. Any trouble swallowing, breathing, or new severe headache?
+
+Patient: Swallowing is a little uncomfortable, but I can swallow water. Breathing is fine. Headache, not really.
+
+Doctor: Good. I want to make sure you know the warning signs. If you develop increasing weakness, new numbness, loss of bladder or bowel control, trouble breathing, chest pain, or if the incision starts bleeding heavily or draining pus, you need to call us right away or go to the ER.
+
+Patient: Got it. That sounds scary, but okay.
+
+Doctor: I know it sounds like a lot, but most people do very well after this kind of stabilization when they follow the precautions closely.
+
+Patient: Can I ask something kind of basic? What exactly is the fusion doing?
+
+Doctor: Of course. The fusion means we roughened up, or decorticated, the back parts of C1, C2, and C3 and placed bone graft there. We used 30 mL of cortical cancellous bone chips plus 10 mL of demineralized bone matrix. Over the next few months, your body grows bone through that graft and makes C1 through C3 heal into one solid unit. That prevents motion at the injured segment and protects the spinal cord.
+
+Patient: So I’m basically going to lose some neck motion?
+
+Doctor: Yes, a little. Because it’s only C1 to C3, most people still have good motion overall, but you’ll notice less rotation and some stiffness. That tradeoff is necessary to keep the spine stable and safe.
+
+Patient: Okay. I can live with that if it means I don’t end up paralyzed or something.
+
+Doctor: Exactly. That was the main concern with a displaced C2 fracture. The risk without surgery was instability and possible spinal cord injury.
+
+Patient: What about medications? I’m already taking the oxycodone they gave me in the hospital, and I think they mentioned a muscle relaxer?
+
+Doctor: Yes. For pain, you can take oxycodone 5 mg every 4 to 6 hours as needed for severe pain, but try to use the smallest amount necessary. We also want you on acetaminophen, 650 mg every 6 hours as needed, as long as you do not exceed 3,000 mg in a day. If you were given cyclobenzaprine, that can be 5 mg up to three times daily for muscle spasm, but it can make you sleepy.
+
+Patient: Can I take ibuprofen too? I used that before for back pain.
+
+Doctor: I’d avoid ibuprofen, naproxen, and other NSAIDs for now unless we specifically tell you otherwise. They can interfere with bone healing after fusion. Acetaminophen is safer for this stage.
+
+Patient: Ah, okay. I didn’t know that. Sorry, I’ve been kind of out of it.
+
+Doctor: No need to apologize. It’s a lot to absorb. Also, if the opioids make you constipated—which they often do—use the stool softener we prescribed, usually docusate 100 mg twice daily, and drink plenty of water.
+
+Patient: I am definitely not excited about that part.
+
+Doctor: Understandable. Another key thing is to keep the incision dry and clean. No soaking in a tub, no pool, no hot tub until we clear you. Showering is okay once we say it’s safe, but avoid scrubbing the area.
+
+Patient: What about the collar? They put this hard collar on me and it’s driving me nuts.
+
+Doctor: You need to wear the cervical collar exactly as instructed, especially when you’re up and moving. It supports the fusion while the bone graft heals. Don’t adjust or remove it unless a provider tells you to.
+
+Patient: Okay. And the staples?
+
+Doctor: The staples will need to come out at a follow-up visit, typically around 10 to 14 days after surgery, if the incision is healing well. We’ll check the wound, remove the drain if it’s still present or has come out by then, and look at your alignment.
+
+Patient: Do I need more X-rays?
+
+Doctor: Yes, we’ll get follow-up cervical spine X-rays to make sure the hardware position stays stable and the alignment remains good. If there’s any concern, we may do additional imaging, but usually plain films are enough initially.
+
+Patient: I’m worried about cost, honestly. All of this sounds expensive, and I’m on a pretty limited plan.
+
+Doctor: I understand. The instrumentation and postoperative follow-up can be costly. Our office can have the billing team review your insurance benefits, and if you need help with medication costs, let us know. We can sometimes switch to lower-cost options if needed.
+
+Patient: That would help. I don’t want to skip anything, but money’s tight.
+
+Doctor: Absolutely. Also, for recovery, I want you to avoid lifting anything heavier than 5 to 10 pounds, no bending at the neck, no twisting, and no driving until we clear you. Walking is good, though. Short, frequent walks are better than lying in bed all day.
+
+Patient: So I should be moving around a little, but not doing much?
+
+Doctor: Exactly. Gentle activity, but no strain. If you smoke, this is a very important time to stop because smoking slows bone healing and increases the risk that the fusion won’t take.
+
+Patient: I do smoke, actually. Maybe half a pack a day. I know, not great.
+
+Doctor: Thanks for being honest. I’d strongly recommend cutting down as much as possible and ideally stopping completely while you heal. Alcohol should also be limited, especially while you’re taking oxycodone or cyclobenzaprine, because the combination can be dangerous and make you overly sedated.
+
+Patient: Yeah, I won’t be drinking with these meds. That sounds like a bad idea.
+
+Doctor: Good. And I want to ask about your general history, because it can affect healing. Do you have diabetes, osteoporosis, or any prior spine surgeries?
+
+Patient: No diabetes. No previous neck surgery. I do have high blood pressure, and I’ve been on lisinopril 10 mg daily.
+
+Doctor: Okay, that’s useful. High blood pressure can matter after surgery, so keep taking that unless another doctor told you to stop. We’ll also monitor your blood pressure in the hospital, especially since pain can raise it.
+
+Patient: My pressure was all over the place after the crash.
+
+Doctor: That’s not unusual after trauma and surgery. We’ll keep an eye on it. If you’re checking at home later, write down the readings once you’re discharged.
+
+Patient: All right. So what’s the plan from here?
+
+Doctor: So just to recap what we discussed: you had a displaced comminuted C2 fracture from the motor vehicle accident, and we repaired it with ORIF, C1 to C3 posterior instrumentation, and C1 to C3 fusion with bone graft. The surgery went well, blood loss was 100 mL, monitoring stayed stable, and there were no complications. You’ll wear the cervical collar, avoid NSAIDs like ibuprofen, take oxycodone 5 mg every 4 to 6 hours as needed, acetaminophen up to 3,000 mg per day, and cyclobenzaprine if prescribed for spasms. Keep the incision clean and dry, watch for fever, worsening pain, weakness, numbness, drainage, or breathing trouble, and follow up in about 10 to 14 days for wound check and staple removal, with X-rays as needed.
+
+Patient: Okay. That actually helps hearing it all laid out like that.
+
+Doctor: Good. Do you have any other questions right now?
+
+Patient: Just one. Am I going to be okay long term?
+
+Doctor: The goal is to give you a stable spine and protect your spinal cord, and based on how the surgery went, your outlook is good. Recovery takes time, and you’ll likely be stiff for a while, but with follow-up and proper precautions, many patients do very well.
+
+Patient: Okay. Thank you. I was really nervous.
+
+Doctor: That’s completely understandable. You’ve been through a major injury and major surgery. We’ll keep following you closely. If anything changes, call us right away. Otherwise, we’ll see you at your follow-up in about two weeks.
+
+Patient: All right. Thanks, doctor.
+
+Doctor: You’re welcome. Take it easy, and we’ll talk soon. Goodbye.

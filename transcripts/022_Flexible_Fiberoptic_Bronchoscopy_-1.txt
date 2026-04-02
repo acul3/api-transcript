@@ -1,0 +1,107 @@
+Case: Flexible Fiberoptic Bronchoscopy -1
+Specialty: Surgery
+Description: Flexible fiberoptic bronchoscopy diagnostic with right middle and upper lobe lavage and lower lobe transbronchial biopsies.  Mild tracheobronchitis with history of granulomatous disease and TB, rule out active TB/miliary TB.
+Word Count: 1678
+============================================================
+
+Doctor: Hello, may I speak with Mr. Johnson?
+
+Patient: This is him. Can you hear me okay?
+
+Doctor: Yes, I can hear you fine. This is Dr. Patel calling from pulmonary medicine. I’m following up on the bronchoscopy you had done earlier today.
+
+Patient: Oh, hi, doctor. Yeah, I’ve been a little worried waiting for this call. Is everything okay?
+
+Doctor: Overall, yes. You tolerated the procedure well, and there were no complications. I wanted to go over what we saw and what the next steps are. How are you feeling right now?
+
+Patient: A little sore in the nose and throat, and kind of tired. My chest feels a little irritated when I cough, but no real pain. I’m more anxious than anything.
+
+Doctor: That’s very common after bronchoscopy, especially with the numbing medicine and the biopsies. Mild throat irritation, a scratchy cough, and some fatigue for the rest of the day are expected. Any shortness of breath, fever, or coughing up more than just a little blood?
+
+Patient: No fever. I coughed once and there was just a tiny streak, maybe nothing. Breathing seems normal.
+
+Doctor: Good. A small amount of blood-tinged sputum can happen after transbronchial biopsies, but if it becomes more than a teaspoon, or if you get worsening shortness of breath, chest pain, or dizziness, you need to go to the ER right away.
+
+Patient: Okay. So what did you see? Does this mean I still have TB?
+
+Doctor: The procedure itself showed mild tracheobronchitis, which means mild inflammation of the airways. We also saw some mild friability, meaning the lining was a little sensitive and bled easily when you coughed. In the right upper lobe, there was some segmental distortion with dilation and irregularity, but we did not see any obvious mass or tumor. No anatomic obstruction, no large lesion, and no pneumothorax afterward.
+
+Patient: Hmm. That sounds scary, but also not terrible? I’m not sure.
+
+Doctor: Right, let me put it in simpler terms. We looked very carefully through the airways, both left and right sides. The main finding was inflammation and some changes in the right upper lobe that fit with your prior history of granulomatous disease. Because of your history of TB and the caseating granulomata on your open lung biopsy before, we did the bronchoscopy to rule out active tuberculosis or miliary TB.
+
+Patient: Okay, yeah, that’s what I was worried about. Did the test show active TB?
+
+Doctor: The bronchoscopy findings alone do not confirm active TB. We obtained bronchoalveolar lavage samples from the right middle lobe and the right upper lobe, and we also took transbronchial biopsies from the right lower lobe under fluoroscopy. Those samples are being sent for AFB smear, TB culture, fungal studies, and pathology. The actual culture results take time, sometimes several weeks.
+
+Patient: So you don’t know for sure yet?
+
+Doctor: Correct, not from today’s procedure alone. What I can say is that there was no gross evidence of a large active process like a mass or heavy bleeding, and the airway appearance was only mildly inflamed. That’s somewhat reassuring, but we still need the lab results to definitively rule out active infection.
+
+Patient: I see. Did anything go wrong during it? They told me I was getting oxygen and all that, but I don’t really remember much.
+
+Doctor: That’s expected. You received 2 liters of oxygen by nasal cannula, and your oxygen saturation stayed at 100% during the procedure. For sedation, you were given 50 mg of Demerol and then Versed, 1 mg at a time, for a total of 2 mg. We also used topical Xylocaine, that’s lidocaine, to numb the nose, throat, and airways. Everything stayed stable the whole time.
+
+Patient: Okay. I was wondering why I felt kind of loopy afterward. So the biopsy was from the lower lobe, right?
+
+Doctor: Yes, the right lower lobe, specifically the posterior and lateral segments. We took multiple transbronchial biopsies under fluoroscopic guidance. There was only minimal bleeding, and we suctioned it clear right away.
+
+Patient: And the lavage, that was the washing thing?
+
+Doctor: Exactly. Bronchoalveolar lavage means we instilled sterile saline into the airway and then suctioned it back to collect cells and organisms. We did that in the right middle lobe and the right upper lobe. Those samples are very useful when we’re looking for infection, including TB.
+
+Patient: I’ve had TB before, years ago. And that open lung biopsy showed those granulomas. Is that why you’re being so careful?
+
+Doctor: Yes. Your history of TB and the caseating granulomata on the previous open lung biopsy are important risk factors. Granulomatous disease can be from prior infection, but because you also have interstitial lung disease, we have to make sure there isn’t active disease now. That’s why the isolation precautions were used during the procedure.
+
+Patient: Right, I remember all the masks and stuff. My wife asked if this means I’m contagious.
+
+Doctor: At this moment, we do not have evidence that you are contagious, but until the TB cultures and stains are back, we have to be cautious. If you live with close contacts who are immunocompromised, elderly, or very young, just be mindful and avoid close face-to-face contact if you’re coughing a lot. We’ll give you a clearer answer once the results come in.
+
+Patient: Got it. What about medications? Do I need to start anything?
+
+Doctor: For today, no new medication is needed specifically from the bronchoscopy unless you’re having discomfort. You can use acetaminophen, 650 mg every 6 hours as needed for throat or chest soreness, as long as you don’t exceed 3,000 mg in 24 hours. I’d avoid ibuprofen for the first day or two because of the biopsy sites and the small risk of bleeding.
+
+Patient: Okay, no ibuprofen. I usually take it for my back, but I can switch. Uh, I’m not on blood thinners or anything.
+
+Doctor: Good. That lowers the bleeding risk. Just to review, we didn’t see any major complication like pneumothorax, and your oxygen stayed stable throughout. The main concern remains the underlying diagnosis: mild tracheobronchitis in the setting of granulomatous lung disease, with TB still needing to be ruled out by the samples.
+
+Patient: Will the biopsy hurt later? And should I be resting?
+
+Doctor: You may feel some sore throat, hoarseness, or a mild cough for a day or two. Rest today, drink fluids, and avoid strenuous activity for 24 hours. Since you had biopsies, don’t lift anything heavy or do hard exercise until tomorrow. Also, don’t drive today if you still feel sedated or foggy from the Versed and Demerol.
+
+Patient: Yeah, my daughter is here, so I’m not driving. That’s good. What about eating?
+
+Doctor: Start with something light when your throat feels less numb, because the lidocaine can make swallowing feel strange for a while. Once the numbness is gone, you can eat normally. If you cough up more than a few streaks of blood, or if you get wheezing, chest tightness, fever over 100.4, or worsening shortness of breath, call us or go to the ER.
+
+Patient: Okay. How soon will I know the results?
+
+Doctor: The pathology from the biopsies usually takes about 3 to 5 business days. The TB and AFB cultures can take up to 6 weeks. I’d like to see you back in about 1 to 2 weeks to review the early results and check on your symptoms, and then we’ll call you sooner if anything urgent turns up.
+
+Patient: Do I need more tests?
+
+Doctor: Depending on the biopsy and lavage results, we may need sputum studies or additional imaging, but let’s wait for these samples first. If the cultures suggest active TB, I’ll coordinate with infectious disease right away. If they’re negative and this looks like old granulomatous change, then we’ll focus on managing the interstitial lung disease and monitoring you.
+
+Patient: I’ve also been smoking less, but I haven’t quit completely. Does that matter here?
+
+Doctor: Yes, it does. Smoking can irritate the airways and worsen tracheobronchitis and lung inflammation. If you’re still smoking, this is a good time to stop completely. Alcohol isn’t a direct issue with the bronchoscopy, but if you’re taking sedating medicine tonight, don’t drink. And try to stay well hydrated.
+
+Patient: I’m embarrassed to say I still have a couple cigarettes a day.
+
+Doctor: No need to be embarrassed. Just be honest about it so we can help. Even cutting down helps, but quitting entirely would be best for your lungs. We can talk about nicotine patches or other support at your follow-up.
+
+Patient: Okay. That sounds reasonable. I was honestly afraid you’d say there was a tumor or something.
+
+Doctor: I understand that worry, but we did not see a mass or lesion during the bronchoscopy. The findings were inflammatory and consistent with your known history. The important thing now is to wait for the lab confirmation.
+
+Patient: Thank you for explaining it. I get confused with all the terms.
+
+Doctor: Of course. So just to recap what we discussed: your bronchoscopy was completed safely with no complications, no pneumothorax, and stable oxygen throughout. We saw mild tracheobronchitis, some airway irritation, and right upper lobe distortion consistent with your prior granulomatous disease. We collected bronchoalveolar lavage samples from the right middle and right upper lobes, plus transbronchial biopsies from the right lower lobe. The samples are being checked for TB, other infections, and pathology. For now, rest today, avoid heavy activity, use acetaminophen if needed, avoid ibuprofen and smoking, and seek urgent care if you have significant bleeding, fever, chest pain, or shortness of breath. We’ll follow up in 1 to 2 weeks, and I’ll call you sooner if the results come back earlier.
+
+Patient: Okay, that helps a lot. Thanks, doctor. I feel a little better now.
+
+Doctor: You’re welcome. And if you think of any questions later, call the office. Take care this evening, and have your daughter stay with you until the sedation fully wears off.
+
+Patient: Will do. Thanks again. Goodbye.
+
+Doctor: Goodbye.

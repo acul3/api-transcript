@@ -1,0 +1,113 @@
+Case: Jaw Pain - ER Visit
+Specialty: Dentistry
+Description: Patient started out having toothache, now radiating into his jaw and towards his left ear.  Ellis type II dental fracture.
+Word Count: 1538
+============================================================
+
+Doctor: Hi, is this Mr. Ellis?
+
+Patient: Yeah, speaking.
+
+Doctor: Hi Mr. Ellis, this is Dr. Patel calling from the emergency department follow-up line. Can you hear me okay?
+
+Patient: Yeah, I can hear you. Sorry, I was just outside for a second.
+
+Doctor: No problem at all. I’m calling to check in after your ER visit for the jaw pain and tooth fracture. How are you doing today?
+
+Patient: Uh, still sore, honestly. It’s better than it was yesterday, but it’s still that tooth on the lower left side, and it kind of shoots into my jaw and up toward my left ear.
+
+Doctor: Right, that matches what we saw in the ER. So just to confirm, the diagnosis we discussed was acute left jaw pain from a dental fracture, specifically an Ellis type II fracture of tooth number 18.
+
+Patient: Okay. Wait, what does Ellis type II mean exactly? They said it there, but I didn’t really get it.
+
+Doctor: Of course. In simple terms, it means the tooth is cracked enough that the inner layer is exposed, which can make it very sensitive and painful. It’s not necessarily an infection, but it can definitely cause pain and can lead to infection if it’s left untreated.
+
+Patient: Got it. So it’s not my ear then?
+
+Doctor: Based on the exam, it did not look like an ear infection. Your ear exam was normal—no redness, no swelling, and the eardrum looked fine. The pain is most likely referred pain from the fractured tooth.
+
+Patient: That makes sense. I was worried because it was going up toward my ear. It started as just a toothache maybe, I don’t know, a few days ago, and then yesterday it was more into the jaw.
+
+Doctor: Mhmm. And at the ER you denied fever, chills, facial swelling, sore throat, trouble swallowing, headache, neck pain, or any swelling under the jaw, which is reassuring. You still haven’t had any of those symptoms, right?
+
+Patient: No, none of that. No swelling. I can eat and drink okay. It’s just painful when I chew on that side.
+
+Doctor: Okay, that’s good to hear. I also want to go over your vital signs from the visit. Your temperature was 98.2, pulse 87, respirations 16, and oxygen was 100 percent on room air, all normal. Your blood pressure was elevated at 168 over 84.
+
+Patient: Yeah, they mentioned that. I don’t usually check it. Is that bad?
+
+Doctor: It’s higher than we’d like, but one reading in pain and stress doesn’t diagnose high blood pressure by itself. Pain can raise it. Still, it’s something to keep an eye on, especially since you don’t have a known medical history and you’re not on any regular medications.
+
+Patient: I’m not on anything, yeah. No medical problems, no surgeries, nothing. I don’t even take vitamins.
+
+Doctor: Right, and you reported no known drug allergies, correct?
+
+Patient: Correct.
+
+Doctor: Good. Let’s talk about the medications you were given. The ER recommended Motrin, which is ibuprofen, 400 milligrams every 6 hours as needed for pain, with food if possible.
+
+Patient: Okay, 400 every 6 hours. I took one last night and it helped a little, but not enough.
+
+Doctor: That’s where the Vicodin comes in. They prescribed that for breakthrough pain, meaning if the ibuprofen isn’t enough. Vicodin contains hydrocodone and acetaminophen. You should only use it if needed, and be careful because it can make you sleepy, dizzy, or constipated.
+
+Patient: Yeah, I’m a little nervous about that. I drive for work sometimes. So I shouldn’t take it before driving?
+
+Doctor: Exactly. Do not drive, operate machinery, or do anything risky until you know how it affects you. If you take it, make sure you’re home and able to rest. Also avoid alcohol with it, because that can increase drowsiness and breathing problems.
+
+Patient: I don’t really drink, but I do smoke marijuana sometimes.
+
+Doctor: Thank you for mentioning that. I do want you to avoid marijuana while you’re taking Vicodin, because the combination can make you much more sedated and can affect your judgment and coordination.
+
+Patient: Okay, I can do that. What about the antibiotic? They gave me pen V, I think.
+
+Doctor: Yes, penicillin V, often called pen V. It’s to help prevent or treat a dental infection if bacteria get into the cracked tooth. The usual way it’s taken is as prescribed on your bottle, commonly multiple times a day. Make sure you take the full course even if you start feeling better.
+
+Patient: I haven’t picked it up yet. Is it expensive? I’m trying to keep costs down.
+
+Doctor: Penicillin V is generally one of the less expensive antibiotics, and the Motrin is over the counter. Vicodin may cost a bit more depending on your pharmacy and insurance, but usually it’s manageable. If you run into any issue at the pharmacy, call them first and they can often tell you the price before you pick it up.
+
+Patient: Okay. So, Motrin 400 every 6 hours, Vicodin only if I really need it, and the penicillin. Anything else?
+
+Doctor: Yes. I want you to contact your dentist, Dr. X, and get seen within 3 to 5 days, sooner if possible. The fracture itself needs dental follow-up because pain control alone won’t fix the tooth.
+
+Patient: I have a regular dentist, but I haven’t been in since this started. I can call tomorrow.
+
+Doctor: That would be perfect. Tell them you have a fractured tooth number 18 with worsening pain radiating to the jaw and left ear, and that you were seen in the ER.
+
+Patient: Okay. Should I be doing anything at home in the meantime?
+
+Doctor: Yes. Stick to soft foods on the opposite side, avoid chewing hard or crunchy foods, and don’t bite down on that left lower tooth. Try to keep the area clean with gentle brushing and regular rinsing. Also, limit very hot or very cold foods if they trigger pain.
+
+Patient: I’ve been chewing on the right side already. I can do that. I do smoke marijuana, like I said, and I guess that’s not helping anything.
+
+Doctor: Smoking anything can irritate the mouth, so it would be best to avoid it while this is healing. And since your blood pressure was elevated, I’d also like you to reduce excess salt and stay hydrated. If you have a cuff at home, check your blood pressure once a day for the next few days and write it down.
+
+Patient: I don’t have a cuff, but maybe I can borrow one from my sister. What number is too high?
+
+Doctor: If you’re repeatedly getting readings above 160 over 100, or if you get symptoms like chest pain, shortness of breath, severe headache, weakness, or vision changes, you should seek urgent care. For the tooth issue specifically, if you develop facial swelling, fever, pus, worsening pain, trouble swallowing, or swelling under the tongue or throat, go to the ER right away.
+
+Patient: Okay, that sounds serious.
+
+Doctor: It can become serious if a dental infection spreads, yes, but right now your exam was reassuring. No abscess, no gum swelling, no lymph node swelling, and your oropharynx and floor of mouth looked normal.
+
+Patient: That’s a relief. I was worried it was something worse than a broken tooth.
+
+Doctor: I understand. Tooth pain can feel dramatic, especially when it radiates. The good news is we have a clear source of the pain, and you’ve got a plan.
+
+Patient: So just to make sure I’ve got this right… take ibuprofen 400 milligrams every 6 hours with food, use Vicodin only if the pain breaks through, start the penicillin, and call my dentist in the next few days?
+
+Doctor: Exactly. And avoid driving or alcohol if you take the Vicodin, avoid marijuana while using it, and keep an eye on any swelling or worsening symptoms. Also, because of that blood pressure reading of 168 over 84, it would be good to recheck it when you’re not in pain and mention it to your primary care doctor if it stays high.
+
+Patient: I don’t really have a primary care doctor right now, but I can find one.
+
+Doctor: That would be a good idea. Even though this visit was for your tooth, the blood pressure is worth following up on.
+
+Patient: Yeah, okay. I appreciate you calling. I was a little freaked out.
+
+Doctor: Of course. That’s what we’re here for. So just to recap what we discussed: you have acute left jaw pain from an Ellis type II fracture of tooth number 18, with no signs of facial swelling or deep infection right now. Take Motrin 400 milligrams every 6 hours as needed, use Vicodin only for breakthrough pain and don’t drive or use alcohol or marijuana with it, and take the penicillin exactly as prescribed. Call Dr. X, your dentist, within 3 to 5 days for reevaluation. If you get fever, swelling, trouble swallowing, chest pain, or shortness of breath, go to the ER immediately.
+
+Patient: Got it. I’ll call the dentist tomorrow and pick up the meds today. Thanks, doc.
+
+Doctor: You’re welcome. Take care, and I hope you feel better soon. Goodbye.
+
+Patient: Bye.

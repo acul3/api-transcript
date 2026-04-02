@@ -1,0 +1,119 @@
+Case: CT Brain - Aneurysm
+Specialty: Radiology
+Description: CT Brain: Suprasellar aneurysm, pre and post bleed.
+Word Count: 1584
+============================================================
+
+Doctor: Hello, may I speak with Mrs. Henson?
+
+Patient: This is she. Hi—can you hear me okay?
+
+Doctor: Yes, I can hear you fine. This is Dr. Patel calling from the radiology follow-up line. I’m calling to go over the brain imaging results and answer any questions you may have.
+
+Patient: Oh, okay. I’ve been pretty nervous about this, honestly. I’ve been losing vision and I keep thinking the worst.
+
+Doctor: I understand. Let me start by saying the imaging did show the cause of the vision changes. The CT brain showed a large suprasellar mass, about 4 by 4 by 3 centimeters, but on the MRI it was consistent with a giant aneurysm, not a tumor.
+
+Patient: Aneurysm... that’s a blood vessel problem, right?
+
+Doctor: Exactly. It means there’s a ballooning of an artery. In your case, it’s a supraclinoid giant aneurysm of the left internal carotid artery, very close to the area above the pituitary, which is why it can affect vision.
+
+Patient: So that would explain why my right eye has been getting worse for, um, about two months? And the left eye... I’ve basically been blind in that eye for years now.
+
+Doctor: Yes, that fits. You had a two-month history of progressive loss of visual acuity in the right eye, and a two-year history of worsening vision in the left eye, now down to only light or shadow perception. That kind of gradual vision loss can happen when a large aneurysm presses on the optic nerves.
+
+Patient: They told me my optic nerves looked pale too. Is that bad?
+
+Doctor: It means there has likely been chronic damage to the optic nerves from pressure or reduced blood flow. The exam noted pale optic discs in both eyes, and your right eye vision was 20/70 while the left was only able to detect hand movement shadows. So the vision loss is significant, unfortunately.
+
+Patient: I remember the neurologist saying I didn’t have headaches or anything else. I still don’t. No nausea, no strokes, no nothing.
+
+Doctor: Right, and that was part of what made it tricky. You didn’t have headache, fever, or other neurologic symptoms at first. Your temperature was normal at 36.0, blood pressure 121 over 85, heart rate 94, and the rest of your neurologic exam was largely normal aside from the visual findings. No weakness, no sensory loss, no coordination problems at that time.
+
+Patient: Then why did they think it was a tumor at first?
+
+Doctor: Because on the CT it appeared as a large enhancing mass in the suprasellar-sellar region, and the initial differential diagnosis included craniopharyngioma, pituitary adenoma, and aneurysm. Those can sometimes look similar on CT. The MRI clarified that it was vascular, meaning blood vessel-related, and the angiogram confirmed it.
+
+Patient: The angiogram... that was the test with contrast, right? I heard something happened after that and I’ve been worried ever since.
+
+Doctor: Yes, the 3-vessel cerebral angiogram was done on December 29, 1992. It clearly showed the giant aneurysm of the left internal carotid artery. About ten minutes after the contrast injection, you became aphasic and developed a right hemiparesis—so trouble speaking and weakness on the right side.
+
+Patient: I do remember waking up and not being able to talk right. That was terrifying.
+
+Doctor: I’m sorry you went through that. An emergent head CT at that time showed no hemorrhage and no infarct yet. The carotid duplex also didn’t show any significant stenosis or clot. But afterward, you were left with expressive aphasia and right-sided weakness.
+
+Patient: Expressive aphasia means I know what I want to say but can’t get it out, right?
+
+Doctor: Exactly. The language center was affected, so understanding can be intact but speech output becomes difficult. Later, SPECT scans on January 7 and February 24 of 1993 showed reduced blood flow in the left middle cerebral artery territory and decreased perfusion in the left basal ganglia, likely from the aneurysm’s mass effect.
+
+Patient: So it was squeezing things?
+
+Doctor: That’s a good way to put it. The aneurysm was large enough to press on nearby structures and disrupt blood flow. That’s why the treatment plan later included the Selverstone clamp.
+
+Patient: I’ve never heard of that. What is it?
+
+Doctor: It’s a surgical device used to gradually reduce blood flow through the artery feeding the aneurysm, helping the vessel close off in a controlled way. You had the clamp placed on March 9, 1993, and it was gradually closed by March 14. You initially did well and went home.
+
+Patient: And then on March 20 everything got bad again, right? I got confused and my right side got weaker.
+
+Doctor: Yes. On March 20, you developed sudden confusion with worsening right hemiparesis and expressive aphasia. The head CT showed subarachnoid hemorrhage, or SAH, around the aneurysm, which had thrombosed.
+
+Patient: Thrombosed meaning it clotted off?
+
+Doctor: Right, it means a clot formed inside it. You were started on nimodipine, which is commonly used after subarachnoid hemorrhage to help protect the brain’s blood vessels from spasm.
+
+Patient: Did that help at all?
+
+Doctor: There was a brief improvement, yes. But on March 25, you deteriorated rapidly over about two hours, becoming lethargic with complete expressive aphasia and right hemiplegia, meaning complete paralysis of the right side.
+
+Patient: [pause] That’s horrible.
+
+Doctor: I know. The emergent CT then showed infarction in the left anterior cerebral artery and left middle cerebral artery territories. In simple terms, part of the brain tissue on the left side had died because of loss of blood flow.
+
+Patient: So the aneurysm caused bleeding and then a stroke?
+
+Doctor: Yes, unfortunately both. The aneurysm itself caused compression, then later subarachnoid hemorrhage, and then large ischemic strokes from reduced blood flow and swelling. Cerebral edema developed, which is dangerous swelling in the brain.
+
+Patient: I’m trying to understand the medicines. You said nimodipine—what dose was that?
+
+Doctor: The chart notes say she was placed on nimodipine after the hemorrhage, though the exact dose isn’t listed in the record I’m reviewing. In general it’s given on a scheduled basis to lower the risk of vasospasm after SAH.
+
+Patient: Okay. I wasn’t taking any regular medicines before this anyway. Just for depression sometimes, but not even consistently.
+
+Doctor: Right, the history notes depression, and otherwise no regular medications. Also, there was no tobacco or alcohol use, and the family history was unremarkable for cancer, coronary disease, aneurysm, multiple sclerosis, or stroke. So there weren’t obvious inherited risk factors documented.
+
+Patient: So was this something I could’ve prevented?
+
+Doctor: Based on the records, there wasn’t a clear preventable cause. Some aneurysms develop without a known reason. Risk factors can include smoking, high blood pressure, and family history, but you didn’t have those documented.
+
+Patient: I guess that’s a little reassuring, even if the outcome was awful.
+
+Doctor: Absolutely. I also want to mention that the neurologic exam initially showed intact strength, normal coordination, no pronator drift, and normal sensation. So the key early clue was really the progressive vision loss.
+
+Patient: Is there anything else from the imaging I should know?
+
+Doctor: The major point is that the lesion was not a tumor. The CT appearance was misleading, but MRI and angiography confirmed the giant left internal carotid aneurysm. In your case, the aneurysm was around 4 centimeters, which is very large.
+
+Patient: Wow. That’s bigger than I thought. What should I do now?
+
+Doctor: Since this is a historical case and the critical events already occurred, the main action item is making sure your current follow-up is with neurology and ophthalmology for vision and neurologic assessment. If you have any ongoing weakness, speech trouble, new severe headache, or sudden vision change, you need emergency evaluation right away.
+
+Patient: I do still get scared when my right side feels off sometimes. Should I be checking anything at home?
+
+Doctor: Yes. Monitor for any new or worsening one-sided weakness, confusion, difficulty speaking, severe headache, or sudden change in vision. If any of those happen, call emergency services immediately. Also, if you have blood pressure issues in the future, keeping it well controlled is important for aneurysm and stroke risk.
+
+Patient: Okay. And follow-up wise?
+
+Doctor: I’d like you to keep your next neurology appointment and bring any imaging reports if you have them. If you don’t already have ophthalmology follow-up, that should be scheduled as well. They can assess the optic nerve damage and remaining vision.
+
+Patient: Thank you for explaining all of this. I was really confused by the word “mass.”
+
+Doctor: Of course. So just to recap what we discussed: the CT suggested a 4 by 4 by 3 centimeter suprasellar mass, but MRI and angiogram showed a giant aneurysm of the left internal carotid artery. Your progressive vision loss in the right eye over two months and longstanding left eye blindness fit with pressure on the optic nerves. You later had subarachnoid hemorrhage, were treated with nimodipine, and then suffered a left ACA and left MCA infarction with severe neurologic injury. For you now, the important steps are neurology and ophthalmology follow-up, monitoring for any new neurologic symptoms, and seeking emergency care for sudden weakness, speech trouble, severe headache, or vision changes.
+
+Patient: Got it. Thank you, Dr. Patel. I appreciate you being straight with me.
+
+Doctor: You’re welcome. I’m sorry this was such a difficult course. If you think of any other questions, please call us back. Take care.
+
+Patient: I will. Goodbye.
+
+Doctor: Goodbye.

@@ -1,0 +1,127 @@
+Case: Nephrectomy
+Specialty: Surgery
+Description: Left laparoscopic hand-assisted nephrectomy.
+Word Count: 1860
+============================================================
+
+Doctor: Hello, is this Ms. Johnson?
+
+Patient: Yes, speaking. Uh, hi, doctor. Can you hear me okay?
+
+Doctor: I can hear you fine. This is Dr. Patel from the surgical team. I’m calling to check on you after your left nephrectomy and go over what we found and what to watch for.
+
+Patient: Okay, thank you. I was wondering when somebody would call. I’m still sore, honestly.
+
+Doctor: That’s very expected. Before we get into everything, how are you feeling right now? Any fever, nausea, trouble breathing, or severe pain?
+
+Patient: No fever. I’m a little nauseous if I move too fast, but it’s not terrible. The pain is maybe a 6 out of 10 when I try to get up, and like a 3 when I’m lying still.
+
+Doctor: Mhmm, okay. That sounds within the range we’d expect this soon after surgery. Let me review the main points. You had a left laparoscopic hand-assisted nephrectomy, meaning we removed your left kidney through small incisions with a hand-assist opening. We did this because you had a left renal mass and a left renal bleed, and the imaging — the MRI and CT scan — showed a complex mass in the upper pole and lower pole of that kidney, concerning for possible malignancy.
+
+Patient: Right, they told me it might be cancer. Do you know yet?
+
+Doctor: We do have the pathology in process, but I don’t want to speculate before that final report. What I can say is the kidney was removed successfully, and the surgery went well. The blood loss during the operation was about 100 mL, which is quite low, and there was excellent hemostasis at the end.
+
+Patient: Okay… that’s a relief. I was really scared because I had already lost so much blood before.
+
+Doctor: Absolutely, and that was a major part of the decision-making. When you first came in, your hemoglobin was less than 5, which is very low. You needed about 3 to 4 units of blood transfusions to stabilize you, and your hemoglobin was up to 10 before surgery. Because of your history of diabetic nephropathy, diabetes, hypertension, and your low ejection fraction, you were considered high risk for this operation.
+
+Patient: Yeah, I remember them saying my heart was weak. That part worried me a lot. I was afraid I wouldn’t wake up.
+
+Doctor: I understand. We did talk through the anesthesia risks, including bleeding, infection, pain, heart attack, blood clots like DVT or PE, respiratory failure, and the overall morbidity and mortality risk because of your cardiac function. Cardiac clearance was obtained before we proceeded, and pulmonology and cardiology were all in agreement that getting the kidney out was the safest next step, especially since you were having ongoing pain and couldn’t really go home in that state.
+
+Patient: Mhmm. I just felt like I couldn’t do anything. The pain in my left side was constant for weeks.
+
+Doctor: Exactly. And that persistent abdominal and flank pain was one of the reasons we moved forward rather than waiting longer. The bleeding and the mass were not settling down on their own.
+
+Patient: So the whole kidney is gone then? Not just the mass?
+
+Doctor: Correct, the entire left kidney was removed. During surgery, we saw a large hematoma with a significant amount of old blood around the kidney. We irrigated that out. We also carefully dissected around the spleen and colon, and both were intact at the end. The adrenal gland was preserved as well.
+
+Patient: Oh, wow. So no damage to the other organs?
+
+Doctor: No injury was seen to the spleen, colon, or adrenal. We were very careful about that. We used the hand-assisted port to help control things because you had a lot of bleeding risk and limited cardiac reserve, so the stapler was used to keep bleeding minimal. The renal artery and renal vein were stapled with good control.
+
+Patient: Okay. I’m still trying to understand all that. Does having one kidney mean I’m in trouble now? I already had diabetic nephropathy.
+
+Doctor: It means we’ll need to monitor your remaining kidney closely, yes, especially because of your diabetes and diabetic nephropathy. One kidney can do the work, but we have to protect it. That means keeping your blood pressure controlled, keeping your blood sugars controlled, staying hydrated, and avoiding medications that can stress the kidneys.
+
+Patient: Like ibuprofen? I was taking that before.
+
+Doctor: Yes, exactly. Please avoid ibuprofen, naproxen, and other NSAIDs unless we specifically say otherwise. For pain, use the acetaminophen we prescribed, 650 mg every 6 hours as needed, but do not exceed 3,000 mg in 24 hours. If the pain is breaking through that, call us rather than taking extra anti-inflammatories.
+
+Patient: Okay. And the diabetes meds? I’m on metformin and insulin.
+
+Doctor: Continue your diabetes regimen as directed by your primary doctor unless you were told differently at discharge. Because you only have one kidney now, we’ll be checking your kidney function before making any changes. If you’re taking metformin, we want to make sure your creatinine and eGFR are safe for that. If you don’t already have a lab appointment, we need blood work in about 1 week to recheck your hemoglobin, creatinine, and electrolytes.
+
+Patient: One week. Got it. My stomach is still kind of bloated though. Is that normal?
+
+Doctor: Mild bloating and some constipation can happen after abdominal surgery and with pain medicines. Are you passing gas yet?
+
+Patient: Uh, yes, a little. Not much. I had one bowel movement yesterday.
+
+Doctor: That’s reassuring. Keep walking several times a day, even short walks in the house, because that helps your bowels wake up and lowers clot risk. Also, try to get out of bed at least every 2 to 3 hours while awake.
+
+Patient: I can do that. I’m just tired. I feel weak.
+
+Doctor: That’s understandable after surgery and after the blood loss you had. You had a lot going on medically even before the operation. The good news is your blood loss in surgery was low, and you stabilized well. Still, if you feel dizzy when standing, let us know right away.
+
+Patient: Okay. What about the incision? It has this glue on it.
+
+Doctor: Right, the skin was closed with Monocryl and Dermabond, so the glue will peel off on its own. Keep the area clean and dry. No soaking in a tub, pool, or hot tub for at least 2 weeks, and avoid heavy lifting over 10 pounds for about 4 to 6 weeks.
+
+Patient: That’s going to be hard. I live alone.
+
+Doctor: I know that can be frustrating. Is anyone staying with you?
+
+Patient: My daughter is coming by tonight, and my sister called. But I don’t want to bother them too much.
+
+Doctor: I hear you, but for the first week it would be very helpful to have someone check in on you daily, especially because of your history and the fact that you’re still recovering from a major surgery. Also, because you have the left BKA and mobility issues, please be extra careful getting up. Use your walker or support if you have it.
+
+Patient: Yeah, I do. The stump and the surgery pain together are making me move slow.
+
+Doctor: Understood. Another important point: if you have chest pain, shortness of breath, one-sided leg swelling, coughing up blood, a fever over 101, increasing abdominal swelling, redness or drainage from the incision, or pain that suddenly gets much worse, go to the ER immediately.
+
+Patient: Okay, chest pain or trouble breathing, ER right away. Got it. Um, do I need to see oncology?
+
+Doctor: That depends on the final pathology. Since the mass was suspicious for malignancy on MRI and CT, if pathology shows cancer, we’ll refer you to oncology and possibly urology follow-up for surveillance. Either way, you’ll follow up with surgery in about 10 to 14 days to check the incision and review the final pathology.
+
+Patient: Will I need more scans?
+
+Doctor: Possibly, yes, depending on what the pathology shows and how your remaining kidney function looks. For now, the next step is recovery, lab work, and the follow-up visit.
+
+Patient: I’m still nervous, but I feel better hearing it explained. The words they use in the hospital are so much.
+
+Doctor: I know. To put it simply: your left kidney was bleeding and had a suspicious mass, so we removed it. The operation went smoothly, there was very little blood loss, and the nearby organs were protected. Now we need to let you heal and keep a close eye on your blood pressure, blood sugar, kidney labs, and pain.
+
+Patient: Okay. Should I keep taking my blood pressure meds the same way?
+
+Doctor: Yes, unless you were told otherwise at discharge. Take your antihypertensives as prescribed, and check your blood pressure at home at least once a day if you can. If it’s running very low, like under 90 systolic, or very high, like over 180, call us or your primary doctor.
+
+Patient: Mine was 148 over 86 this morning.
+
+Doctor: That’s a bit elevated, but not an emergency. Keep tracking it and bring the log to your follow-up. Also, with diabetes, please watch your diet closely — low sodium, limit processed foods, and keep your blood sugars in range. Try to avoid alcohol for now while you’re healing, and definitely no smoking if you smoke.
+
+Patient: I quit smoking years ago, thankfully. I do like my salty snacks though.
+
+Doctor: [pause] The salty snacks may need to be limited for a while, yes. Aim for less than 2,000 mg of sodium a day if possible.
+
+Patient: Wow, okay. That’s going to take some getting used to.
+
+Doctor: It is, but we’ll help you with it. So just to recap what we discussed: you had a successful left laparoscopic hand-assisted nephrectomy for a left renal mass and left renal bleed; your surgery had about 100 mL blood loss; your hemoglobin improved from under 5 to 10 before surgery after transfusions; you should take acetaminophen 650 mg every 6 hours as needed and avoid ibuprofen or naproxen; get blood work in about a week; follow up with us in 10 to 14 days; walk often, avoid heavy lifting, monitor your incision, and go to the ER for chest pain, shortness of breath, fever, or worsening symptoms.
+
+Patient: Okay. Thank you for going over all that. It helps a lot.
+
+Doctor: Of course. Do you have any other questions before I let you go?
+
+Patient: Just one… if the pathology comes back bad, will you call me, or do I wait for the appointment?
+
+Doctor: We will call you as soon as the final pathology is available if there’s anything urgent or if it changes the plan. Otherwise, we’ll review it at your follow-up. If you don’t hear from us within a week, feel free to call the office.
+
+Patient: Alright. Thank you, doctor.
+
+Doctor: You’re welcome. Take it one day at a time, and let your daughter or sister help you if they can. We’ll talk soon.
+
+Patient: Okay. Bye.
+
+Doctor: Goodbye, Ms. Johnson. Take care.

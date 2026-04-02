@@ -1,0 +1,133 @@
+Case: MRI Elbow - 2
+Specialty: Radiology
+Description: MRI of elbow - A middle-aged female with moderate pain, severe swelling and a growth on the arm.
+Word Count: 1741
+============================================================
+
+Doctor: Hi, is this Ms. Carter?
+
+Patient: Yes, this is she. Hi.
+
+Doctor: Hi, Ms. Carter, this is Dr. Patel calling from radiology to go over your elbow MRI results. Is now still a good time?
+
+Patient: Oh, yes, please. I’ve been waiting on this. Can you hear me okay?
+
+Doctor: I can hear you fine. Can you hear me all right?
+
+Patient: Yeah, loud and clear. Sorry, I’m just a little nervous.
+
+Doctor: That’s completely understandable. I’ve got the report in front of me, and I’ll walk you through it in plain language. First, the good news: we do not see any solid mass, cyst, or fatty growth in the elbow. So the “growth” you’ve been feeling is not a tumor on the MRI.
+
+Patient: Oh my God, okay. That’s a relief. So what is it then? Because it’s still really swollen.
+
+Doctor: Right. The MRI shows diffuse swelling in the soft tissues, especially along the back and inner side of the elbow, near the medial epicondyle and down toward the olecranon, which is the pointy part of the elbow. There’s also inflammation along a ligament there called the epicondylo-olecranon ligament.
+
+Patient: Uh-huh. Is that from me bumping it? Or…?
+
+Doctor: It can happen from irritation, repetitive pressure, or from the nerve moving a little abnormally in that area. The main finding is that your ulnar nerve is enlarged and looks inflamed inside the cubital tunnel.
+
+Patient: The ulnar nerve… that’s the funny bone nerve, right?
+
+Doctor: Exactly. That’s the one. On MRI, it’s enlarged and has increased signal, which means it’s irritated. The impression is ulnar nerve neuritis, which is basically inflammation of the nerve.
+
+Patient: Wow. That explains the tingling, I guess. I’ve had that in my ring finger and pinky for, like, three weeks now.
+
+Doctor: Yes, that fits very well. Did it start gradually?
+
+Patient: Pretty much. At first it was just numbness off and on when I bent my elbow, but the last week the swelling got worse, and the pain is like a 6 out of 10 most days. If I lean on it, it shoots up to an 8.
+
+Doctor: Mhmm. And the swelling is on the inner side of the elbow, correct?
+
+Patient: Yeah, and there’s this little bump that I thought was a growth. It feels firm, but kind of sore.
+
+Doctor: The MRI did not show a true mass there. What it shows is soft tissue edema, meaning fluid and inflammation in the tissues. That can feel like a lump or growth even when there isn’t an actual mass.
+
+Patient: Okay. So the nerve is swollen, but it’s still in the cubital tunnel?
+
+Doctor: Correct. The report says the ulnar nerve is within the cubital tunnel right now, but the overall pattern suggests it may be subluxing, which means it may be slipping or moving out of position a bit when you bend the elbow.
+
+Patient: Is that dangerous?
+
+Doctor: It’s not an emergency from the MRI standpoint, but it can keep irritating the nerve and cause symptoms like numbness, tingling, and sometimes weakness if it goes on. The earlier we address it, the better chance we have of calming it down.
+
+Patient: I’ve also noticed my grip feels weaker when I’m opening jars. I thought maybe I was just overdoing it.
+
+Doctor: That could be related. Any weakness in the hand, especially with grip or pinching, can happen with ulnar nerve irritation. The MRI also shows a few other mild overuse-type findings. There’s mild tendinitis at the common extensor tendon origin, which is the outside of the elbow—what people often call tennis elbow.
+
+Patient: Oh great, so now I have multiple things wrong?
+
+Doctor: Mild findings, yes, but not severe structural damage. There’s also mild strain in the pronator teres muscle sheath and some edema near the brachialis tendon insertion. Importantly, there are no tendon tears, no ligament rupture, and the joint surfaces look normal.
+
+Patient: That’s something, I guess. I was afraid it was torn or broken.
+
+Doctor: No fracture or tear is described on this MRI. Your triceps and biceps insertions are normal, the common flexor tendon is normal, and the ulnar collateral and radial collateral ligaments are normal. So the main issue is nerve inflammation with surrounding soft tissue swelling.
+
+Patient: Do you know why this would happen? I haven’t injured it badly that I can remember.
+
+Doctor: Sometimes it’s related to repetitive bending, leaning on the elbow, or anatomy that makes the nerve a little unstable. Have you been doing anything repetitive with your arms lately? Computer work, lifting, gym exercises?
+
+Patient: Well, I do work at a desk all day, and I rest my elbow on the arm of my chair a lot. And I’ve been carrying my granddaughter around some, which is probably not helping. I don’t smoke, if that matters. I do drink maybe a glass of wine on weekends.
+
+Doctor: That’s helpful, thank you. Desk pressure on the elbow is a very common aggravating factor. Smoking isn’t mentioned as a factor here, but avoiding anything that increases inflammation is helpful. Alcohol in moderation is usually fine, but if you’re taking anti-inflammatory medicines, we’ll want to be careful with stomach irritation.
+
+Patient: I’ve been taking ibuprofen, like 400 mg every 6 hours when it gets bad. Is that okay?
+
+Doctor: That can help short term, but if you’re taking it frequently, it can irritate the stomach and affect the kidneys, especially if you’re dehydrated or have any kidney issues. I’d recommend you switch to acetaminophen, 650 mg every 6 to 8 hours as needed for pain, not to exceed 3,000 mg in a day unless your primary doctor says otherwise.
+
+Patient: Okay. So stop the ibuprofen?
+
+Doctor: For now, yes, unless another doctor specifically told you to keep using it. Given the nerve inflammation and swelling, I’d also recommend an anti-inflammatory strategy that doesn’t rely on repeated ibuprofen. I’m going to suggest you contact your primary care clinician or an orthopedist about whether a short course of a prescription anti-inflammatory or a steroid injection is appropriate. That decision should be made by the treating clinician who can examine you.
+
+Patient: Wait, so do I need surgery?
+
+Doctor: Not based on this MRI alone. Surgery is not the first step here. Because the nerve may be subluxing and you have neuritis, the usual next steps are activity modification, elbow padding, avoiding prolonged flexion, and a specialist evaluation. If symptoms persist or you develop weakness, then a hand surgeon or orthopedic specialist may consider further treatment.
+
+Patient: I’m a little freaked out because I’m starting to drop things.
+
+Doctor: I understand. That’s why I want you to monitor that closely. If you notice worsening weakness, increasing numbness, or if the ring and pinky fingers become numb all the time instead of intermittently, that should be reported promptly.
+
+Patient: Okay. Is there anything else on the MRI I should worry about?
+
+Doctor: There’s no mass lesion, no joint destruction, and no tear of the major stabilizing structures. The report does mention mild epimysial sheath edema around the pronator teres, which is essentially a mild muscle-sheath strain, and mild peritendinous inflammation at the brachialis tendon insertion. Those are supportive findings of irritation but not major injuries.
+
+Patient: So basically it’s inflamed all around there.
+
+Doctor: Exactly. The big picture is inflammation and nerve irritation, with likely ulnar nerve instability contributing. The MRI findings match the symptoms you described.
+
+Patient: What do I do tonight? It’s throbbing after work.
+
+Doctor: Tonight, avoid leaning on the elbow, try to keep it more straight rather than bent for long periods, and you can use a light compression sleeve or elbow pad if it’s comfortable. Ice for 15 to 20 minutes at a time, three to four times a day, can help with swelling.
+
+Patient: Should I wrap it tight?
+
+Doctor: Not tightly. You don’t want to compress the nerve. Gentle support only. Also, when you sleep, try not to keep the elbow fully bent. Some people use a towel loosely wrapped around the elbow or a soft splint to remind them to keep it straighter at night.
+
+Patient: Got it. And follow-up?
+
+Doctor: I’d like you to follow up with orthopedics or your primary care provider within the next one to two weeks, sooner if the weakness is getting worse. If you don’t already have a referral, I can recommend that they review this MRI and examine the nerve.
+
+Patient: I already have an appointment with my doctor next Tuesday, actually. Should I bring this report?
+
+Doctor: Yes, absolutely bring it. And ask specifically about ulnar nerve neuritis, possible subluxation of the ulnar nerve, and whether you need a nerve specialist or hand surgeon evaluation.
+
+Patient: Okay. Is there any lab work I need?
+
+Doctor: Not from this MRI itself. Imaging doesn’t show a reason for blood tests here. But your primary doctor may order labs if they’re worried about inflammatory causes or if they want to check before any medications are changed.
+
+Patient: All right. I’m mostly just relieved it’s not a tumor.
+
+Doctor: I’m glad to hear that. So just to recap what we discussed: your MRI shows no solid, cystic, or fatty mass; it does show swelling in the soft tissues around the inner back part of the elbow, enlarged inflamed ulnar nerve consistent with ulnar nerve neuritis, likely some ulnar nerve subluxation, mild strain of the pronator teres sheath, mild lateral epicondylitis, and some inflammation near the brachialis insertion. The major ligaments, tendons, and joint surfaces are otherwise intact.
+
+Patient: Okay, that’s a lot, but it makes sense when you say it like that.
+
+Doctor: The action items are: avoid leaning on the elbow and prolonged bending, use ice and gentle support, switch from ibuprofen to acetaminophen for now unless your doctor says otherwise, keep your follow-up next Tuesday, and ask for an orthopedic or hand specialist referral if symptoms continue or worsen. And if you get increasing hand weakness, constant numbness, or severe pain, contact your doctor right away.
+
+Patient: I can do that. Thank you for explaining it. I was imagining the worst.
+
+Doctor: Of course. I’m glad we could clear that up. Do you have any other questions before I let you go?
+
+Patient: No, I think you covered it. Thank you so much, Dr. Patel.
+
+Doctor: You’re welcome. Take care, and I hope the elbow settles down soon. Goodbye.
+
+Patient: Bye.

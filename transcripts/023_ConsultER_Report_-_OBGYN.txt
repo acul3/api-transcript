@@ -1,0 +1,121 @@
+Case: Consult/ER Report - OB/GYN
+Specialty: Obstetrics / Gynecology
+Description: A female with unknown gestational age who presents to the ED after a suicide attempt.
+Word Count: 1660
+============================================================
+
+Doctor: Hi, is this Ms. Reynolds?
+
+Patient: Uh, yes, this is her. Can you hear me okay?
+
+Doctor: I can hear you fine. This is Dr. Patel with OB/GYN calling about your ER visit earlier. Is now an okay time to talk?
+
+Patient: Yeah, that’s okay. I’ve just been kind of… anxious, honestly.
+
+Doctor: I understand. I’m glad we’re connecting. First, how are you feeling right now? Any abdominal pain, cramping, or vaginal bleeding since you left the ED?
+
+Patient: No, no pain. And no bleeding either. Just, I guess, shaky and worried. Sorry, I’m still trying to process everything.
+
+Doctor: That makes sense. Based on your exam in the ER, your abdomen was soft and nontender, and you weren’t having active bleeding. Your blood pressure was 134 over 45, your pulse was 130, and your breathing rate was 28. Your oxygen level was 100 percent. The tachycardia, that fast heart rate, was likely from stress, dehydration, or the situation itself.
+
+Patient: Yeah, they told me my heart was racing. I was just so upset. I still can’t believe I might be pregnant.
+
+Doctor: Right. You told the team your periods have been abnormal, and you couldn’t remember the first day of your last normal menstrual period. You also said you had daily spotting for about three months, until about two weeks ago, when you think you passed something that looked like a fetus.
+
+Patient: Yeah. I know it sounds crazy. I was removing a tampon and I saw this little tadpole-looking thing. I didn’t know I was pregnant at all. I still don’t know what happened.
+
+Doctor: I’m sorry you went through that. It’s not uncommon for early pregnancy bleeding or a miscarriage to be confusing, especially if your cycles are irregular. The important thing now is to figure out whether there is still an ongoing pregnancy and, if so, how far along it is.
+
+Patient: So… am I still pregnant? I want to keep it if I am. It was unplanned, but I would want to continue it.
+
+Doctor: That’s helpful to know, and thank you for telling me. We can’t confirm the pregnancy status or gestational age from the exam alone. The plan is to get a quantitative HCG blood test and a transvaginal ultrasound. Those will help us see whether there’s a pregnancy in the uterus and estimate dating.
+
+Patient: Okay. What does quantitative HCG mean exactly?
+
+Doctor: Good question. HCG is the pregnancy hormone. A quantitative test gives us the exact number, not just yes or no. We can compare it with the ultrasound findings. Depending on the level, we may or may not be able to see anything yet on ultrasound.
+
+Patient: That makes sense. Sorry, I keep asking questions. I’m just scared something I took could hurt the baby.
+
+Doctor: That’s a very reasonable concern. Let’s talk about the medications you mentioned. You’re currently taking Lexapro 10 milligrams daily, tramadol 50 milligram tablets, two tablets by mouth four times a day, and Ambien 10 milligrams, one tablet at bedtime, correct?
+
+Patient: Yes. Lexapro 10 every day, tramadol, uh, two pills four times a day, and Ambien at night. I know the tramadol dose sounds like a lot.
+
+Doctor: It is a substantial dose, yes. The good news from the OB perspective is that the substances you took are not known to cause a specific pattern of birth defects in humans. With Ambien and tramadol, there have not been reported human anomalies clearly linked to those medications. That said, in any pregnancy there is a baseline risk of congenital anomalies, which is about 4 percent in the general population.
+
+Patient: So you’re saying it’s not automatically a problem?
+
+Doctor: Correct. It is not automatically a problem. But we still want to minimize unnecessary medications during pregnancy and coordinate with your prescribing doctors, especially since tramadol and Ambien can affect alertness and safety. Also, since you have a history of depression and you presented after a suicide attempt, we want to make sure you have close mental health follow-up too.
+
+Patient: Yeah… I know. I’m embarrassed. I’ve been separated from my boyfriend, and I was visiting him in Wilkesboro this week. Things got really bad.
+
+Doctor: I’m sorry things have been so hard. For your safety, I do want to ask: are you feeling like you might hurt yourself again right now?
+
+Patient: No. Not right now. I’m upset, but I don’t want to do that again.
+
+Doctor: I’m glad to hear that. If those thoughts come back, you need to call 911 or go to the ER immediately. Do not wait. I want to be very clear about that.
+
+Patient: Okay. I understand.
+
+Doctor: You also mentioned your medical history. You had diabetes mellitus that resolved after weight loss following gastric bypass surgery, correct?
+
+Patient: Yes. I had the gastric bypass a while back, and my blood sugar got much better after that.
+
+Doctor: Right. And your surgeries included the gastric bypass, bilateral carpal tunnel release, laparoscopic cholecystectomy, hernia repair after the bypass, thoracotomy, and knee surgery. That history matters because post-bypass patients sometimes have vitamin deficiencies, which is another reason prenatal vitamins are important.
+
+Patient: Oh, I didn’t think about that. I do take vitamins sometimes, but not consistently.
+
+Doctor: I’d like you to start a prenatal vitamin daily as soon as possible. Ideally one that has folic acid, iron, and the other pregnancy vitamins. Because of your bypass history, absorption can be different, so if you have trouble tolerating it, let us know.
+
+Patient: Okay. I can do that. Do I need to stop the Lexapro?
+
+Doctor: Not necessarily. Don’t stop it abruptly on your own. Lexapro, which is escitalopram, is often continued in pregnancy when the benefit outweighs the risk, especially if it’s helping your mood. But that decision should be made with your OB provider and mental health prescriber together. The bigger immediate concern is the recent suicide attempt and making sure you have support.
+
+Patient: Right. I’m also worried because my heart was pounding and I felt kind of dry.
+
+Doctor: The note did mention slightly dry mucous membranes, so dehydration is possible. Try to sip fluids regularly unless another doctor has restricted you. Your skin exam was otherwise normal, no jaundice, no rash, and there was no abdominal tenderness or guarding, which is reassuring from an OB standpoint.
+
+Patient: That’s good, I guess. What about my blood pressure? They said something once about high blood pressure when I delivered my first baby.
+
+Doctor: Yes, your obstetric history is gravida 1 with one prior term spontaneous vaginal delivery, and it was complicated only by elevated blood pressures at delivery. That means we’ll keep an eye on your blood pressure in this pregnancy, because prior pregnancy-related hypertension can increase risk later on.
+
+Patient: So what happens next, practically?
+
+Doctor: Here’s the plan. First, get the quantitative HCG blood test and the transvaginal ultrasound as soon as possible—ideally within the next day or two. Second, start a prenatal vitamin daily. Third, follow up with outpatient prenatal care once the pregnancy is confirmed and dated. Fourth, because of the recent suicide attempt, please keep close contact with your mental health team or primary doctor.
+
+Patient: Okay. Will the ultrasound hurt?
+
+Doctor: It can be uncomfortable, but it shouldn’t be painful. It’s the best way to date the pregnancy early on. If you have any heavy bleeding, severe one-sided pelvic pain, dizziness, fainting, or shoulder pain, go straight to the ER, because those can be warning signs of an ectopic pregnancy or miscarriage.
+
+Patient: Got it. Heavy bleeding, bad pain, dizziness, shoulder pain—ER right away.
+
+Doctor: Exactly. Also, if you notice worsening mood, suicidal thoughts, or you feel unsafe, that is an emergency too.
+
+Patient: Okay. I appreciate you saying that. I was afraid you’d be angry.
+
+Doctor: No, I’m not angry. I’m concerned and I want to help. One more thing: you said you have no tobacco, alcohol, or drug use, correct?
+
+Patient: Correct. I don’t smoke, drink, or use drugs.
+
+Doctor: Good. That lowers some pregnancy risks. Try to keep eating balanced meals, stay hydrated, and avoid any non-prescribed medications unless you clear them with your doctors. Because you’re separated and staying with your parents in Greenville, do you have someone who can help you get to the lab and ultrasound appointment?
+
+Patient: Yeah, my mom can probably take me. She’s been worried.
+
+Doctor: That’s good. Let her help you if you can. Sometimes having support makes a big difference.
+
+Patient: It does. Um, just to be clear, the tramadol and Ambien I already took… you don’t think that alone caused a birth defect?
+
+Doctor: Based on what we know, no specific human anomaly pattern has been reported with those medications. I can’t guarantee any pregnancy outcome, but there is not evidence that those medicines alone are expected to cause a major malformation. The general background risk in any pregnancy is about 4 percent.
+
+Patient: Okay. That helps a little.
+
+Doctor: So just to recap what we discussed: you have an unknown-gestation pregnancy with a history of abnormal bleeding and possible passage of tissue two weeks ago. You need a quantitative HCG and transvaginal ultrasound for dating and to confirm the pregnancy. Start a prenatal vitamin daily. Don’t stop Lexapro or other meds abruptly without talking to your prescribers. Watch for heavy bleeding, severe pain, dizziness, or any return of suicidal thoughts, and go to the ER immediately if those happen. We’ll also want routine prenatal follow-up once we know more.
+
+Patient: Okay. Thank you for explaining it all. I was really confused.
+
+Doctor: Of course. We’ll help you through it. I’m going to make sure the orders and follow-up are arranged. If you don’t hear about the ultrasound appointment by tomorrow afternoon, call us back.
+
+Patient: I will. Thank you, Dr. Patel.
+
+Doctor: You’re welcome. Take care of yourself tonight, and please reach out if anything changes. Goodbye.
+
+Patient: Goodbye.
