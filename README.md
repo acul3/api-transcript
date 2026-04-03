@@ -202,13 +202,63 @@ The current setup handles **10-20 concurrent requests** reliably. Pushing to 100
 | **SQLite (aiosqlite)** | ~20-30 concurrent writes | Single-file DB, write lock contention causes errors |
 | **Railway (1 worker)** | ~30-50 connections | Memory pressure, potential OOM or timeouts |
 
-**To reliably handle 100+ concurrent requests, the following changes would be needed:**
+**To reliably handle 100+ concurrent requests, the remaining changes needed are:**
 
-1. **Rate limit handling** — Add retry with exponential backoff on 429 responses in `ai_service.py`
-2. **Request batching** — Process in waves of 10-20 instead of firing all 100 at once
-3. **Swap SQLite for PostgreSQL** — Handles concurrent writes properly (Railway offers free Postgres)
-4. **Multiple workers** — Run `uvicorn --workers 4` or horizontally scale on Railway
-5. **Request queue** — Add a task queue (e.g., Celery/Redis) to decouple request intake from AI processing
+1. **Swap SQLite for PostgreSQL** — Handles concurrent writes properly (Railway offers free Postgres)
+2. **Multiple workers** — Run `uvicorn --workers 4` or horizontally scale on Railway
+
+The concurrency queue and retry logic are already implemented (see below).
+
+### Concurrency Queue
+
+All AI requests pass through a **semaphore-based queue** that limits how many OpenAI calls run simultaneously, preventing rate limit storms.
+
+```
+Request flow:
+
+Client ──> FastAPI ──> Queue (semaphore) ──> OpenAI API
+                         │
+                         ├── Slot available? → Process immediately
+                         └── All slots busy? → Wait in queue
+```
+
+- Default: **10 concurrent** AI calls max (configurable via `AI_MAX_CONCURRENT`)
+- Requests beyond the limit wait in queue automatically — no 429 errors passed to client
+- Live queue stats available via `GET /summaries/queue`:
+
+```json
+{
+  "max_concurrent": 10,
+  "waiting": 3,
+  "processing": 10,
+  "completed": 47,
+  "failed": 2
+}
+```
+
+### Retry with Exponential Backoff
+
+If an OpenAI call fails with a transient error, it retries automatically with increasing delays:
+
+| Error Type | Retried? | Delays (3 attempts) |
+|------------|----------|---------------------|
+| **429 Rate Limit** | Yes | 2s → 4s → 8s |
+| **500/502/503 Server Error** | Yes | 2s → 4s → 8s |
+| **Timeout** | Yes | 2s → 4s → 8s |
+| **Connection Error** | Yes | 2s → 4s → 8s |
+| **Invalid JSON response** | Yes | 2s → 2s → 2s |
+| **401 Auth Error** | No (permanent) | — |
+| **400 Bad Request** | No (permanent) | — |
+
+Configuration via environment variables:
+
+```env
+AI_MAX_CONCURRENT=10       # Max simultaneous OpenAI calls
+AI_MAX_RETRIES=3           # Retry attempts on transient errors
+AI_RETRY_BASE_DELAY=2.0    # Base delay in seconds (doubles each retry)
+```
+
+When all retries are exhausted, the API returns **503 Service Unavailable** so clients know the error is transient and can retry on their end.
 
 ---
 
