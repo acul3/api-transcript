@@ -359,7 +359,32 @@ AZURE_OPENAI_VERSION=2024-02-15-preview
 OPENAI_MODEL=gpt-4o-mini
 ```
 
-### 3. Start the Server
+### 3. Database
+
+The app supports both **SQLite** (default, zero-config) and **PostgreSQL** (recommended for production/concurrency). Just change the `DATABASE_URL`:
+
+```env
+# SQLite (default — good for dev, single user)
+DATABASE_URL=sqlite+aiosqlite:///./sql_app.db
+
+# PostgreSQL (recommended for production)
+DATABASE_URL=postgresql+asyncpg://user:password@host:5432/dbname
+```
+
+Tables are created automatically on startup — no migrations needed.
+
+| Feature | SQLite | PostgreSQL |
+|---------|--------|------------|
+| Setup | Zero config | Requires a running Postgres instance |
+| Concurrent writes | Limited (~20-30) | Thousands |
+| Production ready | No | Yes |
+| Driver | `aiosqlite` | `asyncpg` |
+
+Both drivers are included in `requirements.txt`. The `connect_args` are applied conditionally — SQLite gets `check_same_thread=False`, Postgres gets none.
+
+For Railway deployment with Postgres, add a Postgres plugin in the Railway dashboard and set the `DATABASE_URL` env var to the provided connection string (replace `postgresql://` with `postgresql+asyncpg://`).
+
+### 4. Start the Server
 
 ```bash
 # Development
