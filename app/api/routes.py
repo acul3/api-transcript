@@ -6,13 +6,18 @@ import logging
 from app.db.database import get_db
 from app.db import models
 from app.schemas import schemas
-from app.services.ai_service import generate_summary
+from app.services.ai_service import generate_summary, get_queue_stats
 
 logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
 MAX_FILE_SIZE = 500_000  # ~500KB
+
+@router.get("/queue", tags=["Queue"])
+async def queue_status():
+    """Get current AI processing queue status."""
+    return get_queue_stats()
 
 async def _save_summary(text: str, ai_result: dict, db: AsyncSession) -> models.Summary:
     db_summary = models.Summary(
@@ -45,6 +50,9 @@ async def create_summary_from_text(summary_request: schemas.SummaryCreate, db: A
         ai_result = await generate_summary(summary_request.text)
     except ValueError as e:
         raise HTTPException(status_code=422, detail=str(e))
+    except RuntimeError as e:
+        logger.exception("AI service error")
+        raise HTTPException(status_code=503, detail=str(e))
     except Exception:
         logger.exception("Failed to generate summary from text")
         raise HTTPException(status_code=500, detail="Failed to generate summary. Please try again later.")
@@ -70,6 +78,9 @@ async def create_summary_from_file(file: UploadFile = File(...), db: AsyncSessio
         ai_result = await generate_summary(text)
     except ValueError as e:
         raise HTTPException(status_code=422, detail=str(e))
+    except RuntimeError as e:
+        logger.exception("AI service error")
+        raise HTTPException(status_code=503, detail=str(e))
     except Exception:
         logger.exception("Failed to generate summary from file")
         raise HTTPException(status_code=500, detail="Failed to generate summary. Please try again later.")

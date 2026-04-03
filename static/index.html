@@ -339,7 +339,7 @@ label { display:block; font-size:12px; font-weight:600; color:var(--text-seconda
         <p>Overview of your transcript summaries</p>
       </div>
       <div class="page-content">
-        <div class="grid-3" id="statsGrid">
+        <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px;" id="statsGrid">
           <div class="stat-card">
             <div class="stat-label">Total Summaries</div>
             <div class="stat-value gradient" id="statTotal">-</div>
@@ -351,6 +351,14 @@ label { display:block; font-size:12px; font-weight:600; color:var(--text-seconda
           <div class="stat-card">
             <div class="stat-label">Avg Action Items</div>
             <div class="stat-value" id="statActions" style="color:var(--success)">-</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Queue Processing</div>
+            <div class="stat-value" id="statProcessing" style="color:var(--warning)">-</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Queue Waiting</div>
+            <div class="stat-value" id="statWaiting" style="color:var(--text-muted)">-</div>
           </div>
         </div>
         <div style="margin-top:24px;">
@@ -606,7 +614,11 @@ async function loadSamples() {
 // ── Dashboard ──
 async function loadDashboard() {
   try {
-    allSummaries = await api('/summaries/?skip=0&limit=100');
+    const [summaries, queue] = await Promise.all([
+      api('/summaries/?skip=0&limit=100'),
+      api('/summaries/queue').catch(() => null),
+    ]);
+    allSummaries = summaries;
     const total = allSummaries.length;
     document.getElementById('statTotal').textContent = total;
     if (total > 0) {
@@ -614,6 +626,10 @@ async function loadDashboard() {
       const avgAI = (allSummaries.reduce((s,x) => s + x.action_items.length, 0) / total).toFixed(1);
       document.getElementById('statKeyPoints').textContent = avgKP;
       document.getElementById('statActions').textContent = avgAI;
+    }
+    if (queue) {
+      document.getElementById('statProcessing').textContent = `${queue.processing}/${queue.max_concurrent}`;
+      document.getElementById('statWaiting').textContent = queue.waiting;
     }
     renderRecentSummaries(allSummaries.slice(0, 5));
   } catch(e) {
