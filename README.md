@@ -68,6 +68,9 @@ All endpoints are prefixed with `/summaries`.
 | `POST` | `/summaries/file` | Generate summary from uploaded `.txt` file |
 | `GET` | `/summaries/{id}` | Retrieve a specific summary |
 | `PATCH` | `/summaries/{id}` | Partially update summary fields |
+| `GET` | `/summaries/queue` | Get AI processing queue stats |
+| `GET` | `/summaries/blobs` | List transcripts in Azure Blob Storage |
+| `GET` | `/summaries/{id}/transcript` | Download transcript from Blob Storage |
 | `GET` | `/samples` | List available sample transcripts |
 | `GET` | `/` | Serve the web UI |
 
@@ -259,6 +262,65 @@ AI_RETRY_BASE_DELAY=2.0    # Base delay in seconds (doubles each retry)
 ```
 
 When all retries are exhausted, the API returns **503 Service Unavailable** so clients know the error is transient and can retry on their end.
+
+### Azure Blob Storage Integration (Optional)
+
+Transcript text can be automatically stored in Azure Blob Storage when a summary is created. This is **optional** — when not configured, everything works normally with the local database.
+
+```
+Upload flow:
+
+POST /summaries/text
+  │
+  ├── 1. AI generates summary
+  ├── 2. Save to SQLite (id, summary, key_points, action_items)
+  ├── 3. Upload original text to Azure Blob Storage (best-effort)
+  └── 4. Store blob_url back in DB
+```
+
+**Configuration:**
+
+```env
+AZURE_BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=...;AccountKey=...;EndpointSuffix=core.windows.net"
+AZURE_BLOB_CONTAINER="transcripts"
+```
+
+Leave `AZURE_BLOB_CONNECTION_STRING` empty to disable. No code changes needed.
+
+**Blob organization:**
+
+Files are stored by date: `YYYY/MM/DD/summary_{id}_{filename}.txt`
+
+**API endpoints:**
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /summaries/queue` | Shows `blob_enabled: true/false` in response |
+| `GET /summaries/blobs` | List all blobs in the container (optional `?prefix=2026/04/`) |
+| `GET /summaries/{id}/transcript` | Download original transcript from blob by summary ID |
+
+**Response with blob storage enabled:**
+
+```json
+{
+  "id": 1,
+  "summary": "...",
+  "key_points": ["..."],
+  "action_items": ["..."],
+  "blob_url": "https://myaccount.blob.core.windows.net/transcripts/2026/04/03/summary_1.txt",
+  "created_at": "2026-04-03T10:15:30.123456"
+}
+```
+
+**Response with blob storage disabled:**
+
+```json
+{
+  "blob_url": null
+}
+```
+
+The upload is **best-effort** — if Azure Blob Storage is unreachable, the summary is still created and returned normally. Blob errors are logged but never block the API response.
 
 ---
 

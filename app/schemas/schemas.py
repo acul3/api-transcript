@@ -18,6 +18,7 @@ class SummaryUpdate(BaseModel):
 class SummaryResponse(SummaryBase):
     id: int
     original_text: str
+    blob_url: Optional[str] = None
     created_at: datetime
 
     class Config:

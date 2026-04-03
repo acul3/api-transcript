@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from sqlalchemy import Column, Integer, DateTime, Text, JSON
+from sqlalchemy import Column, Integer, DateTime, Text, JSON, String
 from app.db.database import Base
 
 class Summary(Base):
@@ -10,4 +10,5 @@ class Summary(Base):
     summary = Column(Text, nullable=False)
     key_points = Column(JSON, nullable=False)
     action_items = Column(JSON, nullable=False)
+    blob_url = Column(String, nullable=True)
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))

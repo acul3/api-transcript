@@ -7,3 +7,5 @@ openai==1.59.3
 pydantic==2.10.4
 aiosqlite
 greenlet
+azure-storage-blob
+aiohttp

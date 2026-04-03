@@ -7,6 +7,12 @@ from app.db.database import get_db
 from app.db import models
 from app.schemas import schemas
 from app.services.ai_service import generate_summary, get_queue_stats
+from app.services.blob_service import (
+    upload_transcript,
+    download_transcript,
+    list_transcripts,
+    is_blob_enabled,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -17,18 +23,40 @@ MAX_FILE_SIZE = 500_000  # ~500KB
 @router.get("/queue", tags=["Queue"])
 async def queue_status():
     """Get current AI processing queue status."""
-    return get_queue_stats()
+    stats = get_queue_stats()
+    stats["blob_enabled"] = is_blob_enabled()
+    return stats
 
-async def _save_summary(text: str, ai_result: dict, db: AsyncSession) -> models.Summary:
+@router.get("/blobs", tags=["Blob Storage"])
+async def list_blob_transcripts(prefix: str = ""):
+    """List transcripts stored in Azure Blob Storage."""
+    if not is_blob_enabled():
+        raise HTTPException(status_code=404, detail="Blob storage is not configured.")
+    return await list_transcripts(prefix)
+
+async def _save_summary(
+    text: str,
+    ai_result: dict,
+    db: AsyncSession,
+    filename: str | None = None,
+) -> models.Summary:
     db_summary = models.Summary(
         original_text=text,
         summary=ai_result.get("summary", ""),
         key_points=ai_result.get("key_points", []),
-        action_items=ai_result.get("action_items", [])
+        action_items=ai_result.get("action_items", []),
     )
     db.add(db_summary)
     await db.commit()
     await db.refresh(db_summary)
+
+    # Upload to blob storage (non-blocking, best-effort)
+    blob_url = await upload_transcript(text, db_summary.id, filename)
+    if blob_url:
+        db_summary.blob_url = blob_url
+        await db.commit()
+        await db.refresh(db_summary)
+
     return db_summary
 
 @router.get("/", response_model=list[schemas.SummaryResponse])
@@ -85,7 +113,7 @@ async def create_summary_from_file(file: UploadFile = File(...), db: AsyncSessio
         logger.exception("Failed to generate summary from file")
         raise HTTPException(status_code=500, detail="Failed to generate summary. Please try again later.")
 
-    return await _save_summary(text, ai_result, db)
+    return await _save_summary(text, ai_result, db, filename=file.filename)
 
 @router.get("/{summary_id}", response_model=schemas.SummaryResponse)
 async def get_summary(summary_id: int, db: AsyncSession = Depends(get_db)):
@@ -96,6 +124,23 @@ async def get_summary(summary_id: int, db: AsyncSession = Depends(get_db)):
     if db_summary is None:
         raise HTTPException(status_code=404, detail="Summary not found")
     return db_summary
+
+@router.get("/{summary_id}/transcript", tags=["Blob Storage"])
+async def get_transcript_from_blob(summary_id: int, db: AsyncSession = Depends(get_db)):
+    """Download the original transcript from Azure Blob Storage."""
+    result = await db.execute(select(models.Summary).where(models.Summary.id == summary_id))
+    db_summary = result.scalars().first()
+
+    if db_summary is None:
+        raise HTTPException(status_code=404, detail="Summary not found")
+    if not db_summary.blob_url:
+        raise HTTPException(status_code=404, detail="No blob storage URL for this summary.")
+
+    text = await download_transcript(db_summary.blob_url)
+    if text is None:
+        raise HTTPException(status_code=502, detail="Failed to download transcript from blob storage.")
+
+    return {"summary_id": summary_id, "blob_url": db_summary.blob_url, "transcript": text}
 
 @router.patch("/{summary_id}", response_model=schemas.SummaryResponse)
 async def update_summary(summary_id: int, summary_update: schemas.SummaryUpdate, db: AsyncSession = Depends(get_db)):
