@@ -173,9 +173,42 @@ Tested with `benchmark.py` and `simulate.py` using real medical transcripts (~70
 | Avg action items extracted | 3.5 per summary |
 | Avg transcript length | ~728 words (~4-5 min call) |
 
+### Cloud Benchmark (Railway Deployment)
+
+Tested against the live Railway deployment with `gpt-5.4-mini`:
+
+| Phase | Local (localhost) | Railway (cloud) |
+|-------|------------------|-----------------|
+| **5x POST** wall time | 8.21s | **3.80s** |
+| **5x POST** avg latency | 5.72s | **3.66s** |
+| **5x PATCH** wall time | 0.026s | 0.41s |
+| **5x GET** wall time | 0.005s | 0.21s |
+| POST speedup vs sequential | 3.5x | **4.8x** |
+
+Cloud POST is faster (better network path to OpenAI). DB ops have ~200ms network latency overhead, expected for a remote server.
+
 ### Key Takeaway
 
-The async architecture allows **N concurrent AI requests to complete in roughly the time of 1 sequential request**. Database operations (GET, PATCH) are sub-millisecond. The bottleneck is purely the AI inference latency (~4-8s per call), which is fully parallelized.
+The async architecture allows **N concurrent AI requests to complete in roughly the time of 1 sequential request**. Database operations (GET, PATCH) are sub-millisecond locally. The bottleneck is purely the AI inference latency (~3-8s per call), which is fully parallelized.
+
+### Scalability Limits & What Would Be Needed for 100+ Concurrent Requests
+
+The current setup handles **10-20 concurrent requests** reliably. Pushing to 100+ concurrent POST requests would hit several bottlenecks:
+
+| Component | Current Limit | What Breaks at 100 |
+|-----------|--------------|---------------------|
+| **FastAPI (async)** | Thousands of connections | No issue — event loop handles I/O-bound concurrency well |
+| **OpenAI API** | ~20-30 concurrent | Rate limits (TPM/RPM) return 429 Too Many Requests |
+| **SQLite (aiosqlite)** | ~20-30 concurrent writes | Single-file DB, write lock contention causes errors |
+| **Railway (1 worker)** | ~30-50 connections | Memory pressure, potential OOM or timeouts |
+
+**To reliably handle 100+ concurrent requests, the following changes would be needed:**
+
+1. **Rate limit handling** — Add retry with exponential backoff on 429 responses in `ai_service.py`
+2. **Request batching** — Process in waves of 10-20 instead of firing all 100 at once
+3. **Swap SQLite for PostgreSQL** — Handles concurrent writes properly (Railway offers free Postgres)
+4. **Multiple workers** — Run `uvicorn --workers 4` or horizontally scale on Railway
+5. **Request queue** — Add a task queue (e.g., Celery/Redis) to decouple request intake from AI processing
 
 ---
 
